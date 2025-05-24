@@ -4,15 +4,16 @@ const NextJs = () => {
       <div className="collapse collapse-plus bg-base-200">
         <input type="radio" name="namaste-javascript" defaultChecked />
         <div className="collapse-title text-xl font-medium">
-          1. Lorem ipsum dolor sit amet?
+          1. How to create new project?
         </div>
         <div className="collapse-content">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-            nesciunt iste labore eius optio exercitationem enim veritatis, earum
-            illum nihil mollitia ad nisi odio minus, est pariatur consequuntur
-            quas vitae?
+            We recommend using pnpm as your package manager, as it's faster and
+            more efficient than npm or yarn. If you don't have pnpm installed,
+            you can install it globally by running:
           </p>
+          <p>npm install -g pnpm</p>
+          <p></p>
         </div>
       </div>
     </div>

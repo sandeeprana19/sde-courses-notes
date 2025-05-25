@@ -55,6 +55,14 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link
+                    className="text-base no-underline text-white transition-all"
+                    to="/nextjs"
+                  >
+                    NextJs
+                  </Link>
+                </li>
+                <li>
                   <details>
                     <summary className="text-base py-4 text-white transition-all">
                       Interview

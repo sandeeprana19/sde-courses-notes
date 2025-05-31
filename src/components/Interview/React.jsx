@@ -238,6 +238,94 @@ const React = () => {
                 </p>
               </div>
             </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                9. What is dot env file?
+              </div>
+              <div className="collapse-content">
+                <p>
+                  A. A .env file (short for "environment file") is a simple text
+                  file used to store environment variables for your application.
+                  These variables typically contain configuration settings such
+                  as API keys, database connection strings, ports, or other
+                  sensitive or environment-specific data.
+                </p>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                10. Why we need to do css in js?
+              </div>
+              <div className="collapse-content">
+                <div className="flex flex-col gap-y-2">
+                  <p>
+                    A. CSS-in-JS allows us to write scoped, dynamic, and
+                    component-based styles directly inside JavaScript, improving
+                    maintainability, avoiding global conflicts, and enabling
+                    conditional styling based on props or state.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                11. Define mockData api?
+              </div>
+              <div className="collapse-content">
+                <div className="flex flex-col gap-y-2">
+                  <p>
+                    A. A mockData API simulates the behavior of a real API by
+                    providing fake data responses during development or testing.
+                    It helps decouple frontend development from backend
+                    readiness and ensures faster iteration without breaking due
+                    to backend changes.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                12. Difference between react and react-dom?
+              </div>
+              <div className="collapse-content">
+                <div className="flex flex-col gap-y-4">
+                  <div>
+                    <p>A. react:</p>
+                    <p>
+                      The core library that provides the ability to create and
+                      define React components. It includes:
+                    </p>
+                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                      <li>React.createElement()</li>
+                      <li>Hooks like useState, useEffect, etc.</li>
+                      <li>JSX transformation logic</li>
+                      <li>Component class definitions</li>
+                    </ol>
+                    <p>
+                      It is framework-agnostic — doesn't care where or how
+                      components are rendered.
+                    </p>
+                  </div>
+                  <div>
+                    <p>react-dom:</p>
+                    <p>
+                      The library that provides DOM-specific rendering methods
+                      to render React components in the browser. It includes:
+                    </p>
+                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                      <li>ReactDOM.render()</li>
+                      <li>ReactDOM.createRoot() (from React 18 onwards)</li>
+                      <li>ReactDOM.hydrate() for SSR</li>
+                    </ol>
+                    <p>It connects React to the browser’s DOM.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <h2 className="text-xl font-bold text-white">Asked in TCS</h2>
           <div className="flex flex-col gap-y-4">
@@ -283,12 +371,12 @@ const React = () => {
                   </p>
                   <p>
                     React functional component is just a normal javascript
-                    function which return jsx code and not just
-                    react element it can return a branch of jsx and
-                    that's all is react functional component. So whenever we
-                    create any react functional component create with a capital
-                    letter otherwise we'll get an error because it's a react way
-                    to understand that this is a component.
+                    function which return jsx code and not just react element it
+                    can return a branch of jsx and that's all is react
+                    functional component. So whenever we create any react
+                    functional component create with a capital letter otherwise
+                    we'll get an error because it's a react way to understand
+                    that this is a component.
                   </p>
                 </div>
               </div>
@@ -336,10 +424,10 @@ const React = () => {
               <div className="collapse-content">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. Error Boundary is the special components that catches JavaScript
-                    errors anywhere in their child component tree, log those
-                    errors and display a fallback UI instead of crashing the
-                    entire app.
+                    A. Error Boundary is the special components that catches
+                    JavaScript errors anywhere in their child component tree,
+                    log those errors and display a fallback UI instead of
+                    crashing the entire app.
                   </p>
                 </div>
               </div>

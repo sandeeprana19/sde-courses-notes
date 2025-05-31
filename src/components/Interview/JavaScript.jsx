@@ -153,98 +153,66 @@ const JavaScript = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                prototypal inheritance
+                5. Define Prototypal Inheritance?
               </div>
               <div className="collapse-content">
                 <div className="flex flex-col gap-y-2">
-                  <p>A.</p>
-                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                    <li></li>
-                  </ol>
+                  <p>
+                    A. In JavaScript, prototypal inheritance is a feature where
+                    objects can inherit properties and methods from another
+                    object, called the prototype. Every object in JavaScript has
+                    an internal link to a prototype object, and if a property or
+                    method is not found on the object itself, JavaScript will
+                    look up the prototype chain to find it. This allows for
+                    shared behavior among objects, making code more efficient
+                    and memory-friendly.
+                  </p>
+                  <p>For example:</p>
+                  <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                    <code>
+                      {`
+
+                      function Person(name, birthYear) {
+                        this.name = name;
+                        this.birthYear = birthYear;
+                      }
+
+                      Person.prototype.calcAge = function () {
+                        console.log(2025 - this.birthYear);
+                      };
+
+                      const jonas = new Person('Jonas', 1990);
+                      jonas.calcAge(); // Works due to prototypal inheritance
+                    `}
+                    </code>
+                  </pre>
                 </div>
               </div>
             </div>
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                priority between window.something and document.getElementById
+                6. What the priority between window.something and
+                document.getElementById
               </div>
               <div className="collapse-content">
                 <div className="flex flex-col gap-y-2">
-                  <p>A.</p>
-                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                    <li></li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-            <div className="collapse collapse-plus bg-base-200">
-              <input type="radio" name="interview" />
-              <div className="collapse-title text-xl font-medium">
-                why we need to do css in js
-              </div>
-              <div className="collapse-content">
-                <div className="flex flex-col gap-y-2">
-                  <p>A.</p>
-                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                    <li></li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-            <div className="collapse collapse-plus bg-base-200">
-              <input type="radio" name="interview" />
-              <div className="collapse-title text-xl font-medium">
-                generator function in react
-              </div>
-              <div className="collapse-content">
-                <div className="flex flex-col gap-y-2">
-                  <p>A.</p>
-                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                    <li></li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-            <div className="collapse collapse-plus bg-base-200">
-              <input type="radio" name="interview" />
-              <div className="collapse-title text-xl font-medium">
-                Define mockData api
-              </div>
-              <div className="collapse-content">
-                <div className="flex flex-col gap-y-2">
-                  <p>A.</p>
-                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                    <li></li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-            <div className="collapse collapse-plus bg-base-200">
-              <input type="radio" name="interview" />
-              <div className="collapse-title text-xl font-medium">
-                difference between react and react-dom define
-              </div>
-              <div className="collapse-content">
-                <div className="flex flex-col gap-y-2">
-                  <p>A.</p>
-                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                    <li></li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-            <div className="collapse collapse-plus bg-base-200">
-              <input type="radio" name="interview" />
-              <div className="collapse-title text-xl font-medium">
-                react-script
-              </div>
-              <div className="collapse-content">
-                <div className="flex flex-col gap-y-2">
-                  <p>A.</p>
-                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                    <li></li>
-                  </ol>
+                  <p>
+                    A. window.something accesses global variables or properties
+                    attached to the browser’s global object, whereas
+                    document.getElementById() is specifically used to select a
+                    DOM element by its ID.
+                  </p>
+                  <p>
+                    So while window.something might give you a DOM element if
+                    the ID matches and no conflicting variable exists, it’s not
+                    a safe practice.
+                  </p>
+                  <p>
+                    The reliable and recommended way to access DOM elements is
+                    always document.getElementById('id'), because it's explicit
+                    and avoids unexpected behavior or naming conflicts.
+                  </p>
                 </div>
               </div>
             </div>

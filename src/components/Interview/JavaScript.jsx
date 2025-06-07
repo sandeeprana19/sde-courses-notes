@@ -44,16 +44,35 @@ const JavaScript = () => {
                   <p>A.</p>
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                     <li>
-                      The double equal (==) means loose equality operator & it
-                      is loose equality because it does perform type coercion so
-                      it will return true when both values aren't exactly the
-                      same.
+                      The double equal (==) is known as the loose equality
+                      operator because it performs type coercion before
+                      comparing. This means it tries to convert the operands to
+                      the same type before making the comparison. For example:
+                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                        <code>
+                          {`
+                            1 == "1"     // true → "1" (string) is coerced to 1 (number)
+                            1 == 1       // true → same type and value
+                            0 == false   // true → false is coerced to 0
+                            null == undefined // true → special case
+                          `}
+                        </code>
+                      </pre>
                     </li>
                     <li>
-                      The triple equal (===) means it is a strict equality
-                      operator & it is strict because it doesn't perform type
-                      coercion so it will return true when both values are
-                      exactly the same.
+                      The triple equal (===) is the strict equality operator. It
+                      does not perform type coercion. Both the type and the
+                      value must be the same for it to return true. For example:
+                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                        <code>
+                          {`
+                            1 === "1"    // false → different types (number vs string)
+                            1 === 1      // true → same type and value
+                            0 === false  // false → number vs boolean
+                            null === undefined // false → different types
+                          `}
+                        </code>
+                      </pre>
                     </li>
                   </ol>
                 </div>

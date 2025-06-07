@@ -59,9 +59,10 @@ const JavaScript = () => {
                       </pre>
                     </li>
                     <li>
-                      The triple equal (===) is the strict equality operator. It
-                      does not perform type coercion. Both the type and the
-                      value must be the same for it to return true. For example:
+                      The triple equal (===) is known as the strict equality
+                      operator because it does not perform type coercion. Both
+                      the type and the value must be the same for it to return
+                      true. For example:
                       <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
                         <code>
                           {`
@@ -86,17 +87,19 @@ const JavaScript = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. A timer in JavaScript is used to schedule code execution
-                    after a certain amount of time. There are two main
-                    functions:
+                    after a certain amount of time. So there are two main timer
+                    functions like:
                   </p>
                   <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
                     <li>
-                      setTimeout(function, delay) runs the function once after
+                      setTimeout which takes in callback function & delay as
+                      parameters & it will runs the callback function once after
                       the delay.
                     </li>
                     <li>
-                      setInterval(function, interval) runs the function
-                      repeatedly at each interval.
+                      setInterval which also takes in callback function &
+                      interval as parameters & it will runs the callback
+                      function repeatedly at each interval.
                     </li>
                   </ol>
                   <p className="pl-4">Example:</p>

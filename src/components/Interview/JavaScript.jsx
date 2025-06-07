@@ -36,8 +36,7 @@ const JavaScript = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                2. Difference between equality or comparison operator that are
-                double equal (==) and triple equal (===)?
+                2. Difference between double equal (==) and triple equal (===)?
               </div>
               <div className="collapse-content">
                 <div className="flex items-start">

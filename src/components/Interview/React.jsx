@@ -372,12 +372,11 @@ const React = () => {
                   </p>
                   <p>
                     React functional component is just a normal javascript
-                    function which return jsx code and not just react element it
-                    can return a branch of jsx and that's all is react
-                    functional component. So whenever we create any react
-                    functional component create with a capital letter otherwise
-                    we'll get an error because it's a react way to understand
-                    that this is a component.
+                    function which return some piece of jsx code so that's all
+                    is known as react functional component. So whenever we
+                    create any react functional component create with a capital
+                    letter otherwise we'll get an error because it's a react way
+                    to understand that this is a component.
                   </p>
                 </div>
               </div>

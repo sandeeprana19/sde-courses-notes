@@ -38,7 +38,7 @@ const JavaScript = () => {
               <div className="collapse-title text-xl font-medium">
                 2. Difference between double equal (==) and triple equal (===)?
               </div>
-              <div className="collapse-content overflow-auto">
+              <div className="collapse-content overflow-x-auto">
                 <div className="flex items-start">
                   <p>A.</p>
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
@@ -176,7 +176,7 @@ const JavaScript = () => {
               <div className="collapse-title text-xl font-medium">
                 5. Define Prototypal Inheritance?
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. In JavaScript, prototypal inheritance is a feature where

@@ -83,7 +83,7 @@ const JavaScript = () => {
               <div className="collapse-title text-xl font-medium">
                 3. What is a timer in JavaScript?
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. A timer in JavaScript is used to schedule code execution

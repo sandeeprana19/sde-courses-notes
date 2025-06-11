@@ -245,11 +245,12 @@ const React = () => {
               </div>
               <div className="collapse-content">
                 <p>
-                  A. A .env file (short for "environment file") is a simple text
-                  file used to store environment variables for your application.
-                  These variables typically contain configuration settings such
-                  as API keys, database connection strings, ports, or other
-                  sensitive or environment-specific data.
+                  A. A .env file is the short form for "environment file" which
+                  is a simple text file and which is used to store environment
+                  variables for react application. These environment variables
+                  typically contain configuration settings such as API keys,
+                  database connection strings, ports, or other sensitive or
+                  environment-specific data.
                 </p>
               </div>
             </div>

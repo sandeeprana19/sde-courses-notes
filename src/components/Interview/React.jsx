@@ -407,12 +407,15 @@ const React = () => {
               <div className="collapse-content">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. The ways to do code splitting in react: 1. Using lazy()
-                    and Suspense. 2. Code splitting with react router. 3.
-                    Dynamic Imports with import(). 4. Webpack import() for
-                    Manual Code Splitting. 5. Using a Bundler like Vite or
-                    Webpack.
+                    A. There're several ways to do code splitting in react like:
                   </p>
+                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                    <li>Using lazy() and Suspense component.</li>
+                    <li>Code splitting with react router.</li>
+                    <li>Dynamic Imports with import().</li>
+                    <li>Webpack import() for Manual Code Splitting.</li>
+                    <li>Using a Bundler like Vite or Webpack.</li>
+                  </ol>
                 </div>
               </div>
             </div>

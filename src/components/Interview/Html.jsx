@@ -12,7 +12,7 @@ const Html = () => {
               <div className="collapse-title text-xl font-medium">
                 1. Disadvantages or cons of HTML5?
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content overflow-x-auto">
                 <div className="flex items-start">
                   <p>A.</p>
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
@@ -33,7 +33,7 @@ const Html = () => {
               <div className="collapse-title text-xl font-medium">
                 2. What is a semantic tag?
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content overflow-x-auto">
                 <p>
                   A. Semantic HTML tags are tags that define the meaning of the
                   content they contain. For example, tags like
@@ -46,7 +46,7 @@ const Html = () => {
               <div className="collapse-title text-xl font-medium">
                 3. Define meta tag? And where do we put meta tags?
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content overflow-x-auto">
                 <p>
                   A. The {`<meta>`} tag defines metadata about HTML documents.
                   Metadata is data (information) about data. {`<meta>`} tags
@@ -61,7 +61,7 @@ const Html = () => {
               <div className="collapse-title text-xl font-medium">
                 4. Difference between div & span?
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content overflow-x-auto">
                 <p>
                   A. {`<div>`} is a block-level element and {`<span>`} is an
                   inline element.
@@ -73,7 +73,7 @@ const Html = () => {
               <div className="collapse-title text-xl font-medium">
                 5. What do we put inside the div?
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content overflow-x-auto">
                 <p>
                   A. The {`<div>`} tag defines a division or a section in an
                   HTML document. The {`<div>`} tag is used as a container for
@@ -89,7 +89,7 @@ const Html = () => {
               <div className="collapse-title text-xl font-medium">
                 6. What is the srcset attribute of source tag?
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content overflow-x-auto">
                 <p>
                   A. srcset defines the set of images we will allow the browser
                   to choose between, and what size each image is.
@@ -101,7 +101,7 @@ const Html = () => {
               <div className="collapse-title text-xl font-medium">
                 7. Difference between rem & px?
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content overflow-x-auto">
                 <p>
                   A. Pixels are an absolute unit, so when you set the font size
                   to 24 pixels, it's going to be 24 pixels. Rems, on the other
@@ -115,7 +115,7 @@ const Html = () => {
               <div className="collapse-title text-xl font-medium">
                 8. Difference between flex and grid?
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content overflow-x-auto">
                 <p>
                   A. Flexbox was designed for layout in one dimension - either a
                   row or a column. Grid was designed for two-dimensional layout
@@ -128,7 +128,7 @@ const Html = () => {
               <div className="collapse-title text-xl font-medium">
                 9. Difference between opacity & alpha?
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content overflow-x-auto">
                 <p>
                   A. Opacity is a property of an object, while alpha is a
                   property of colour. Opacity affects the entire object, while
@@ -142,7 +142,7 @@ const Html = () => {
               <div className="collapse-title text-xl font-medium">
                 10. Difference between responsive and adaptive design?
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content overflow-x-auto">
                 <p>
                   A. Responsive and adaptive design are both types of web design
                   that adapt to different screen sizes. Responsive design uses a

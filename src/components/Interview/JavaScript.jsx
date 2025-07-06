@@ -52,30 +52,44 @@ const JavaScript = () => {
                     <tr>
                       <th className="align-top">1</th>
                       <td className="align-top">
-                        window.onload is a JavaScript event that fires after the
-                        entire page is fully loaded, including all dependent
-                        resources like images, scripts, and stylesheets.
+                        The double equal (==) is known as the loose equality
+                        operator because it performs type coercion before
+                        comparing. This means it tries to convert the operands
+                        to the same type before making the comparison. For
+                        example:
                       </td>
                       <td className="align-top">
-                        document.ready (commonly used with jQuery) fires as soon
-                        as the DOM is fully loaded and parsed, even if images
-                        and other resources are still loading.
+                        The triple equal (===) is known as the strict equality
+                        operator because it does not perform type coercion. Both
+                        the type and the value must be the same for it to return
+                        true. For example:
                       </td>
                     </tr>
                     <tr>
                       <th className="align-top">2</th>
                       <td className="align-top">
-                        For example: let's say when we compare number data type
-                        1 double equals string data type 1 then javascript will
-                        type coerced this string data type 1 to number data type
-                        1 for it to return true.
+                        <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                          <code>
+                            {`
+                            1 == "1"     // true → "1" (string) is coerced to 1 (number)
+                            1 == 1       // true → same type and value
+                            0 == false   // true → false is coerced to 0
+                            null == undefined // true → special case
+                          `}
+                          </code>
+                        </pre>
                       </td>
                       <td className="align-top">
-                        For example: let's say when we compare number data type
-                        1 triple equals string data type 1 then javascript will
-                        not type coerced this string data type 1 to number data
-                        type 1 for it to return true. Instead, in this case it
-                        will always return false.
+                        <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                          <code>
+                            {`
+                            1 === "1"    // false → different types (number vs string)
+                            1 === 1      // true → same type and value
+                            0 === false  // false → number vs boolean
+                            null === undefined // false → different types
+                          `}
+                          </code>
+                        </pre>
                       </td>
                     </tr>
                   </tbody>

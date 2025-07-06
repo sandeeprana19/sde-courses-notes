@@ -40,7 +40,7 @@ const JavaScript = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <p>A.</p>
-                <table className="table text-base table-pin-rows">
+                <table className="table text-base">
                   <thead>
                     <tr>
                       <th className="align-top"></th>

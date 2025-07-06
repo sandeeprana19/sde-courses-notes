@@ -44,8 +44,8 @@ const JavaScript = () => {
                   <thead>
                     <tr>
                       <th className="align-top"></th>
-                      <th className="align-top">window.onload</th>
-                      <th className="align-top">document.ready</th>
+                      <th className="align-top">Double equal (==)</th>
+                      <th className="align-top">Triple equal (===)</th>
                     </tr>
                   </thead>
                   <tbody>

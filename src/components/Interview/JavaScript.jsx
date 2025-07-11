@@ -74,8 +74,8 @@ const JavaScript = () => {
                           <p>
                             The triple equals (===) is known as strict equality
                             operator because it does not perform type coercion.
-                            Both the type and the value must be the same for it
-                            to return true.
+                            Both the data type and the value must be the same
+                            for it to return true.
                           </p>
                           <p>
                             For example: When we try to compare number data type
@@ -132,14 +132,14 @@ const JavaScript = () => {
                   </p>
                   <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
                     <li>
-                      setTimeout which takes in callback function & delay as
-                      parameters & it will runs the callback function once after
-                      the delay.
+                      setTimeout which takes in two parameters that are callback
+                      function & delay & then it will runs the callback function
+                      once after the delay.
                     </li>
                     <li>
-                      setInterval which also takes in callback function &
-                      interval as parameters & it will runs the callback
-                      function repeatedly at each interval.
+                      setInterval which also takes in two parameters that are
+                      callback function & interval & then it will runs the
+                      callback function repeatedly at each interval.
                     </li>
                   </ol>
                   <p className="pl-4">Example:</p>

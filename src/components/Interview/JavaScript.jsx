@@ -52,17 +52,38 @@ const JavaScript = () => {
                     <tr>
                       <th className="align-top">1</th>
                       <td className="align-top">
-                        The double equal (==) is known as the loose equality
-                        operator because it performs type coercion before
-                        comparing. This means it tries to convert the operands
-                        to the same type before making the comparison. For
-                        example:
+                        <div className="flex flex-col gap-y-2">
+                          <p>
+                            The double equal (==) is known as loose equality
+                            operator because it performs type coercion before
+                            comparing. This means it tries to convert the
+                            operands to the same data type before making the
+                            comparison.
+                          </p>
+                          <p>
+                            For example: When we try to compare number data type
+                            1 == string data type 1 then javascript will type
+                            coerce this string data type 1 to number data type 1
+                            for it to return true.
+                          </p>
+                        </div>
                       </td>
                       <td className="align-top">
-                        The triple equal (===) is known as the strict equality
-                        operator because it does not perform type coercion. Both
-                        the type and the value must be the same for it to return
-                        true. For example:
+                        <div className="flex flex-col gap-y-2">
+                          <p>
+                            The triple equal (===) is known as strict equality
+                            operator because it does not perform type coercion.
+                            Both the type and the value must be the same for it
+                            to return true.
+                          </p>
+                          <p>
+                            For example: When we try to compare number data type
+                            1 === string data type 1 then javascript will not
+                            type coerce this string data type 1 to number data
+                            type 1 for it to return true. So in this case it
+                            always return false.
+                          </p>
+                        </div>
                       </td>
                     </tr>
                     <tr>

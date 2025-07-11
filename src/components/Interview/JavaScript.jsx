@@ -36,7 +36,8 @@ const JavaScript = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                2. Difference between double equal (==) and triple equal (===)?
+                2. Difference between double equals (==) and triple equals
+                (===)?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <p>A.</p>
@@ -44,8 +45,8 @@ const JavaScript = () => {
                   <thead>
                     <tr>
                       <th className="align-top"></th>
-                      <th className="align-top">Double equal (==)</th>
-                      <th className="align-top">Triple equal (===)</th>
+                      <th className="align-top">Double equals (==)</th>
+                      <th className="align-top">Triple equals (===)</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -54,7 +55,7 @@ const JavaScript = () => {
                       <td className="align-top">
                         <div className="flex flex-col gap-y-2">
                           <p>
-                            The double equal (==) is known as loose equality
+                            The double equals (==) is known as loose equality
                             operator because it performs type coercion before
                             comparing. This means it tries to convert the
                             operands to the same data type before making the
@@ -71,7 +72,7 @@ const JavaScript = () => {
                       <td className="align-top">
                         <div className="flex flex-col gap-y-2">
                           <p>
-                            The triple equal (===) is known as strict equality
+                            The triple equals (===) is known as strict equality
                             operator because it does not perform type coercion.
                             Both the type and the value must be the same for it
                             to return true.

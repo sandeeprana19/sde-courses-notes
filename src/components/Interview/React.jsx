@@ -482,12 +482,12 @@ const React = () => {
                     A. There're several ways to do code splitting in react like:
                   </p>
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                    <li>By using lazy() and Suspense component.</li>
-                    <li>By using a Bundler like Vite or Webpack.</li>
-                    <li>By using react router.</li>
-                    <li>By using dynamic imports with import().</li>
+                    <li>Using React.lazy() and Suspense.</li>
+                    <li>Using bundlers like Webpack or Vite</li>
+                    <li>Using React Router (with React.lazy() + Suspense)</li>
+                    <li>Using dynamic import() statements.</li>
                     <li>
-                      By using webpack import() for manual code splitting.
+                      Using third-party libraries like @loadable/component
                     </li>
                   </ol>
                 </div>

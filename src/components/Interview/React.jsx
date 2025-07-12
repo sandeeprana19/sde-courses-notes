@@ -141,7 +141,7 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <p>
-                  A. React hooks are normal javascript function which are given
+                  A. React hooks are normal javascript functions which are given
                   to us by react and they're pre-build and the only thing is
                   that those functions comes with some super powers. Those
                   functions had some return logic written behind the scenes
@@ -160,11 +160,12 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. The useState() hook basically generates super powerful
-                    state variables in react. So first of all, it needed to be
-                    named import from react. So useState hook is again a
-                    function so we'll can call it like a function & pass any
-                    argument as initial value of state variable.
+                    A. An useState() hook basically generates super powerful
+                    state variables and state updating function in react. So
+                    first of all, it needed to be named import from react. So
+                    useState hook is again a function so we'll can call it like
+                    a function & pass any argument as initial value of state
+                    variable.
                   </p>
                   <p>
                     And then this useState hook return an array from which we'll

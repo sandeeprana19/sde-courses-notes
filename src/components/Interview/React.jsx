@@ -336,9 +336,6 @@ const React = () => {
                   <p>
                     A. A mockData API simulates the behavior of a real API by
                     providing fake data responses during development or testing.
-                    It helps decouple frontend development from backend
-                    readiness and ensures faster iteration without breaking due
-                    to backend changes.
                   </p>
                 </div>
               </div>

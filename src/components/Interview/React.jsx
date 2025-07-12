@@ -387,15 +387,6 @@ const React = () => {
                         So basically it connects react to the browser’s DOM.
                       </td>
                     </tr>
-                    <tr>
-                      <th className="align-top">2</th>
-                      <td className="align-top">
-                        undefined is primitive data type.
-                      </td>
-                      <td className="align-top">
-                        null is an object or reference data type.
-                      </td>
-                    </tr>
                   </tbody>
                 </table>
               </div>

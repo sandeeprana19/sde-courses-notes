@@ -148,7 +148,7 @@ const React = () => {
                   inside react. Those functions are the utility functions given
                   to us by react. So there are multiple utility functions that
                   are known as react hooks. For example: useState, useEffect,
-                  useSelector, useDispatch, etc.
+                  useContext, useReducer, useRef etc.
                 </p>
               </div>
             </div>
@@ -428,8 +428,8 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. useState, useEffect, useSelector, useDispatch, useReducer
-                    etc. are the different types of react hooks.
+                    A. useState, useEffect, useContext, useReducer, useRef etc.
+                    are the different types of react hooks.
                   </p>
                 </div>
               </div>

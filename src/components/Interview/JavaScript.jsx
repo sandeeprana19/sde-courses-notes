@@ -284,7 +284,7 @@ const JavaScript = () => {
                       <td className="align-top">
                         undefined is very special keyword in javascript which is
                         assign as a placeholder by javascript to a variable that
-                        has been declared but not has been assigned a value yet.
+                        has been declared but hasn't been assigned a value yet.
                       </td>
                       <td className="align-top">
                         null is an assignment value that represents no value or

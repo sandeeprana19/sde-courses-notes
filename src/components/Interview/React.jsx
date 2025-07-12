@@ -364,8 +364,8 @@ const React = () => {
                         <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                           <li>React.createElement()</li>
                           <li>
-                            Hooks like useState, useEffect, useSelector,
-                            useDispatch, useReducer etc.
+                            Hooks like useState, useEffect, useContext,
+                            useReducer, useRef, etc.
                           </li>
                           <li>JSX transformation logic</li>
                           <li>

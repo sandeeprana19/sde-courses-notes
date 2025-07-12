@@ -534,11 +534,13 @@ const React = () => {
                     </code>
                   </pre>
                   <p>
-                    If <code>{`<GrandChild />`}</code> needs some data from{" "}
-                    <code>{`<App />`}</code>, you have to pass it through{" "}
-                    <code>{`<Parent />`}</code> and <code>{`<Child />`}</code>{" "}
-                    as props—even if those components don’t use the data. That’s
-                    prop drilling.
+                    Let say we've four components that are App component, Parent
+                    component, Child component & GrandChild component. So if
+                    <code>{`<GrandChild />`}</code> needs some data from
+                    <code>{`<App />`}</code> then we've to pass it through
+                    <code>{`<Parent />`}</code> and <code>{`<Child />`}</code>
+                    as props even if those components don’t use the data. So
+                    that’s what we call it as prop drilling in react.
                   </p>
                 </div>
               </div>

@@ -376,7 +376,7 @@ const React = () => {
                         So it is framework-agnostic which doesn't care where or
                         how components are rendered.
                       </td>
-                      <td className="align-top">
+                      <td className="flex flex-col gap-y-2 align-top">
                         react-dom is the library that provides DOM-specific
                         rendering methods to render React components in the
                         browser. So it includes several things like:

@@ -200,7 +200,7 @@ const JavaScript = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. In JavaScript, prototypal inheritance is a feature where
-                    objects can inherit properties and methods from another
+                    object can inherit properties and methods from another
                     object and this is object is known as prototype. Every
                     object in javascript has an internal link to a prototype
                     object and if a property or method isn't found on the object

@@ -360,7 +360,7 @@ const React = () => {
                       <td className="flex flex-col gap-y-2 align-top">
                         react is the core library that provides the ability to
                         create and define React components. So it includes
-                        things like:
+                        several things like:
                         <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                           <li>React.createElement()</li>
                           <li>
@@ -379,7 +379,7 @@ const React = () => {
                       <td className="align-top">
                         react-dom is the library that provides DOM-specific
                         rendering methods to render React components in the
-                        browser. So it things thinks like:
+                        browser. So it includes several things like:
                         <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                           <li>ReactDOM.render()</li>
                           <li>ReactDOM.createRoot() (from React 18 onwards)</li>

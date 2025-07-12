@@ -624,22 +624,6 @@ const React = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                12. Define key prop in React?
-              </div>
-              <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-2">
-                  <p>
-                    A. In React, the key prop is a special reserved prop used to
-                    help React identify which items in a list have changed,
-                    added and removed. It helps in optimizing rendering
-                    performance when working with dynamic lists.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="collapse collapse-plus bg-base-200">
-              <input type="radio" name="interview" />
-              <div className="collapse-title text-xl font-medium">
                 13. Why defining a key prop to the list items is important in
                 React?
               </div>

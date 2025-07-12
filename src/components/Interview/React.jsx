@@ -161,11 +161,11 @@ const React = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. An useState() hook basically generates super powerful
-                    state variables and state updating function in react. So
-                    first of all, it needed to be named import from react. So
-                    useState hook is again a function so we'll can call it like
-                    a function & pass any argument as initial value of state
-                    variable.
+                    state variables and state updating function in react. So to
+                    use it first of all, it needed to be named import from
+                    react. So useState hook is again a function so we'll can
+                    call it like a function & pass any argument as initial value
+                    of state variable.
                   </p>
                   <p>
                     And then this useState hook return an array from which we'll
@@ -190,18 +190,19 @@ const React = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. An useEffect hook has its own specific function and
-                    dependency array. So first of all, it needed to be named
-                    import from react. So useEffect hook is again a function so
-                    we’ll call it like a function which takes two arguments so
-                    the first argument is an arrow function which is a callback
-                    function and the second argument is a dependency array.
+                    dependency array. So to use it first of all, it needed to be
+                    named import from react. So useEffect hook is again a
+                    function so we’ll call it like a function which takes two
+                    arguments so the first argument is an arrow function which
+                    is a callback function and the second argument is a
+                    dependency array.
                   </p>
                   <p>There're some use cases of useEffect hook like:</p>
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                     <li>
-                      We can't call useEffect hook outside of react function
+                      We can't call useEffect hook outside of react functional
                       component because react expect it to be call inside react
-                      function component instead of outside. But if we do so
+                      functional component instead of outside. But if we do so
                       then react will throw an error like "Invalid hook call".
                     </li>
                     <li>

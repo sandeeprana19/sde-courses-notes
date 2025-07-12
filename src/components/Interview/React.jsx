@@ -219,7 +219,7 @@ const React = () => {
                       the callback function will be call once only after initial
                       component render & not after on every component render
                       cycle but it will only call whenever the state variable is
-                      changed.
+                      updated.
                     </li>
                   </ol>
                 </div>

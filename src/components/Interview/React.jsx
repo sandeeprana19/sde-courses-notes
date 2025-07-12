@@ -534,8 +534,12 @@ const React = () => {
                     </code>
                   </pre>
                   <p>
-                    Let say we've four components that are App component, Parent
-                    component, Child component & GrandChild component. So if
+                    Let say we've define deeply nested component like{" "}
+                    <code>{`<App />`}</code> component and then inside that{" "}
+                    <code>{`<Parent />`}</code>
+                    component and then inside that <code>{`<Child />`}</code>{" "}
+                    component & then inside that <code>{`<GrandChild />`}</code>{" "}
+                    component. So if
                     <code>{`<GrandChild />`}</code> needs some data from
                     <code>{`<App />`}</code> then we've to pass it through
                     <code>{`<Parent />`}</code> and <code>{`<Child />`}</code>

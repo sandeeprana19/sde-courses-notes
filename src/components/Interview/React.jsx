@@ -206,10 +206,8 @@ const React = () => {
                       then react will throw an error like "Invalid hook call".
                     </li>
                     <li>
-                      If we don't pass dependency array as 2nd argument to
-                      useEffect hook then the callback function which we pass as
-                      1st argument to useEffect hook will be call on every
-                      component render cycle.
+                      If we don't pass dependency array then the callback
+                      function will be call on every component render cycle.
                     </li>
                     <li>
                       If we pass empty dependency array then the callback
@@ -220,8 +218,8 @@ const React = () => {
                       If we pass any state variable inside dependency array then
                       the callback function will be call once only after initial
                       component render & not after on every component render
-                      cycle but the callback function will only call whenever
-                      the state variable is changed.
+                      cycle but it will only call whenever the state variable is
+                      changed.
                     </li>
                   </ol>
                 </div>

@@ -205,7 +205,7 @@ const JavaScript = () => {
                     object in javascript has an internal link to a prototype
                     object and if a property or method isn't found on the object
                     itself then javascript will look up the prototype chain to
-                    find it. This allows for shared behavior among objects,
+                    find it. So this allows for shared behavior among objects,
                     making code more efficient and memory-friendly.
                   </p>
                   <p>For example:</p>

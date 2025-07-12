@@ -357,35 +357,41 @@ const React = () => {
                   <tbody>
                     <tr>
                       <th className="align-top">1</th>
-                      <td className="flex flex-col gap-y-2 align-top">
-                        react is the core library that provides the ability to
-                        create and define React components. So it includes
-                        several things like:
-                        <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                          <li>React.createElement()</li>
-                          <li>
-                            Hooks like useState, useEffect, useContext,
-                            useReducer, useRef, etc.
-                          </li>
-                          <li>JSX transformation logic.</li>
-                          <li>
-                            Both react functional component and react class
-                            based component.
-                          </li>
-                        </ol>
-                        So it is framework-agnostic which doesn't care where or
-                        how components are rendered.
+                      <td className="align-top">
+                        <div className="flex flex-col gap-y-2">
+                          react is the core library that provides the ability to
+                          create and define React components. So it includes
+                          several things like:
+                          <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                            <li>React.createElement()</li>
+                            <li>
+                              Hooks like useState, useEffect, useContext,
+                              useReducer, useRef, etc.
+                            </li>
+                            <li>JSX transformation logic.</li>
+                            <li>
+                              Both react functional component and react class
+                              based component.
+                            </li>
+                          </ol>
+                          So it is framework-agnostic which doesn't care where
+                          or how components are rendered.
+                        </div>
                       </td>
-                      <td className="flex flex-col gap-y-2 align-top">
-                        react-dom is the library that provides DOM-specific
-                        rendering methods to render React components in the
-                        browser. So it includes several things like:
-                        <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                          <li>ReactDOM.render()</li>
-                          <li>ReactDOM.createRoot() (from React 18 onwards)</li>
-                          <li>ReactDOM.hydrate() for SSR.</li>
-                        </ol>
-                        So basically it connects react to the browser’s DOM.
+                      <td className="align-top">
+                        <div className="flex flex-col gap-y-2">
+                          react-dom is the library that provides DOM-specific
+                          rendering methods to render React components in the
+                          browser. So it includes several things like:
+                          <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                            <li>ReactDOM.render()</li>
+                            <li>
+                              ReactDOM.createRoot() (from React 18 onwards)
+                            </li>
+                            <li>ReactDOM.hydrate() for SSR.</li>
+                          </ol>
+                          So basically it connects react to the browser’s DOM.
+                        </div>
                       </td>
                     </tr>
                   </tbody>

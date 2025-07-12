@@ -367,10 +367,10 @@ const React = () => {
                             Hooks like useState, useEffect, useContext,
                             useReducer, useRef, etc.
                           </li>
-                          <li>JSX transformation logic</li>
+                          <li>JSX transformation logic.</li>
                           <li>
-                            Both react function component and react class based
-                            component
+                            Both react functional component and react class
+                            based component.
                           </li>
                         </ol>
                         So it is framework-agnostic which doesn't care where or
@@ -383,7 +383,7 @@ const React = () => {
                         <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                           <li>ReactDOM.render()</li>
                           <li>ReactDOM.createRoot() (from React 18 onwards)</li>
-                          <li>ReactDOM.hydrate() for SSR</li>
+                          <li>ReactDOM.hydrate() for SSR.</li>
                         </ol>
                         So basically it connects react to the browser’s DOM.
                       </td>

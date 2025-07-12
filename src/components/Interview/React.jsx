@@ -464,9 +464,9 @@ const React = () => {
                     A. So we can write async keyword before an arrow function
                     let say fetchData to make it async & then we'll write await
                     before fetch() which will await for data to come. And then
-                    we'll call this fetchData arrow function inside 1st argument
-                    of useEffect which is the callback function because this is
-                    best place to make an api call in react.
+                    we'll call this fetchData arrow function inside the 1st
+                    argument of useEffect hook which is the callback function
+                    because this is best place to make an api call in react.
                   </p>
                 </div>
               </div>

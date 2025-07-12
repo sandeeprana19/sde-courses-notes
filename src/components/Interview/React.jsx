@@ -483,8 +483,8 @@ const React = () => {
                   </p>
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                     <li>Using React.lazy() and Suspense.</li>
-                    <li>Using bundlers like Webpack or Vite</li>
-                    <li>Using React Router (with React.lazy() + Suspense)</li>
+                    <li>Using bundlers like Vite or Webpack.</li>
+                    <li>Using React Router (with React.lazy() + Suspense).</li>
                     <li>Using dynamic import() statements.</li>
                     <li>
                       Using third-party libraries like @loadable/component

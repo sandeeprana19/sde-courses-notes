@@ -132,14 +132,14 @@ const JavaScript = () => {
                   </p>
                   <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
                     <li>
-                      setTimeout which takes in two parameters that are callback
-                      function & delay & then it will runs the callback function
-                      once after the delay.
+                      setTimeout which takes in two arguments that are callback
+                      function & delay respectively & then it will runs the
+                      callback function once after the delay.
                     </li>
                     <li>
-                      setInterval which also takes in two parameters that are
-                      callback function & interval & then it will runs the
-                      callback function repeatedly at each interval.
+                      setInterval which also takes in two arguments that are
+                      callback function & interval respectively & then it will
+                      runs the callback function repeatedly at each interval.
                     </li>
                   </ol>
                   <p className="pl-4">Example:</p>
@@ -201,12 +201,12 @@ const JavaScript = () => {
                   <p>
                     A. In JavaScript, prototypal inheritance is a feature where
                     objects can inherit properties and methods from another
-                    object, called the prototype. Every object in JavaScript has
-                    an internal link to a prototype object, and if a property or
-                    method is not found on the object itself, JavaScript will
-                    look up the prototype chain to find it. This allows for
-                    shared behavior among objects, making code more efficient
-                    and memory-friendly.
+                    object and this is object is known as prototype. Every
+                    object in javascript has an internal link to a prototype
+                    object and if a property or method isn't found on the object
+                    itself then javascript will look up the prototype chain to
+                    find it. This allows for shared behavior among objects,
+                    making code more efficient and memory-friendly.
                   </p>
                   <p>For example:</p>
                   <pre className="relative bottom-[1.4375rem] right-[10.625rem]">

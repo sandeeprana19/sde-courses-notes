@@ -189,7 +189,7 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. An useEffect hook has its own specific function and
+                    A. An useEffect hook has its own specific arrow function and
                     dependency array. So to use it first of all, it needed to be
                     named import from react. So useEffect hook is again a
                     function so we’ll call it like a function which takes two

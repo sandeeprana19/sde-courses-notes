@@ -442,7 +442,8 @@ const React = () => {
                     component in react. And it's a normal javascript class.
                   </p>
                   <p>
-                    React functional component is just a normal javascript
+                    React functional component is the newer way of creating
+                    component in react. So it's just a normal javascript
                     function which return some piece of jsx code so that's all
                     is known as react functional component. So whenever we
                     create any react functional component create with a capital

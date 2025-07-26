@@ -576,7 +576,10 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
-                  <p>A. Redux is a predictable state container for js app.</p>
+                  <p>
+                    A. Redux is a predictable state container for js app like
+                    React.
+                  </p>
                 </div>
               </div>
             </div>

@@ -39,30 +39,6 @@ const Header = () => {
                 className="menu menu-sm dropdown-content bg-base-100 text-9xl rounded-box z-[1] mt-3 w-[350px] p-3 shadow"
               >
                 <li>
-                  <Link
-                    className="text-base py-4 no-underline text-white transition-all"
-                    to="/"
-                  >
-                    Namaste JavaScript
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="text-base py-4 no-underline text-white transition-all"
-                    to="/namaste-react"
-                  >
-                    Namaste React
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="text-base no-underline text-white transition-all"
-                    to="/nextjs"
-                  >
-                    NextJs
-                  </Link>
-                </li>
-                <li>
                   <details>
                     <summary className="text-base py-4 text-white transition-all">
                       Interview
@@ -95,35 +71,35 @@ const Header = () => {
                     </ul>
                   </details>
                 </li>
+                <li>
+                  <Link
+                    className="text-base py-4 no-underline text-white transition-all"
+                    to="/"
+                  >
+                    Namaste JavaScript
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="text-base py-4 no-underline text-white transition-all"
+                    to="/namaste-react"
+                  >
+                    Namaste React
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="text-base no-underline text-white transition-all"
+                    to="/nextjs"
+                  >
+                    NextJs
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0">
-              <li>
-                <Link
-                  className="text-base no-underline text-white transition-all"
-                  to="/"
-                >
-                  Namaste JavaScript
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-base no-underline text-white transition-all"
-                  to="/namaste-react"
-                >
-                  Namaste React
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-base no-underline text-white transition-all"
-                  to="/nextjs"
-                >
-                  NextJs
-                </Link>
-              </li>
               <li>
                 <details>
                   <summary className="text-base text-white transition-all">
@@ -156,6 +132,30 @@ const Header = () => {
                     </li>
                   </ul>
                 </details>
+              </li>
+              <li>
+                <Link
+                  className="text-base no-underline text-white transition-all"
+                  to="/"
+                >
+                  Namaste JavaScript
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-base no-underline text-white transition-all"
+                  to="/namaste-react"
+                >
+                  Namaste React
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-base no-underline text-white transition-all"
+                  to="/nextjs"
+                >
+                  NextJs
+                </Link>
               </li>
             </ul>
           </div>

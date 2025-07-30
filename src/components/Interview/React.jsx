@@ -646,6 +646,362 @@ const React = () => {
               </div>
             </div>
           </div>
+          <h2 className="text-xl font-bold text-white">Asked in LTIMindTree</h2>
+          <div className="flex flex-col gap-y-4">
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                1. Can you explain the key differences between react class
+                component and functional component with hook? When would you
+                choose one over the other?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>
+                    A. React class based component is the older way of creating
+                    component in react. And it's a normal javascript class.
+                  </p>
+                  <p>
+                    React functional component is the newer way of creating
+                    component in react. So it's just a normal javascript
+                    function which return some piece of jsx code so that's all
+                    is known as react functional component. So whenever we
+                    create any react functional component create with a capital
+                    letter otherwise we'll get an error because it's a react way
+                    to understand that this is a component.
+                  </p>
+                  <p>
+                    For new development, I prefer Functional Components because
+                    they are cleaner, easier to maintain, and allow logic reuse
+                    through custom hooks. However, Class Components are still
+                    used in legacy codebases.
+                  </p>
+                  <p>
+                    Also, in React, component names must start with a capital
+                    letter so that React can differentiate them from regular
+                    HTML tags.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                2. Describe your experience with typescript in react project?
+                How do you typically setup typescript with react? [IGNORE THIS
+                FOR NOW]
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>
+                    A. I have worked with TypeScript in React projects to add
+                    strong typing, which helps in catching errors early and
+                    makes the codebase easier to maintain and collaborate on.
+                  </p>
+                  <p>
+                    For setting up TypeScript in a React project, nowadays I
+                    prefer using Vite or Next.js, as Create React App is
+                    deprecated.
+                  </p>
+                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                    <li>
+                      With Vite, I can create a TypeScript React project using:
+                      npm create vite@latest and select React + TypeScript
+                      template.
+                    </li>
+                    <li>
+                      For Next.js, I initialize the project with npx
+                      create-next-app@latest, and if I select TypeScript,
+                      Next.js automatically sets up the tsconfig.json and type
+                      dependencies.
+                    </li>
+                  </ol>
+                  <p>
+                    After setup, I rename .js files to .tsx for components and
+                    .ts for utility files. Then, I define interfaces or types
+                    for component props, API responses, and application state.
+                  </p>
+                  <p>
+                    I also configure strict TypeScript rules in tsconfig.json to
+                    enforce better type safety. Throughout the project, I make
+                    use of TypeScript features like optional types, generics,
+                    and union types for better code predictability.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                3. Walk me through the process of implementing state management
+                using redux into react application? What are some best practice
+                you follow?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>
+                    A. The following are the step we need to follow to start
+                    using redux toolkit into our project:
+                  </p>
+                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                    <li>
+                      First of all, we'll install two libraries like
+                      @reduxjs/toolkit and react-redux. So we'll need these two
+                      libraries to work with redux.
+                    </li>
+                    <li>Then we'll build our own store.</li>
+                    <li>Then we'll provide our store to our app.</li>
+                    <li>We'll create a slice to add item to the cart.</li>
+                    <li>
+                      Then we'll basically dispatch an action when we click on
+                      add button.
+                    </li>
+                    <li>And then also we'll read the data using selector.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                4. How do approach unit testing into react component? Can give
+                an example of test you've written and explain your testing
+                strategy?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>
+                    A. So basically, let say we'll be testing whether contact
+                    component is loading or not so we'll create test cases file
+                    name like contact.test.js and we'll write test("Should load
+                    contact us component", () {"=>"} {}) and now we'll see
+                    whether contact component is loaded on to the DOM or not
+                    right.
+                  </p>
+                  <p>
+                    First of all, whenever we're testing UI component inside
+                    react we'll have to render that component onto the jsdom so
+                    first of all we'll use render() and this render method comes
+                    from @testing-library/react. And now, this render method
+                    will take a component which is going to be render and now
+                    we'll be going to be render contact component like render(
+                    {"<Contact />"}) right and now we've tried to render it onto
+                    the jsdom.
+                  </p>
+                  <p>
+                    Now, we'll test whether the "Contact Us Page" heading is
+                    loaded or not by using screen which is an object and we'll
+                    import it from @testing-library/react so whatever we'll
+                    render we'll get it's access through screen and now we'll do
+                    something like screen and then dot and whenever we do dot
+                    after screen then we'll find some information like whatever
+                    has been render right so suppose our contact component was
+                    render that means contact us page whole jsx will be render
+                    like heading, form, input boxes, buttons, etc. onto a page
+                    isn't it.
+                  </p>
+                  <p>
+                    So similarly, suppose if we want to find our "Contact Us
+                    Page" heading so we can do something like screen.getByRole
+                    and we'll write role of a heading like
+                    screen.getByRole("heading") and whatever we'll get we'll
+                    just get it inside our const heading and now we'll accept
+                    something from which we'll write assertion like
+                    expect(heading).toBeInTheDocument() and now this function
+                    toBeInTheDocument() will be basically find whether our
+                    "heading" was inside that document or not.
+                  </p>
+                  <p>
+                    So this is how we'll approach to do unit testing of a react
+                    component.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                5. Explain how you could use material UI in a react project?
+                What are some advantages and potential challenges of using this
+                UI library?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                6. Can you describe a situation where you've used github copilot
+                to assist in writing unit tests? What was your experience, and
+                how did it impact your workload?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                7. What are the basic concepts of Docker that you're familiar
+                with? How would you create a Docker image for a React frontend
+                application?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2"></div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                8. Describe your experience with performance optimization in
+                react? What techniques have you used to improve the performance
+                of a react application?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                9. How do you handle API integration in the react application?
+                Can you walk me through your approach to fetching and managing
+                data for a mapping service?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                10. Can you explain the concept of React hooks, an example of
+                how we use the customer to solve this specific problem in a
+                project?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                11. How does React Hook help in improving the performance of
+                functional components?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                12. How do you optimize the performance of a React application?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                13. What is memoization in React? And how does it help in
+                performance optimization?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                14. What is the role of state management in optimizing
+                performance?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                15. Can you tell me how does React's reconciliation algorithm
+                work?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                16. Describe a useCases so let say I have an input text box.
+                Now, you know, anything related to calling an API is an
+                expensive operation, right? And I want to minimize it as much as
+                possible. So you are putting in your input in text box and after
+                you have completed putting the input in text box, then I want to
+                call the API, right? So I want there to be some delay before you
+                complete, you know completing your input text in the search text
+                box. What is the technique of implementing that in React and how
+                do you do it?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                17. Define debounce and throttling?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">1.</div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">1.</div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

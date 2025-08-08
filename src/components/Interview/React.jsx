@@ -773,43 +773,28 @@ const React = () => {
                   <p>
                     A. So basically, let say we'll be testing whether contact
                     component is loading or not so we'll create test cases file
-                    name like contact.test.js and we'll write test("Should load
-                    contact us component", () {"=>"} {}) and now we'll see
-                    whether contact component is loaded on to the DOM or not
-                    right.
+                    name like Contact.test.js.
                   </p>
                   <p>
                     First of all, whenever we're testing UI component inside
-                    react we'll have to render that component onto the jsdom so
-                    first of all we'll use render() and this render method comes
-                    from @testing-library/react. And now, this render method
-                    will take a component which is going to be render and now
-                    we'll be going to be render contact component like render(
+                    react we'll have to render that component onto the jsdom. So
+                    we'll use render() and this render() comes from
+                    @testing-library/react. And now, this render method will
+                    take a component which is going to be render so we'll do
+                    render(
                     {"<Contact />"}) right and now we've tried to render it onto
                     the jsdom.
                   </p>
                   <p>
                     Now, we'll test whether the "Contact Us Page" heading is
                     loaded or not by using screen which is an object and we'll
-                    import it from @testing-library/react so whatever we'll
-                    render we'll get it's access through screen and now we'll do
-                    something like screen and then dot and whenever we do dot
-                    after screen then we'll find some information like whatever
-                    has been render right so suppose our contact component was
-                    render that means contact us page whole jsx will be render
-                    like heading, form, input boxes, buttons, etc. onto a page
-                    isn't it.
-                  </p>
-                  <p>
-                    So similarly, suppose if we want to find our "Contact Us
-                    Page" heading so we can do something like screen.getByRole
-                    and we'll write role of a heading like
-                    screen.getByRole("heading") and whatever we'll get we'll
-                    just get it inside our const heading and now we'll accept
-                    something from which we'll write assertion like
-                    expect(heading).toBeInTheDocument() and now this function
-                    toBeInTheDocument() will be basically find whether our
-                    "heading" was inside that document or not.
+                    import it from @testing-library/react and then we'll do
+                    something like screen.getByRole("heading") and whatever
+                    we'll get we'll just get it inside our const heading. And
+                    now we'll accept something from which we'll write assertion
+                    like expect(heading).toBeInTheDocument() and now this
+                    function toBeInTheDocument() will be basically find whether
+                    our "heading" was inside that document or not.
                   </p>
                   <p>
                     So this is how we'll approach to do unit testing of a react
@@ -827,7 +812,55 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
-                  <p>A.</p>
+                  <p>
+                    A. To use Material-UI, first I install the library using:
+                    npm install @mui/material @emotion/react @emotion/styled
+                  </p>
+                  <p>
+                    Then I can directly import components like Buttons, Cards,
+                    etc., and use them in my React components. For example:
+                    <code>
+                      {`
+                          import { Button } from '@mui/material';
+                          <Button variant="contained">Click Me</Button>
+                        `}
+                    </code>
+                  </p>
+                  <p className="mb-5">
+                    Material-UI also provides a ThemeProvider which I can use to
+                    customize themes like primary colors, typography, etc., to
+                    match my project’s branding.
+                  </p>
+                  <p>Advantages I noticed are like:</p>
+                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2 mb-5">
+                    <li>
+                      It gives a lot of pre-built, responsive components that
+                      look professional by default.
+                    </li>
+                    <li>Customizing themes is straightforward.</li>
+                    <li>
+                      The component API is well-documented and easy to use.
+                    </li>
+                  </ol>
+                  <p>Challenges I noticed are like:</p>
+                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                    <li>
+                      Sometimes overriding default styles can get tricky,
+                      especially with deeply nested components.
+                    </li>
+                    <li>
+                      The bundle size can increase if not tree-shaken properly.
+                    </li>
+                    <li>
+                      For very custom UI designs, Material-UI might be
+                      restrictive, and you need to write additional CSS
+                      overrides.
+                    </li>
+                  </ol>
+                  <p>
+                    But overall, I find it very useful for quickly building
+                    clean UIs.
+                  </p>
                 </div>
               </div>
             </div>
@@ -840,25 +873,22 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
-                  <p>A.</p>
+                  <p>
+                    A. Yeah, I used Copilot for writing unit tests in a form
+                    validation component. Initially, I wrote one test manually,
+                    and then Copilot started suggesting similar test cases which
+                    really saved time on boilerplate. Of course, I had to review
+                    and tweak them for accuracy, but overall it sped up my work
+                    and let me focus more on edge cases rather than repetitive
+                    typing.
+                  </p>
                 </div>
               </div>
             </div>
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                7. What are the basic concepts of Docker that you're familiar
-                with? How would you create a Docker image for a React frontend
-                application?
-              </div>
-              <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-2"></div>
-              </div>
-            </div>
-            <div className="collapse collapse-plus bg-base-200">
-              <input type="radio" name="interview" />
-              <div className="collapse-title text-xl font-medium">
-                8. Describe your experience with performance optimization in
+                7. Describe your experience with performance optimization in
                 react? What techniques have you used to improve the performance
                 of a react application?
               </div>

@@ -12,14 +12,15 @@ const React = () => {
                 1. Introduce yourself?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-2">
-                  <div>
+                <div className="flex flex-col gap-y-4">
+                  <div className="flex flex-col gap-y-2">
                     <p>
                       A. Thank you for this opportunity to introduce myself. I'm
-                      currently working as a React Developer at Capital Numbers
-                      Infotech Pvt. Ltd., where I have been an integral part of
-                      the React engineering team. I've had the privilege of
-                      leading 2 out of 3 major React projects, including:
+                      currently working as a React Developer for the past 3
+                      years at Capital Numbers Infotech Pvt. Ltd., where I have
+                      been an integral part of the React engineering team. I've
+                      had the privilege of leading 2 out of 3 major React
+                      projects like:
                     </p>
                     <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
                       <li>
@@ -35,17 +36,18 @@ const React = () => {
                         passionate gamers.
                       </li>
                     </ol>
+                    <p>
+                      All these projects were developed using technologies like
+                      React, Redux, JavaScript, TailwindCSS, MaterialUI, and
+                      SCSS, ensuring modern and efficient web applications.
+                    </p>
                   </div>
-                  <p>
-                    All these projects were developed using technologies like
-                    React, Redux, JavaScript, TailwindCSS, MaterialUI, and SCSS,
-                    ensuring modern and efficient web applications.
-                  </p>
-                  <div>
+                  <div className="flex flex-col gap-y-2">
                     <p>
                       On the personal side, I also built Netflix-GPT, a
                       Netflix-like React app that demonstrates my ability to
-                      innovate and optimize performance. Key features include:
+                      innovate and optimize performance. This project includes
+                      several Key features like:
                     </p>
                     <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
                       <li>

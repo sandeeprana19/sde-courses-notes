@@ -67,7 +67,7 @@ const React = () => {
                     These projects reflect my passion for creating fast and
                     user-friendly applications with cutting-edge technologies.
                     I'm excited to bring this experience and enthusiasm to your
-                    team.
+                    team. Thank you so much for hearing me out so far.
                   </p>
                 </div>
               </div>

@@ -165,9 +165,9 @@ const React = () => {
                     A. An useState() hook basically generates super powerful
                     state variables and state updating function in react. So to
                     use it first of all, it needed to be named import from
-                    react. So useState hook is again a function so we'll can
-                    call it like a function & pass any argument as initial value
-                    of state variable.
+                    react. And then as useState hook is again a function so
+                    we'll can call it like a function & pass any argument as
+                    initial value of state variable.
                   </p>
                   <p>
                     And then this useState hook return an array from which we'll
@@ -193,8 +193,8 @@ const React = () => {
                   <p>
                     A. An useEffect hook has its own specific arrow function and
                     dependency array. So to use it first of all, it needed to be
-                    named import from react. So useEffect hook is again a
-                    function so we’ll call it like a function which takes two
+                    named import from react. And then as useEffect hook is again
+                    a function so we’ll call it like a function which takes two
                     arguments so the first argument is an arrow function which
                     is a callback function and the second argument is a
                     dependency array.
@@ -220,8 +220,8 @@ const React = () => {
                       If we pass any state variable inside dependency array then
                       the callback function will be call once only after initial
                       component render & not after on every component render
-                      cycle but it will only call whenever the state variable is
-                      updated.
+                      cycle but it will only be call whenever the state variable
+                      is updated.
                     </li>
                   </ol>
                 </div>
@@ -451,7 +451,7 @@ const React = () => {
                     is known as react functional component. So whenever we
                     create any react functional component create with a capital
                     letter otherwise we'll get an error because it's a react way
-                    to understand that this is a component.
+                    to understand that this is a react functional component.
                   </p>
                 </div>
               </div>
@@ -539,17 +539,16 @@ const React = () => {
                   <p>
                     Let say we've define deeply nested component like{" "}
                     <code>{`<App />`}</code> component and then inside that{" "}
-                    <code>{`<App />`}</code> we've
-                    <code>{`<Parent />`}</code> component and then inside that{" "}
-                    <code>{`<Parent />`}</code> we've
-                    <code>{`<Child />`}</code> component & then inside that{" "}
-                    <code>{`<Child />`}</code> we've
+                    <code>{`<App />`}</code> we've <code>{`<Parent />`}</code>{" "}
+                    component and then inside that <code>{`<Parent />`}</code>{" "}
+                    we've <code>{`<Child />`}</code> component & then inside
+                    that <code>{`<Child />`}</code> we've{" "}
                     <code>{`<GrandChild />`}</code> component. So if{" "}
                     <code>{`<GrandChild />`}</code> needs some data from{" "}
                     <code>{`<App />`}</code> then we've to pass it through{" "}
                     <code>{`<Parent />`}</code> and <code>{`<Child />`}</code>{" "}
                     as props even if those components don’t use the data. So
-                    that’s what we call it as prop drilling in react.
+                    that’s what we call it as props drilling in react.
                   </p>
                 </div>
               </div>
@@ -597,11 +596,11 @@ const React = () => {
                   <p>
                     A. Let's assume there is food ordering app where there is a
                     cart on header & there is food card on which it have add
-                    button so let me tell how the whole flow of redux
+                    button so now let me tell how the whole flow of redux
                     architecture works behind the scene.
                   </p>
                   <p>
-                    So when we clicked on the add button it dispatches an action
+                    So when we click on that add button it dispatches an action
                     which calls the reducer function which modifies the slices
                     of the redux store and because the header component is
                     subscribed to this store using a selector then cart data on
@@ -661,7 +660,7 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. React class based component is the older way of creating
+                    A. React class component is the older way of creating
                     component in react. And it's a normal javascript class.
                   </p>
                   <p>
@@ -674,15 +673,10 @@ const React = () => {
                     to understand that this is a component.
                   </p>
                   <p>
-                    For new development, I prefer Functional Components because
-                    they are cleaner, easier to maintain, and allow logic reuse
-                    through custom hooks. However, Class Components are still
-                    used in legacy codebases.
-                  </p>
-                  <p>
-                    Also, in React, component names must start with a capital
-                    letter so that React can differentiate them from regular
-                    HTML tags.
+                    For new development, I prefer react functional components
+                    because they are cleaner, easier to maintain, and allow
+                    logic reuse through custom hooks. However, react class
+                    components are still used in legacy codebases.
                   </p>
                 </div>
               </div>
@@ -697,23 +691,26 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. The following are the step we need to follow to start
-                    using redux toolkit into our project:
+                    A. Let's assume there is food ordering app where there is a
+                    cart on header & there is food card on which it have add
+                    button so now let me walk you through the process of
+                    implementing redux toolkit into react application and that
+                    are like:
                   </p>
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                     <li>
-                      First of all, we'll install two libraries like
-                      @reduxjs/toolkit and react-redux. So we'll need these two
-                      libraries to work with redux.
+                      First of all, I've to install two libraries like
+                      @reduxjs/toolkit and react-redux so that I can work with
+                      redux.
                     </li>
-                    <li>Then we'll build our own store.</li>
-                    <li>Then we'll provide our store to our app.</li>
-                    <li>We'll create a slice to add item to the cart.</li>
+                    <li>Then I'll build app store.</li>
+                    <li>Then I'll provide app store to the react app.</li>
+                    <li>Then I'll create a slice to add item to the cart.</li>
                     <li>
-                      Then we'll basically dispatch an action when we click on
-                      add button.
+                      Then I'll basically dispatch an action when I click on add
+                      button.
                     </li>
-                    <li>And then also we'll read the data using selector.</li>
+                    <li>Then I'll read the data using selector.</li>
                   </ol>
                 </div>
               </div>
@@ -721,9 +718,9 @@ const React = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                3. How do approach unit testing into react component? Can give
-                an example of test you've written and explain your testing
-                strategy?
+                3. How do you approach unit testing into react component? Can
+                you give an example of test you've written and explain your
+                testing strategy?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-4">
@@ -731,22 +728,23 @@ const React = () => {
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
                       For React unit testing, I usually use
-                      @testing-library/react. I render the component in a test
-                      DOM, then query elements like headings or buttons, and
-                      assert their presence or behavior with expect. For
-                      example, checking if the Contact page heading renders.
+                      @testing-library/react. And then let say I render the
+                      contact component in a test DOM and then query element
+                      like heading, and then assert it's presence with expect
+                      function for checking if the contact page heading render.
                     </p>
                   </div>
                   <div className="flex flex-col gap-y-2">
                     <p>🔍 Expandable Version (if they ask for details):</p>
                     <p>
-                      Let’s say I’m testing a Contact component. I’d create a
-                      file like Contact.test.js, import render and screen from
-                      @testing-library/react, and render the component with
-                      render(
+                      Let’s say I’m testing a Contact component. Then I'll
+                      create a file like Contact.test.js and then import render
+                      and screen from @testing-library/react and then render the
+                      contact component with render(
                       <code>{"<Contact />"}</code>
-                      ). Then, I’d use screen.getByRole("heading") to find the
-                      heading, store it in a variable, and use an assertion like
+                      ). And then I'll use screen.getByRole("heading") to find
+                      the heading and then store it in a heading variable and
+                      then use an assertion like
                       expect(heading).toBeInTheDocument() to confirm it
                       rendered. This strategy focuses on testing components from
                       the user’s perspective, rather than their internal
@@ -769,12 +767,12 @@ const React = () => {
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
                       I usually install MUI via npm install @mui/material
-                      @emotion/react @emotion/styled, import components like
-                      Button or Card, and use them directly. For branding, I
-                      wrap my app in ThemeProvider to customize colors,
-                      typography, etc. It’s great for fast, professional-looking
-                      UIs, but sometimes style overrides can be tricky and the
-                      bundle can grow if not optimized.
+                      @emotion/react @emotion/styled & then import components
+                      like Button or Card and then use them directly. For
+                      branding, I wrap my app in ThemeProvider to customize
+                      colors, typography, etc. It’s great for fast and
+                      professional-looking UIs. But sometimes style overrides
+                      can be tricky and the bundle can grow if not optimized.
                     </p>
                   </div>
                   <div className="flex flex-col gap-y-2">
@@ -844,10 +842,10 @@ const React = () => {
                     A. Yeah, I used Copilot for writing unit tests in a form
                     validation component. Initially, I wrote one test manually,
                     and then Copilot started suggesting similar test cases which
-                    really saved time on boilerplate. Of course, I had to review
-                    and tweak them for accuracy, but overall it sped up my work
-                    and let me focus more on edge cases rather than repetitive
-                    typing.
+                    really saved my time on boilerplate. Of course, I had to
+                    review and tweak them for accuracy, but overall it speed up
+                    my work and let me focus more on edge cases rather than
+                    repetitive typing.
                   </p>
                 </div>
               </div>
@@ -857,24 +855,29 @@ const React = () => {
               <div className="collapse-title text-xl font-medium">
                 6. Describe your experience with performance optimization in
                 react? What techniques have you used to improve the performance
-                of a react application?
+                of a react application? or How do you optimize the performance
+                of a React application?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. I used code splitting in react to improve the performance
-                    of a react application. So there're several ways to do code
-                    splitting in react like:
+                    A. One of the key techniques I used is code splitting with
+                    React.lazy() and Suspense to lazy-load heavy components and
+                    I also leveraged bundlers like Vite/Webpack.
                   </p>
-                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                    <li>Using React.lazy() and Suspense.</li>
-                    <li>Using bundlers like Vite or Webpack.</li>
-                    <li>Using React Router (with React.lazy() + Suspense).</li>
-                    <li>Using dynamic import() statements.</li>
-                    <li>
-                      Using third-party libraries like @loadable/component
-                    </li>
-                  </ol>
+                  <p>
+                    Apart from that, I always make sure to use a proper key prop
+                    for a list items so that it helps in optimizing rendering
+                    performance when working with dynamic lists. And I also look
+                    at things like memoization for example React.memo, useMemo
+                    and useCallback which helps to avoid unnecessary re-renders.
+                    And I also look at things like debounce api calls in search
+                    boxes.
+                  </p>
+                  <p>
+                    So all these together helps in performance optimization in
+                    react.
+                  </p>
                 </div>
               </div>
             </div>
@@ -891,8 +894,8 @@ const React = () => {
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
                       I prefer rendering the UI first, then making the API call
-                      in useEffect and updating the state with the fetched data.
-                      This way, users see the layout instantly, and we avoid
+                      in useEffect and then updating the state with the fetched
+                      data. This way, users see the layout instantly and I avoid
                       blocking the initial render.
                     </p>
                   </div>
@@ -935,10 +938,12 @@ const React = () => {
                     etc.
                   </p>
                   <p>
-                    For example, in one project I had to fetch API data when the
-                    component mounted. So, I used useState hook to stored the
-                    fetched data and useEffect hook to handled the side effect
-                    of fetching it on mount.
+                    Now, let give you an example of this react hooks concept
+                    which help me to solve specific problem in a project. So, in
+                    one project I had to fetch API data when the component
+                    mounted. So, I used useState hook to store the fetched data
+                    and useEffect hook to handled the side effect of fetching it
+                    on mount.
                   </p>
                 </div>
               </div>
@@ -952,12 +957,12 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. Hooks like useState, useEffect, and useRef can help
-                    performance by reducing unnecessary work. For example,
-                    useRef stores values without causing re-renders, useEffect
-                    lets you run expensive code only when specific dependencies
-                    change, and useReducer can centralize state updates to avoid
-                    excessive state variables triggering multiple renders.
+                    A. Hooks like useState, useEffect, and useRef help by
+                    reducing unnecessary work. For example, useRef stores values
+                    without triggering re-renders, and useEffect ensures
+                    expensive code runs only when dependencies changes. On top
+                    of that, useMemo and useCallback can be used to memoize
+                    values and functions, preventing unnecessary re-renders.
                   </p>
                 </div>
               </div>
@@ -965,34 +970,7 @@ const React = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                10. How do you optimize the performance of a React application?
-              </div>
-              <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-2">
-                  <p>
-                    A. I optimize React apps using a combination of techniques
-                    like:
-                  </p>
-                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                    <li>
-                      Code splitting with React.lazy + Suspense or dynamic
-                      imports to load code only when needed.
-                    </li>
-                    <li>
-                      Using useRef for values that shouldn’t trigger renders.
-                    </li>
-                    <li>
-                      Optimizing images & assets, and ensuring proper
-                      tree-shaking in the bundler.
-                    </li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-            <div className="collapse collapse-plus bg-base-200">
-              <input type="radio" name="interview" />
-              <div className="collapse-title text-xl font-medium">
-                11. What is the role of state management in optimizing
+                10. What is the role of state management in optimizing
                 performance?
               </div>
               <div className="collapse-content overflow-x-auto">
@@ -1000,10 +978,10 @@ const React = () => {
                   <div className="flex flex-col gap-y-2">
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
-                      State management helps to ensure we only re-render the
+                      State management helps to ensure I only re-render the
                       parts of the UI that actually need to change. By
                       structuring state properly and keeping it as local as
-                      possible, we reduce unnecessary renders and improve app
+                      possible, I reduce unnecessary renders and improve app
                       performance.
                     </p>
                   </div>
@@ -1041,7 +1019,7 @@ const React = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                12. Describe a useCases so let say I have an input text box.
+                11. Describe a useCases so let say I have an input text box.
                 Now, you know, anything related to calling an API is an
                 expensive operation, right? And I want to minimize it as much as
                 possible. So you are putting in your input in text box and after
@@ -1056,9 +1034,10 @@ const React = () => {
                   <div className="flex flex-col gap-y-2">
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
-                      I think using debouncing with useEffect and setTimeout or
-                      a custom useDebounce hook. Debouncing delays the API call
-                      until the user stops typing for a set time, so we avoid
+                      So in such case, I think I can use a technique like
+                      debouncing with useEffect and setTimeout or a custom
+                      useDebounce hook. So debouncing delays the API call until
+                      the user stops typing for a set time, so that I avoid
                       sending a request for every keystroke.
                     </p>
                   </div>
@@ -1089,7 +1068,7 @@ const React = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                13. Define debounce and throttling?
+                12. Define debounce and throttling?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-4">
@@ -1099,15 +1078,15 @@ const React = () => {
                       <li>
                         <p>
                           Debounce delays execution until there’s a pause in
-                          events — e.g., wait 500ms after the last keystroke
-                          before firing an API call.
+                          events. For example, wait 500ms after the last
+                          keystroke before firing an API call.
                         </p>
                       </li>
                       <li>
                         <p>
                           Throttle ensures execution happens at most once in a
-                          set interval — e.g., only call a function every 1s,
-                          even if the event fires continuously.
+                          set interval. For example, only call a function every
+                          1s, even if the event fires continuously.
                         </p>
                       </li>
                     </ol>

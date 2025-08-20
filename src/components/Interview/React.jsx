@@ -202,22 +202,22 @@ const React = () => {
                   <p>There're some use cases of useEffect hook like:</p>
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                     <li>
-                      We can't call useEffect hook outside of react functional
+                      I can't call useEffect hook outside of react functional
                       component because react expect it to be call inside react
-                      functional component instead of outside. But if we do so
+                      functional component instead of outside. But if I do so
                       then react will throw an error like "Invalid hook call".
                     </li>
                     <li>
-                      If we don't pass dependency array then the callback
+                      If I don't pass dependency array then the callback
                       function will be call on every component render cycle.
                     </li>
                     <li>
-                      If we pass empty dependency array then the callback
+                      If I pass empty dependency array then the callback
                       function will be call once only after initial component
                       render & not after on every component render cycle.
                     </li>
                     <li>
-                      If we pass any state variable inside dependency array then
+                      If I pass any state variable inside dependency array then
                       the callback function will be call once only after initial
                       component render & not after on every component render
                       cycle but it will only be call whenever the state variable

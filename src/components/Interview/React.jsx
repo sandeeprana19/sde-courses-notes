@@ -962,7 +962,7 @@ const React = () => {
                     without triggering re-renders, and useEffect ensures
                     expensive code runs only when dependencies changes. On top
                     of that, useMemo and useCallback can be used to memoize
-                    values and functions, preventing unnecessary re-renders.
+                    values and functions for preventing unnecessary re-renders.
                   </p>
                 </div>
               </div>

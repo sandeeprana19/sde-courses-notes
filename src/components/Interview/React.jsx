@@ -1078,15 +1078,16 @@ const React = () => {
                       <li>
                         <p>
                           Debounce delays execution until there’s a pause in
-                          events. For example, wait 500ms after the last
+                          events. For example, let say wait 500ms after the last
                           keystroke before firing an API call.
                         </p>
                       </li>
                       <li>
                         <p>
                           Throttle ensures execution happens at most once in a
-                          set interval. For example, only call a function every
-                          1s, even if the event fires continuously.
+                          set interval. For example, let say only call a
+                          function every 1s, even if the event fires
+                          continuously.
                         </p>
                       </li>
                     </ol>

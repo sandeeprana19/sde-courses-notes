@@ -939,11 +939,11 @@ const React = () => {
                   </p>
                   <p>
                     Now, let give you an example of this react hooks concept
-                    which help me to solve specific problem in a project. So, in
-                    one project I had to fetch API data when the component
-                    mounted. So, I used useState hook to store the fetched data
-                    and useEffect hook to handled the side effect of fetching it
-                    on mount.
+                    which help me to solve specific problem in a project. So,
+                    let say in one project I had to fetch API data when the
+                    component mounted. So, I used useState hook to store the
+                    fetched data and useEffect hook to handled the side effect
+                    of fetching it on mount.
                   </p>
                 </div>
               </div>

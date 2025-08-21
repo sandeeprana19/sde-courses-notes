@@ -592,10 +592,10 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. Yes, absolutely! If you want to pass props from Component
-                    A to Component C without going through Component B, then you
-                    can avoid props drilling by using React Context API or a
-                    state management library like Redux.
+                    A. Yeah, absolutely! We can use React Context API or a state
+                    management library like Redux instead of using props
+                    drilling if we want to pass props from Component A to
+                    Component C without going through Component B.
                   </p>
                 </div>
               </div>

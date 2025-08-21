@@ -427,7 +427,7 @@ const React = () => {
                 <div className="flex flex-col gap-y-4">
                   <div className="flex flex-col gap-y-2">
                     <p>A. 💡 Quick Recall (10–15 sec)</p>
-                    <p>React provides two types of hooks:</p>
+                    <p>React provides two types of hooks like:</p>
                     <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                       <li>
                         Built-in hooks are like useState, useEffect, useContext,

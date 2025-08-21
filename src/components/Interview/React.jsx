@@ -629,7 +629,7 @@ const React = () => {
                     architecture works behind the scene.
                   </p>
                   <p>
-                    So when we click on that add button it dispatches an action
+                    So when I click on that add button it dispatches an action
                     which calls the reducer function which modifies the slices
                     of the redux store and because the header component is
                     subscribed to this store using a selector then cart data on

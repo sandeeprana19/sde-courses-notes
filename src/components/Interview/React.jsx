@@ -519,7 +519,7 @@ const React = () => {
                     <li>Using React Router with React.lazy() and Suspense.</li>
                     <li>Using dynamic import() statements.</li>
                     <li>
-                      Using third-party libraries like @loadable/component.
+                      Using third-party libraries like @loadable/component, etc.
                     </li>
                   </ol>
                 </div>

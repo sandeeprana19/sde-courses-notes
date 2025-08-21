@@ -549,8 +549,8 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. Props drilling is a situation in React where we pass
-                    props from a parent component down to deeply nested child
+                    A. Props drilling is a situation in React where I pass props
+                    from a parent component down to deeply nested child
                     components even if some intermediate components don’t need
                     that data themselves so just to get it to the final child.
                   </p>
@@ -566,15 +566,15 @@ const React = () => {
                     </code>
                   </pre>
                   <p>
-                    Let say we've define deeply nested component like{" "}
+                    Let say I've define deeply nested component like{" "}
                     <code>{`<App />`}</code> component and then inside that{" "}
-                    <code>{`<App />`}</code> we've <code>{`<Parent />`}</code>{" "}
+                    <code>{`<App />`}</code> I've <code>{`<Parent />`}</code>{" "}
                     component and then inside that <code>{`<Parent />`}</code>{" "}
-                    we've <code>{`<Child />`}</code> component & then inside
-                    that <code>{`<Child />`}</code> we've{" "}
+                    I've <code>{`<Child />`}</code> component & then inside that{" "}
+                    <code>{`<Child />`}</code> I've{" "}
                     <code>{`<GrandChild />`}</code> component. So if{" "}
                     <code>{`<GrandChild />`}</code> needs some data from{" "}
-                    <code>{`<App />`}</code> then we've to pass it through{" "}
+                    <code>{`<App />`}</code> then I've to pass it through{" "}
                     <code>{`<Parent />`}</code> and <code>{`<Child />`}</code>{" "}
                     as props even if those components don’t use the data. So
                     that’s what we call it as props drilling in react.

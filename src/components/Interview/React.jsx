@@ -424,11 +424,40 @@ const React = () => {
                 2. Name the different types of react hooks?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-2">
-                  <p>
-                    A. useState, useEffect, useContext, useReducer, useRef etc.
-                    are the different types of react hooks.
-                  </p>
+                <div className="flex flex-col gap-y-4">
+                  <div className="flex flex-col gap-y-2">
+                    <p>A. 💡 Quick Recall (10–15 sec)</p>
+                    <p>React provides two types of hooks:</p>
+                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                      <li>
+                        Built-in hooks are like useState, useEffect, useContext,
+                        useReducer, useRef, etc.
+                      </li>
+                      <li>
+                        Custom hooks are like my own reusable hooks created by
+                        combining built-in hooks.
+                      </li>
+                    </ol>
+                  </div>
+                  <div className="flex flex-col gap-y-2">
+                    <p>🔍 Expanded Version (if interviewer asks follow-up)</p>
+                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                      <li>
+                        State & Lifecycle hooks are like useState, useEffect &
+                        useLayoutEffect.
+                      </li>
+                      <li>Context hook is like useContext.</li>
+                      <li>Performance hooks are like useMemo & useCallback.</li>
+                      <li>
+                        Ref & DOM hooks are like useRef & useImperativeHandle.
+                      </li>
+                      <li>Reducer hook is like useReducer.</li>
+                      <li>
+                        Custom hooks are like any hook we build starting with
+                        use prefix to reuse logic.
+                      </li>
+                    </ol>
+                  </div>
                 </div>
               </div>
             </div>

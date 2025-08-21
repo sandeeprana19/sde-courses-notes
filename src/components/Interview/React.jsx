@@ -165,18 +165,18 @@ const React = () => {
                     A. An useState() hook basically generates super powerful
                     state variables and state updating function in react. So to
                     use it first of all, it needed to be named import from
-                    react. And then as useState hook is again a function so
-                    we'll can call it like a function & pass any argument as
-                    initial value of state variable.
+                    react. And then as useState hook is again a function so I'll
+                    can call it like a function & pass any argument as initial
+                    value of state variable.
                   </p>
                   <p>
-                    And then this useState hook return an array from which we'll
+                    And then this useState hook return an array from which I'll
                     destructure two element like state variable and state
                     updating function.
                   </p>
                   <p>
-                    And then there is some use case of it like if we want to
-                    update state variable then we just need to call state
+                    And then there is some use case of it like if I want to
+                    update state variable then I just need to call state
                     updating function & then pass the update value as an
                     argument to it.
                   </p>
@@ -194,7 +194,7 @@ const React = () => {
                     A. An useEffect hook has its own specific arrow function and
                     dependency array. So to use it first of all, it needed to be
                     named import from react. And then as useEffect hook is again
-                    a function so we’ll call it like a function which takes two
+                    a function so I’ll call it like a function which takes two
                     arguments so the first argument is an arrow function which
                     is a callback function and the second argument is a
                     dependency array.

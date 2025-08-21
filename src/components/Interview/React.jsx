@@ -434,8 +434,8 @@ const React = () => {
                         useReducer, useRef, etc.
                       </li>
                       <li>
-                        Custom hooks are like my own reusable hooks created by
-                        combining built-in hooks.
+                        Custom hooks are like any hook I build starting with use
+                        prefix to reuse logic.
                       </li>
                     </ol>
                   </div>
@@ -453,8 +453,8 @@ const React = () => {
                       </li>
                       <li>Reducer hook is like useReducer.</li>
                       <li>
-                        Custom hooks are like any hook we build starting with
-                        use prefix to reuse logic.
+                        Custom hooks are like any hook I build starting with use
+                        prefix to reuse logic.
                       </li>
                     </ol>
                   </div>

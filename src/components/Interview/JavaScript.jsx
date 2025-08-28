@@ -250,8 +250,8 @@ const JavaScript = () => {
                     DOM element by its ID.
                   </p>
                   <p>
-                    So in loose mode, If an button element has an id="myButton"
-                    & there's also a global variable named myButton then it will
+                    So in loose mode, If a button element has an id="myButton" &
+                    there's also a global variable named myButton then it will
                     create a conflict & window.myButton will always refer to the
                     variable not the button element having id="myButton". But it
                     strict mode, window.myButton will always return undefined.

@@ -62,7 +62,7 @@ const JavaScript = () => {
                             comparison.
                           </p>
                           <p>
-                            For example: When we try to compare number data type
+                            For example: When I try to compare number data type
                             1 == string data type 1 then javascript will type
                             coerce this string data type 1 to number data type 1
                             for it to return true.
@@ -78,7 +78,7 @@ const JavaScript = () => {
                             the value must be the same for it to return true.
                           </p>
                           <p>
-                            For example: When we try to compare number data type
+                            For example: When I try to compare number data type
                             1 === string data type 1 then javascript will not
                             type coerce this string data type 1 to number data
                             type 1 for it to return true. So in this case it
@@ -176,14 +176,14 @@ const JavaScript = () => {
                         <th className="align-top">1</th>
                         <td className="align-top">
                           window.onload is a JavaScript event that fires after
-                          the entire page is fully loaded, including all
-                          dependent resources like images, scripts, and
-                          stylesheets.
+                          the entire page is fully loaded including all
+                          dependent resources like scripts, stylesheets and
+                          images.
                         </td>
                         <td className="align-top">
-                          document.ready (commonly used with jQuery) fires as
-                          soon as the DOM is fully loaded and parsed, even if
-                          images and other resources are still loading.
+                          document.ready fires as soon as the DOM is fully
+                          loaded and parsed even if images and other resources
+                          are still loading.
                         </td>
                       </tr>
                     </tbody>

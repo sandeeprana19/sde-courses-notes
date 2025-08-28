@@ -181,9 +181,9 @@ const JavaScript = () => {
                           images.
                         </td>
                         <td className="align-top">
-                          document.ready fires as soon as the DOM is fully
-                          loaded and parsed even if images and other resources
-                          are still loading.
+                          document.ready fires as soon as DOM is fully loaded
+                          and parsed even if images and other resources are
+                          still loading.
                         </td>
                       </tr>
                     </tbody>
@@ -201,12 +201,12 @@ const JavaScript = () => {
                   <p>
                     A. In JavaScript, prototypal inheritance is a feature where
                     object can inherit properties and methods from another
-                    object and this object is known as prototype. Every object
-                    in javascript has an internal link to a prototype object and
-                    if a property or method isn't found on the object itself
-                    then javascript will look up the prototype chain to find it.
-                    So this allows for shared behavior among objects, making
-                    code more efficient and memory-friendly.
+                    object and this object is known as prototype. So every
+                    object in javascript has an internal link to a prototype
+                    object and if a property or method isn't found on the object
+                    itself then javascript will look up in the prototype chain
+                    to find it. So this allows for shared behavior among
+                    objects, making code more efficient and memory-friendly.
                   </p>
                   <p>For example:</p>
                   <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
@@ -233,7 +233,7 @@ const JavaScript = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                6. What the priority between window.something and
+                6. Whats the priority between window.something and
                 document.getElementById?
               </div>
               <div className="collapse-content overflow-x-auto">
@@ -257,8 +257,8 @@ const JavaScript = () => {
                     strict mode, window.myButton will always return undefined.
                   </p>
                   <p>
-                    So, to avoid conflicts, always prefer
-                    document.getElementById() when selecting DOM elements.
+                    So to avoid conflicts I always prefer to use
+                    document.getElementById() while selecting DOM elements.
                   </p>
                 </div>
               </div>

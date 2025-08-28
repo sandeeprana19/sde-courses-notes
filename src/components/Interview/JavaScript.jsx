@@ -73,9 +73,9 @@ const JavaScript = () => {
                         <div className="flex flex-col gap-y-2">
                           <p>
                             The triple equals (===) is known as strict equality
-                            operator because it does not perform type coercion.
-                            Both the data type and the value must be the same
-                            for it to return true.
+                            operator because it does not perform type coercion
+                            before comparing. This means both the data type and
+                            the value must be the same for it to return true.
                           </p>
                           <p>
                             For example: When we try to compare number data type

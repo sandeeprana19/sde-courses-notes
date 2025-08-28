@@ -10,6 +10,9 @@ const NamasteJavascript = lazy(() =>
 );
 const NamasteReact = lazy(() => import("./components/Courses/NamasteReact"));
 const NextJs = lazy(() => import("./components/Courses/NextJs"));
+const CrackFrontendInterview = lazy(() =>
+  import("./components/Courses/CrackFrontendInterview")
+);
 const Html = lazy(() => import("./components/Interview/Html"));
 const JavaScript = lazy(() => import("./components/Interview/JavaScript"));
 const React = lazy(() => import("./components/Interview/React"));
@@ -40,6 +43,14 @@ const appRouter = createBrowserRouter([
         element: (
           <Suspense fallback={<h1>Loading...</h1>}>
             <NextJs />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/crack-frontend-interview",
+        element: (
+          <Suspense fallback={<h1>Loading...</h1>}>
+            <CrackFrontendInterview />
           </Suspense>
         ),
       },

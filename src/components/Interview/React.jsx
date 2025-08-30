@@ -112,7 +112,7 @@ const React = () => {
                     methods works.
                   </p>
                   <p>
-                    And now let's say we've updated the state variable by
+                    And now let's say I've updated the state variable by
                     passing the fetched api data as an argument to setState
                     method within componentDidMount function of 1st child class
                     component then react will start updating phase of 1st child
@@ -123,7 +123,7 @@ const React = () => {
                     react lifecycle methods works.
                   </p>
                   <p>
-                    And now let's say we've left the page and go to another page
+                    And now let's say I've left the page and go to another page
                     then react will start the unmounting lifecycle where
                     componentWillUnmount will be called before we go to another
                     page.

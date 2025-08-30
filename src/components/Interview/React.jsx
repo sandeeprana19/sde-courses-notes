@@ -112,9 +112,9 @@ const React = () => {
                     methods works.
                   </p>
                   <p>
-                    And now let's say I've updated the state variable by
-                    passing the fetched api data as an argument to setState
-                    method within componentDidMount function of 1st child class
+                    And now let's say I've updated the state variable by passing
+                    the fetched api data as an argument to setState method
+                    within componentDidMount function of 1st child class
                     component then react will start updating phase of 1st child
                     class component where render will be called within render
                     phase & then react start the commit phase where it will
@@ -162,7 +162,7 @@ const React = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. An useState() hook basically generates super powerful
-                    state variables and state updating function in react. So to
+                    state variable and state updating function in react. So to
                     use it first of all, it needed to be named import from
                     react. And then as useState hook is again a function so I'll
                     can call it like a function & pass any argument as initial

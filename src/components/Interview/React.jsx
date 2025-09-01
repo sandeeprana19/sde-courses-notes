@@ -264,8 +264,8 @@ const React = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. Reconciliation algorithm is also known as React Fiber
-                    since the release of React 16. So let’s say we’ve a UI of
-                    top rated restaurant button and restaurants container which
+                    since the release of React 16. So let’s say I’ve a UI of top
+                    rated restaurant button and restaurants container which
                     contain 10 restaurant cards so whenever react render this UI
                     it will create the virtual DOM which is actually the
                     representation of actual dom & then react keep this virtual

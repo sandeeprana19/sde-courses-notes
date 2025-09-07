@@ -476,9 +476,9 @@ const React = () => {
                     React functional component is the newer way of creating
                     component in react. So it's just a normal javascript
                     function which return some piece of jsx code so that's all
-                    is known as react functional component. So whenever we
-                    create any react functional component create with a capital
-                    letter otherwise we'll get an error because it's a react way
+                    is known as react functional component. So whenever I create
+                    any react functional component I create with a capital
+                    letter otherwise I'll get an error because it's a react way
                     to understand that this is a react functional component.
                   </p>
                 </div>

@@ -16,10 +16,10 @@ const React = () => {
                   <div className="flex flex-col gap-y-2">
                     <p>
                       A. Thank you for this opportunity to introduce myself. I'm
-                      currently working as a React Developer where I have been
-                      an integral part of the React engineering team. I've had
-                      the privilege of leading 2 out of 3 major React projects
-                      like:
+                      currently working as a React Developer at capital numbers
+                      infotech pvt ltd where I have been an integral part of the
+                      React engineering team. I've had the privilege of leading
+                      2 out of 3 major React projects like:
                     </p>
                     <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
                       <li>

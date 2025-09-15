@@ -50,7 +50,7 @@ const React = () => {
                     </p>
                     <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
                       <li>
-                        A GPT-powered search delivering five related movies for
+                        A GPT-powered search that delivers five related movies for
                         any genre query.
                       </li>
                       <li>

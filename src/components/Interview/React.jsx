@@ -50,8 +50,8 @@ const React = () => {
                     </p>
                     <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
                       <li>
-                        A GPT-powered search that delivers five related movies for
-                        any genre query.
+                        A GPT-powered search that delivers five related movies
+                        for any genre query.
                       </li>
                       <li>
                         Efficient data flow using Redux to display categorized
@@ -249,7 +249,7 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <p>
                   A. Diff algorithm basically finds out the difference between
-                  two virtual DOMs that are updated virtual DOM and previous
+                  two virtual DOMs that are previous virtual DOM and updated
                   virtual DOM.
                 </p>
               </div>

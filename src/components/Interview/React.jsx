@@ -470,7 +470,7 @@ const React = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. React class based component is the older way of creating
-                    component in react. And it's a normal javascript class.
+                    component in react. And it's just a normal javascript class.
                   </p>
                   <p>
                     React functional component is the newer way of creating

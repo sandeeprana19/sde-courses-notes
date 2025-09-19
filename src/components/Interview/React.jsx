@@ -513,9 +513,12 @@ const React = () => {
                     A. There're several ways to do code splitting in react like:
                   </p>
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                    <li>Using React.lazy() and Suspense.</li>
+                    <li>Using React.lazy() and Suspense component.</li>
                     <li>Using bundlers like Vite or Webpack.</li>
-                    <li>Using React Router with React.lazy() and Suspense.</li>
+                    <li>
+                      Using React Router with React.lazy() and Suspense
+                      component.
+                    </li>
                     <li>Using dynamic import() statements.</li>
                     <li>
                       Using third-party libraries like @loadable/component, etc.
@@ -682,8 +685,8 @@ const React = () => {
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
                 1. Can you explain the key differences between react class
-                component and functional component with hook? When would you
-                choose one over the other?
+                component and react functional component with hook? When would
+                you choose one over the other?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
@@ -731,8 +734,8 @@ const React = () => {
                       @reduxjs/toolkit and react-redux so that I can work with
                       redux.
                     </li>
-                    <li>Then I'll build app store.</li>
-                    <li>Then I'll provide app store to the react app.</li>
+                    <li>Then I'll an build app store.</li>
+                    <li>Then I'll provide an app store to the react app.</li>
                     <li>Then I'll create a slice to add item to the cart.</li>
                     <li>
                       Then I'll basically dispatch an action when I click on add

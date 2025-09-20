@@ -762,7 +762,8 @@ const React = () => {
                       @testing-library/react. And then let say I render the
                       contact component in a test DOM and then query element
                       like heading, and then assert it's presence with expect
-                      function for checking if the contact page heading render.
+                      function for checking if the contact page heading render
+                      or not.
                     </p>
                   </div>
                   <div className="flex flex-col gap-y-2">
@@ -893,8 +894,8 @@ const React = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. One of the key techniques I used is code splitting with
-                    React.lazy() and Suspense to lazy-load heavy components and
-                    I also leveraged bundlers like Vite/Webpack.
+                    React.lazy() and Suspense component to lazy-load heavy
+                    components and I also leveraged bundlers like Vite/Webpack.
                   </p>
                   <p>
                     Apart from that, I always make sure to use a proper key prop
@@ -924,7 +925,7 @@ const React = () => {
                   <div className="flex flex-col gap-y-2">
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
-                      I prefer rendering the UI first, then making the API call
+                      I prefer rendering the UI first, then making an API call
                       in useEffect and then updating the state with the fetched
                       data. This way, users see the layout instantly and I avoid
                       blocking the initial render.
@@ -1009,8 +1010,8 @@ const React = () => {
                   <div className="flex flex-col gap-y-2">
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
-                      State management helps to ensure I only re-render the
-                      parts of the UI that actually need to change. By
+                      State management helps to ensure that it only re-render
+                      the parts of the UI that actually need to change. By
                       structuring state properly and keeping it as local as
                       possible, I reduce unnecessary renders and improve app
                       performance.

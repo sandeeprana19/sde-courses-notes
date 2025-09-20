@@ -1013,7 +1013,7 @@ const React = () => {
                       State management helps to ensure that it only re-render
                       the parts of the UI that actually need to change. By
                       structuring state properly and keeping it as local as
-                      possible, I reduce unnecessary renders and improve app
+                      possible, it reduce unnecessary renders and improve app
                       performance.
                     </p>
                   </div>

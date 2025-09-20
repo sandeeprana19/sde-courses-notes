@@ -1068,7 +1068,7 @@ const React = () => {
                     <p>
                       So in such case, I think I can use a technique like
                       debouncing with useEffect and setTimeout. So debouncing
-                      delays the API call until the user stops typing for a set
+                      delays an API call until the user stops typing for a set
                       time, so that I avoid sending a request for every
                       keystroke.
                     </p>

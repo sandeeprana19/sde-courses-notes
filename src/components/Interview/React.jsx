@@ -1067,10 +1067,10 @@ const React = () => {
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
                       So in such case, I think I can use a technique like
-                      debouncing with useEffect and setTimeout or a custom
-                      useDebounce hook. So debouncing delays the API call until
-                      the user stops typing for a set time, so that I avoid
-                      sending a request for every keystroke.
+                      debouncing with useEffect and setTimeout. So debouncing
+                      delays the API call until the user stops typing for a set
+                      time, so that I avoid sending a request for every
+                      keystroke.
                     </p>
                   </div>
                   <div className="flex flex-col gap-y-2">

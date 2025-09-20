@@ -1056,7 +1056,7 @@ const React = () => {
                 expensive operation, right? And I want to minimize it as much as
                 possible. So you are putting in your input in text box and after
                 you have completed putting the input in text box, then I want to
-                call the API, right? So I want there to be some delay before you
+                call the API, right? So I want there to be some delay after you
                 complete, you know completing your input text in the search text
                 box. What is the technique of implementing that in React and how
                 do you do it?

@@ -578,8 +578,8 @@ const React = () => {
                     <code>{`<GrandChild />`}</code> needs some data from{" "}
                     <code>{`<App />`}</code> then I've to pass it through{" "}
                     <code>{`<Parent />`}</code> and <code>{`<Child />`}</code>{" "}
-                    as props even if those components don’t use the data. So
-                    that’s what we call it as props drilling in react.
+                    as props even if those components don’t use that data. So
+                    that’s what I call it as props drilling in react.
                   </p>
                 </div>
               </div>

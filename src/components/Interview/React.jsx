@@ -804,7 +804,8 @@ const React = () => {
                       branding, I wrap my app in ThemeProvider to customize
                       colors, typography, etc. It’s great for fast and
                       professional-looking UIs. But sometimes style overrides
-                      can be tricky and the bundle can grow if not optimized.
+                      can be tricky and the bundle size can grow if not
+                      optimized.
                     </p>
                   </div>
                   <div className="flex flex-col gap-y-2">

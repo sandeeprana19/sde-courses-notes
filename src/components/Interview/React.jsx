@@ -1126,7 +1126,7 @@ const React = () => {
                     </ol>
                   </div>
                   <div className="flex flex-col gap-y-2">
-                    <p>🔍 Expanded Version:</p>
+                    <p>🔍 Expandable Version (if they ask for details):</p>
                     <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                       <li>
                         <p>
@@ -1198,6 +1198,84 @@ const React = () => {
                     use of TypeScript features like optional types, generics,
                     and union types for better code predictability.
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2 className="text-xl font-bold text-white">Asked in Cognizant</h2>
+          <div className="flex flex-col gap-y-4">
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                1. How do you optimize files using webpack?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-4">
+                  <div className="flex flex-col gap-y-2">
+                    <p>
+                      A. To optimize files with webpack it uses strategies like:
+                    </p>
+                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                      <li>
+                        Production mode: Enables minification, scope hoisting,
+                        and other built-in optimizations.
+                      </li>
+                      <li>
+                        Tree-shaking: Removes unused imports via ES modules and
+                        "sideEffects": false.
+                      </li>
+                      <li>
+                        Code-splitting / Lazy loading: Load chunks on demand to
+                        reduce initial bundle size.
+                      </li>
+                      <li>
+                        Long-term caching: Use [contenthash] in filenames for
+                        browser cache efficiency.
+                      </li>
+                      <li>
+                        CSS extraction & minification: Use MiniCssExtractPlugin
+                        + CssMinimizerPlugin.
+                      </li>
+                      <li>
+                        Asset optimization: Compress and optimize images, fonts,
+                        and other static files.
+                      </li>
+                      <li>
+                        Compression: Generate .gz or .br files using
+                        CompressionPlugin.
+                      </li>
+                      <li>
+                        Build performance: Use caching and parallel loaders.
+                      </li>
+                      <li>
+                        Bundle analysis: Use webpack-bundle-analyzer to detect
+                        large dependencies.
+                      </li>
+                      <li>
+                        Runtime & HTTP best practices: Use runtimeChunk:
+                        'single', caching headers, and HTTP/2.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                2. Difference between mapStatesToProps and StateMapToProps?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-4">
+                  <div className="flex flex-col gap-y-2">
+                    <p>
+                      A. There’s actually no function called StateMapToProps in
+                      Redux — the correct term is mapStateToProps. It’s a
+                      function used in React-Redux to map the Redux store state
+                      to a component’s props, so the component can access data
+                      from the store.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

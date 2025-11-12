@@ -4,6 +4,7 @@ const JavaScript = () => {
       <div className="flex flex-col gap-y-5">
         <div className="flex flex-col gap-y-4">
           <h1 className="text-2xl font-bold text-white">JavaScript Q&A</h1>
+          <h2 className="text-xl font-bold text-white">Asked in Others</h2>
           <div className="flex flex-col gap-y-4">
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
@@ -302,6 +303,299 @@ const JavaScript = () => {
                     </tr>
                   </tbody>
                 </table>
+              </div>
+            </div>
+          </div>
+          <h2 className="text-xl font-bold text-white">Asked in Cognizant</h2>
+          <div className="flex flex-col gap-y-4">
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                1. Define object literal?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-4">
+                  <div className="flex flex-col gap-y-2">
+                    <p>A. 💡 Quick Recall (15 sec):</p>
+                    <p>
+                      An object literal is the simplest way to create an object
+                      in JavaScript — by writing its keys and values directly
+                      inside curly braces {}. It’s called literal because we’re
+                      literally defining the object’s content in the code.
+                    </p>
+                    <div className="flex flex-col gap-y-1">
+                      <p>For example:</p>
+                      <p>
+                        <code>{`const person = { name: "John", age: 30 };`}</code>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-y-2">
+                    <p>🔍 Expandable Version (if they ask for details):</p>
+                    <p>
+                      In JavaScript, an object literal is a direct and concise
+                      way to define an object’s structure — all its properties
+                      and values are written inside {} and assigned to a
+                      variable.
+                    </p>
+                    <p>
+                      It’s called object literal syntax because we define the
+                      object “literally” in one place, without using
+                      constructors or classes.
+                    </p>
+                    <div className="flex flex-col gap-y-1">
+                      <p>For example:</p>
+                      <p>
+                        <code>
+                          {`
+                              const car = {
+                                brand: "Toyota",
+                                model: "Corolla",
+                                year: 2024,
+                                start() { console.log("Car started"); }
+                              };
+                            `}
+                        </code>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                2. Why we need to use prototype?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-4">
+                  <div className="flex flex-col gap-y-2">
+                    <p>A. 💡 Quick Recall (15 sec):</p>
+                    <p>
+                      We use prototypes in JavaScript to enable inheritance and
+                      code reuse.
+                    </p>
+                    <p>
+                      They allow objects to share properties and methods without
+                      duplicating them, which saves memory and makes code more
+                      efficient.
+                    </p>
+                    <div className="flex flex-col gap-y-1">
+                      <p>For example:</p>
+                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                        <code>{`
+                          function Person(name) {
+                            this.name = name;
+                          }
+                          
+                          Person.prototype.greet = function() {
+                            console.log(Hello, ${"this.name"});
+                          }
+                        `}</code>
+                      </pre>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-y-2">
+                    <p>🔍 Expandable Version (if they ask for details):</p>
+                    <p>
+                      In JavaScript, an object literal is a direct and concise
+                      way to define an object’s structure — all its properties
+                      and values are written inside {} and assigned to a
+                      variable.
+                    </p>
+                    <p>
+                      It’s called object literal syntax because we define the
+                      object “literally” in one place, without using
+                      constructors or classes.
+                    </p>
+                    <div className="flex flex-col gap-y-1">
+                      <p>For example:</p>
+                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                        <code>
+                          {`
+                              const car = {
+                                brand: "Toyota",
+                                model: "Corolla",
+                                year: 2024,
+                                start() { console.log("Car started"); }
+                              };
+                            `}
+                        </code>
+                      </pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                3. Define call, apply & bind?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-4">
+                  <div className="flex flex-col gap-y-2">
+                    <p>A. 💡 Quick Recall (15 sec):</p>
+                    <p>
+                      call(), apply(), and bind() are JavaScript methods used to
+                      explicitly set the this context of a function. So:
+                    </p>
+                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                      <li>
+                        call() calls the function immediately with arguments
+                        passed individually.
+                      </li>
+                      <li>
+                        apply() calls the function immediately with arguments
+                        passed as an array.
+                      </li>
+                      <li>
+                        bind() doesn't calls the function instead it returns a
+                        new function with the this value permanently set.
+                      </li>
+                    </ol>
+                    <div className="flex flex-col gap-y-1">
+                      <p>For example:</p>
+                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                        <code>{`
+                          function Person(name) {
+                            this.name = name;
+                          }
+                          
+                          Person.prototype.greet = function() {
+                            console.log(Hello, ${"this.name"});
+                          }
+                        `}</code>
+                      </pre>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-y-2">
+                    <p>🔍 Expandable Version (if they ask for details):</p>
+                    <p>
+                      In JavaScript, an object literal is a direct and concise
+                      way to define an object’s structure — all its properties
+                      and values are written inside {} and assigned to a
+                      variable.
+                    </p>
+                    <p>
+                      It’s called object literal syntax because we define the
+                      object “literally” in one place, without using
+                      constructors or classes.
+                    </p>
+                    <div className="flex flex-col gap-y-1">
+                      <p>For example:</p>
+                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                        <code>
+                          {`
+                              const car = {
+                                brand: "Toyota",
+                                model: "Corolla",
+                                year: 2024,
+                                start() { console.log("Car started"); }
+                              };
+                            `}
+                        </code>
+                      </pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                4. Define generator function?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-4">
+                  <div className="flex flex-col gap-y-2">
+                    <p>
+                      A. A generator function in JavaScript is a special type of
+                      function that can pause and resume its execution using the
+                      yield keyword. It’s defined using an asterisk and returns
+                      an iterator object that can produce a sequence of values
+                      over time, instead of returning them all at once.
+                    </p>
+                    <div className="flex flex-col gap-y-1">
+                      <p>For example:</p>
+                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                        <code>{`
+                          function* numbers() {
+                            yield 1;
+                            yield 2;
+                            yield 3;
+                          }
+                        `}</code>
+                      </pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                5. Suppose I want to log api responses How to write test cases
+                for it?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-4">
+                  <div className="flex flex-col gap-y-2">
+                    <p>A. 💡 Quick Recall (15 sec):</p>
+                    <p>
+                      We use prototypes in JavaScript to enable inheritance and
+                      code reuse.
+                    </p>
+                    <p>
+                      They allow objects to share properties and methods without
+                      duplicating them, which saves memory and makes code more
+                      efficient.
+                    </p>
+                    <div className="flex flex-col gap-y-1">
+                      <p>For example:</p>
+                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                        <code>{`
+                          function Person(name) {
+                            this.name = name;
+                          }
+                          
+                          Person.prototype.greet = function() {
+                            console.log(Hello, ${"this.name"});
+                          }
+                        `}</code>
+                      </pre>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-y-2">
+                    <p>🔍 Expandable Version (if they ask for details):</p>
+                    <p>
+                      In JavaScript, an object literal is a direct and concise
+                      way to define an object’s structure — all its properties
+                      and values are written inside {} and assigned to a
+                      variable.
+                    </p>
+                    <p>
+                      It’s called object literal syntax because we define the
+                      object “literally” in one place, without using
+                      constructors or classes.
+                    </p>
+                    <div className="flex flex-col gap-y-1">
+                      <p>For example:</p>
+                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                        <code>
+                          {`
+                              const car = {
+                                brand: "Toyota",
+                                model: "Corolla",
+                                year: 2024,
+                                start() { console.log("Car started"); }
+                              };
+                            `}
+                        </code>
+                      </pre>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

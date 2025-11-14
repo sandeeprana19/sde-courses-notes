@@ -1279,6 +1279,67 @@ const React = () => {
                 </div>
               </div>
             </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                3. Suppose I want to log api responses How to write test cases
+                for it?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-4">
+                  <div className="flex flex-col gap-y-2">
+                    <p>A. 💡 Quick Recall (15 sec):</p>
+                    <p>
+                      Mock the network and spy on the logger. Trigger the code
+                      (call the function or render the component), wait for
+                      async work to finish, then assert the logger (e.g.,
+                      console.log or your telemetry function) was called with
+                      the expected payload. Prefer asserting UI/state changes
+                      where possible.
+                    </p>
+                  </div>
+                  <div className="flex flex-col gap-y-2">
+                    <p>🔍 Expandable Version (if they ask for details):</p>
+                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                      <li>
+                        Isolate logging — abstract logging into a small
+                        function/module like logApiResponse(response) or
+                        analytics.report(response) so tests can spy or mock it.
+                      </li>
+                      <li>
+                        Tree-shaking: Removes unused imports via ES modules and
+                        "sideEffects": false.
+                      </li>
+                      <li>
+                        Mock the network — mock fetch, axios, or use MSW
+                        (recommended) to return controlled responses.
+                      </li>
+                      <li>
+                        Spy on logger — jest.spyOn(console, 'log') or mock your
+                        telemetry module to assert calls and payloads.
+                      </li>
+                      <li>
+                        Trigger the behavior — call the utility or render the
+                        component that fetches on mount.
+                      </li>
+                      <li>
+                        Await async — use await waitFor(...), findBy..., or
+                        await act(...) to ensure promises resolve before
+                        asserting.
+                      </li>
+                      <li>
+                        Assert — check the logger was called with expected data
+                        and (preferably) verify visible UI/state update.
+                      </li>
+                      <li>
+                        Cleanup — restore mocks with mockRestore() or
+                        jest.restoreAllMocks().
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

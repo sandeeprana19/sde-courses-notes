@@ -251,15 +251,20 @@ const JavaScript = () => {
                     DOM element by its ID.
                   </p>
                   <p>
-                    So in loose mode, If a button element has an id="myButton" &
-                    there's also a global variable named myButton then it will
-                    create a conflict & window.myButton will always refer to the
-                    variable not the button element having id="myButton". But it
-                    strict mode, window.myButton will always return undefined.
+                    So in loose mode, if an element has id="myButton" then the
+                    browser exposes it as window.myButton and then let say if a
+                    global variable with the same name also exists then that
+                    global variable overrides the ID-based reference. So
+                    window.myButton refers to the variable not the element.
+                  </p>
+                  <p>
+                    And in strict mode, browsers don't create ID-based global
+                    variables, so window.myButton is undefined unless I
+                    explicitly define it.
                   </p>
                   <p>
                     So to avoid conflicts I always prefer to use
-                    document.getElementById() while selecting DOM elements.
+                    document.getElementById() to select DOM element.
                   </p>
                 </div>
               </div>
@@ -311,7 +316,7 @@ const JavaScript = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                1. Define object literal?
+                1. Define an object literal?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-4">
@@ -319,9 +324,9 @@ const JavaScript = () => {
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
                       An object literal is the simplest way to create an object
-                      in JavaScript — by writing its keys and values directly
-                      inside curly braces {}. It’s called literal because we’re
-                      literally defining the object’s content in the code.
+                      in JavaScript by defining its keys and values directly
+                      inside curly braces {}. And it’s called literal because
+                      I'm literally defining the object’s content in the code.
                     </p>
                     <div className="flex flex-col gap-y-1">
                       <p>For example:</p>
@@ -372,7 +377,7 @@ const JavaScript = () => {
                   <div className="flex flex-col gap-y-2">
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
-                      We use prototypes in JavaScript to enable inheritance and
+                      We use prototype in JavaScript to enable inheritance and
                       code reuse.
                     </p>
                     <p>
@@ -438,36 +443,24 @@ const JavaScript = () => {
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
                       call(), apply(), and bind() are JavaScript methods used to
-                      explicitly set the this context of a function. So:
+                      explicitly set the this keyword context of a function. So:
                     </p>
                     <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                       <li>
-                        call() calls the function immediately with arguments
-                        passed individually.
+                        call() calls the function immediately with set this
+                        keyword to whatever object I passed as 1st argument to
+                        it & then arguments passed individually.
                       </li>
                       <li>
-                        apply() calls the function immediately with arguments
-                        passed as an array.
+                        apply() calls the function immediately with set this
+                        keyword to whatever object I passed as 1st argument to
+                        it & then arguments passed as an array.
                       </li>
                       <li>
                         bind() doesn't calls the function instead it returns a
                         new function with the this value permanently set.
                       </li>
                     </ol>
-                    <div className="flex flex-col gap-y-1">
-                      <p>For example:</p>
-                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                        <code>{`
-                          function Person(name) {
-                            this.name = name;
-                          }
-                          
-                          Person.prototype.greet = function() {
-                            console.log(Hello, ${"this.name"});
-                          }
-                        `}</code>
-                      </pre>
-                    </div>
                   </div>
                   <div className="flex flex-col gap-y-2">
                     <p>🔍 Expandable Version (if they ask for details):</p>
@@ -477,26 +470,71 @@ const JavaScript = () => {
                       and values are written inside {} and assigned to a
                       variable.
                     </p>
-                    <p>
-                      It’s called object literal syntax because we define the
-                      object “literally” in one place, without using
-                      constructors or classes.
-                    </p>
-                    <div className="flex flex-col gap-y-1">
-                      <p>For example:</p>
-                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                        <code>
-                          {`
-                              const car = {
-                                brand: "Toyota",
-                                model: "Corolla",
-                                year: 2024,
-                                start() { console.log("Car started"); }
-                              };
-                            `}
-                        </code>
-                      </pre>
-                    </div>
+                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                      <li>
+                        <div className="flex flex-col gap-y-2">
+                          <p>call()</p>
+                          <p>
+                            Calls a function immediately, letting you set the
+                            this context and pass arguments one by one.
+                          </p>
+                          <div className="flex flex-col gap-y-1">
+                            <p>For example:</p>
+                            <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                              <code>
+                                {`
+                                  function greet(greeting) {
+                                    console.log(${"greeting"}, ${"this.name"});
+                                  }
+
+                                  const user = { name: "Alice" };
+                                  greet.call(user, "Hello"); // Hello, Alice
+                                `}
+                              </code>
+                            </pre>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="flex flex-col gap-y-2">
+                          <p>apply()</p>
+                          <p>
+                            Similar to call(), but arguments are passed as an
+                            array.
+                          </p>
+                          <div className="flex flex-col gap-y-1">
+                            <p>For example:</p>
+                            <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                              <code>
+                                {`
+                                  greet.apply(user, ["Hi"]); // Hi, Alice
+                                `}
+                              </code>
+                            </pre>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="flex flex-col gap-y-2">
+                          <p>bind()</p>
+                          <p>Does not call the function immediately.</p>
+                          <p>
+                            Instead, it returns a new function with this
+                            permanently bound to the given object.
+                          </p>
+                          <div className="flex flex-col gap-y-1">
+                            <p>For example:</p>
+                            <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
+                              <code>
+                                {`
+                                  Instead, it returns a new function with this permanently bound to the given object.
+                                `}
+                              </code>
+                            </pre>
+                          </div>
+                        </div>
+                      </li>
+                    </ol>
                   </div>
                 </div>
               </div>

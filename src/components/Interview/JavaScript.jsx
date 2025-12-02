@@ -442,23 +442,21 @@ const JavaScript = () => {
                   <div className="flex flex-col gap-y-2">
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
-                      call(), apply(), and bind() are JavaScript methods used to
-                      explicitly set the this keyword context of a function. So:
+                      call, apply, and bind are javascript function methods used
+                      to explicitly set the value of this for a function. So:
                     </p>
                     <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                       <li>
-                        call() calls the function immediately with set this
-                        keyword to whatever object I passed as 1st argument to
-                        it & then arguments passed individually.
+                        call() calls the function immediately with this set to
+                        1st argument & then arguments passed individually.
                       </li>
                       <li>
-                        apply() calls the function immediately with set this
-                        keyword to whatever object I passed as 1st argument to
-                        it & then arguments passed as an array.
+                        apply() calls the function immediately with this set to
+                        1st argument & then arguments passed as an array.
                       </li>
                       <li>
                         bind() doesn't calls the function instead it returns a
-                        new function with the this value permanently set.
+                        new function with this permanently bound.
                       </li>
                     </ol>
                   </div>

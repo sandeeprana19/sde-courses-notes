@@ -38,7 +38,7 @@ const React = () => {
                     <p>
                       All these projects were developed using technologies like
                       React, Redux, JavaScript, TailwindCSS, MaterialUI, and
-                      SCSS, ensuring modern and efficient web applications.
+                      SCSS, ensuring modern and efficient react applications.
                     </p>
                   </div>
                   <div className="flex flex-col gap-y-2">

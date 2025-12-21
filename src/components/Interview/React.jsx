@@ -170,7 +170,7 @@ const React = () => {
                   </p>
                   <p>
                     And then this useState hook return an array from which I'll
-                    destructure two element like state variable and state
+                    destructure two elements like state variable and state
                     updating function.
                   </p>
                   <p>
@@ -766,23 +766,6 @@ const React = () => {
                       or not.
                     </p>
                   </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>🔍 Expandable Version (if they ask for details):</p>
-                    <p>
-                      Let’s say I’m testing a Contact component. Then I'll
-                      create a file like Contact.test.js and then import render
-                      and screen from @testing-library/react and then render the
-                      contact component with render(
-                      <code>{"<Contact />"}</code>
-                      ). And then I'll use screen.getByRole("heading") to find
-                      the heading and then store it in a heading variable and
-                      then use an assertion like
-                      expect(heading).toBeInTheDocument() to confirm it
-                      rendered. This strategy focuses on testing components from
-                      the user’s perspective, rather than their internal
-                      implementation.
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -808,57 +791,6 @@ const React = () => {
                       optimized.
                     </p>
                   </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>🔍 Expandable Version (if they ask for details):</p>
-                    <div className="flex flex-col gap-y-1">
-                      <p>
-                        Once installed, I can import components — for example:
-                      </p>
-                      <p className="flex flex-col">
-                        <code>
-                          {`
-                          import { Button } from '@mui/material';
-                        `}
-                        </code>
-                        <code>
-                          {`
-                          <Button variant="contained">Click Me</Button>
-                        `}
-                        </code>
-                      </p>
-                    </div>
-                    <p>
-                      If I need a custom theme, I use ThemeProvider to set
-                      primary colors, typography, and other styles across the
-                      app.
-                    </p>
-                  </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>Advantages are like:</p>
-                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                      <li>
-                        Pre-built, responsive components that look polished out
-                        of the box.
-                      </li>
-                      <li>Easy theming and customization via ThemeProvider.</li>
-                      <li>Well-documented component API.</li>
-                    </ol>
-                  </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>Challenges are like:</p>
-                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                      <li>
-                        Overriding default styles can get tricky with nested
-                        components.
-                      </li>
-                      <li>Bundle size can grow if not tree-shaken.</li>
-                      <li>Very custom UIs may require extra CSS overrides.</li>
-                    </ol>
-                  </div>
-                  <p>
-                    Overall, I use MUI when I want speed and consistency without
-                    reinventing the UI from scratch.
-                  </p>
                 </div>
               </div>
             </div>
@@ -893,23 +825,13 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec):</p>
                   <p>
-                    A. One of the key techniques I used is code splitting with
-                    React.lazy() and Suspense component to lazy-load heavy
-                    components and I also leveraged bundlers like Vite/Webpack.
-                  </p>
-                  <p>
-                    Apart from that, I always make sure to use a proper key prop
-                    for a list items so that it helps in optimizing rendering
-                    performance when working with dynamic lists. And I also look
-                    at things like memoization for example React.memo, useMemo
-                    and useCallback which helps to avoid unnecessary re-renders.
-                    And I also look at things like debounce api calls in search
-                    boxes.
-                  </p>
-                  <p>
-                    So all these together helps in performance optimization in
-                    react.
+                    I optimize React performance by reducing unnecessary
+                    re-renders and minimizing bundle size. I use code splitting
+                    with React.lazy and Suspense, memoization with React.memo,
+                    useMemo, useCallback, proper key usage in lists, debouncing
+                    API calls and bundler optimizations with Vite or Webpack.
                   </p>
                 </div>
               </div>
@@ -931,22 +853,6 @@ const React = () => {
                       fetched data. This way, users see the layout instantly and
                       I avoid blocking the initial render.
                     </p>
-                  </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>🔍 Expandable Version (if they ask for details):</p>
-                    <p>There are generally two approaches:</p>
-                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                      <li>
-                        Fetching before rendering, which blocks the UI until the
-                        data arrives — slower perceived load.
-                      </li>
-                      <li>
-                        Rendering immediately, then fetching data
-                        asynchronously, which improves user experience. In
-                        React, I use the second approach with useEffect for
-                        fetching and a loading state to indicate progress.
-                      </li>
-                    </ol>
                   </div>
                 </div>
               </div>
@@ -1018,34 +924,6 @@ const React = () => {
                       performance.
                     </p>
                   </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>🔍 Expandable Version (if they want details):</p>
-                    <p>
-                      State management plays a big role in performance because
-                      every state change can trigger a re-render. If we store
-                      too much state at a high level or share it unnecessarily,
-                      it can cause many components to re-render, even if they
-                      don’t need to.
-                    </p>
-                    <p>Strategies I follow include:</p>
-                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                      <li>Keeping state local when possible.</li>
-                      <li>
-                        Splitting large state objects into smaller, more focused
-                        pieces.
-                      </li>
-                      <li>
-                        In larger apps, using dedicated state management tools
-                        like Redux Toolkit or Zustand to centralize and optimize
-                        updates.
-                      </li>
-                    </ol>
-                    <p>
-                      For example, in one dashboard project, moving a frequently
-                      changing counter from global state into a single small
-                      component cut the re-renders across the app by half.”
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -1074,27 +952,6 @@ const React = () => {
                       keystroke.
                     </p>
                   </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>🔍 Expandable Version (if they ask for details):</p>
-                    <p>
-                      In React, frequent API calls on every keystroke can be
-                      expensive. To optimize, so I can use debouncing — meaning,
-                      wait until the user has stopped typing for a short delay
-                      (e.g., 500ms) before triggering the API.
-                    </p>
-                    <p>
-                      Example: I can store the input in state with useState,
-                      then use useEffect to watch that value. Inside, I'll start
-                      a setTimeout to call the API after 500ms. If the user
-                      types again before that delay ends, I’ll clear the timeout
-                      with clearTimeout.
-                    </p>
-                    <p>
-                      This way, we only call the API once after the user pauses
-                      typing, which reduces unnecessary network calls and
-                      improves performance.
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -1121,33 +978,6 @@ const React = () => {
                           set interval. For example, let say only call a
                           function every 1s, even if the event fires
                           continuously.
-                        </p>
-                      </li>
-                    </ol>
-                  </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>🔍 Expandable Version (if they ask for details):</p>
-                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                      <li>
-                        <p>
-                          Debounce: Groups rapid events into a single action by
-                          delaying the execution until no new events occur
-                          during a specified wait time.
-                        </p>
-                        <p>
-                          Use case: Search input → wait until user stops typing
-                          before making an API call.
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          Throttle: Limits the rate at which a function can run,
-                          executing it at fixed intervals no matter how many
-                          times the event occurs.
-                        </p>
-                        <p>
-                          Use case: Window resize or scroll events → update UI
-                          at most once per 200ms.
                         </p>
                       </li>
                     </ol>
@@ -1212,50 +1042,14 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-4">
                   <div className="flex flex-col gap-y-2">
+                    <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
-                      A. To optimize files with webpack it uses strategies like:
+                      I optimize files in Webpack by building in production
+                      mode, enabling minification and tree-shaking, splitting
+                      code into smaller chunks, using content-hashing for
+                      caching, optimizing assets like images and CSS, and
+                      analyzing bundles to remove unused code.
                     </p>
-                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                      <li>
-                        Production mode: Enables minification, scope hoisting,
-                        and other built-in optimizations.
-                      </li>
-                      <li>
-                        Tree-shaking: Removes unused imports via ES modules and
-                        "sideEffects": false.
-                      </li>
-                      <li>
-                        Code-splitting / Lazy loading: Load chunks on demand to
-                        reduce initial bundle size.
-                      </li>
-                      <li>
-                        Long-term caching: Use [contenthash] in filenames for
-                        browser cache efficiency.
-                      </li>
-                      <li>
-                        CSS extraction & minification: Use MiniCssExtractPlugin
-                        + CssMinimizerPlugin.
-                      </li>
-                      <li>
-                        Asset optimization: Compress and optimize images, fonts,
-                        and other static files.
-                      </li>
-                      <li>
-                        Compression: Generate .gz or .br files using
-                        CompressionPlugin.
-                      </li>
-                      <li>
-                        Build performance: Use caching and parallel loaders.
-                      </li>
-                      <li>
-                        Bundle analysis: Use webpack-bundle-analyzer to detect
-                        large dependencies.
-                      </li>
-                      <li>
-                        Runtime & HTTP best practices: Use runtimeChunk:
-                        'single', caching headers, and HTTP/2.
-                      </li>
-                    </ol>
                   </div>
                 </div>
               </div>
@@ -1268,12 +1062,11 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-4">
                   <div className="flex flex-col gap-y-2">
+                    <p>💡 Quick Recall (15 sec)</p>
                     <p>
-                      A. There’s actually no function called StateMapToProps in
-                      Redux — the correct term is mapStateToProps. It’s a
-                      function used in React-Redux to map the Redux store state
-                      to a component’s props, so the component can access data
-                      from the store.
+                      There is no function called StateMapToProps in Redux. The
+                      correct and official function is mapStateToProps, which
+                      maps Redux store state to a React component’s props.
                     </p>
                   </div>
                 </div>
@@ -1282,7 +1075,7 @@ const React = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                3. Suppose I want to log api responses How to write test cases
+                3. Suppose I want to log api responses how to write test cases
                 for it?
               </div>
               <div className="collapse-content overflow-x-auto">
@@ -1297,45 +1090,6 @@ const React = () => {
                       the expected payload. Prefer asserting UI/state changes
                       where possible.
                     </p>
-                  </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>🔍 Expandable Version (if they ask for details):</p>
-                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                      <li>
-                        Isolate logging — abstract logging into a small
-                        function/module like logApiResponse(response) or
-                        analytics.report(response) so tests can spy or mock it.
-                      </li>
-                      <li>
-                        Tree-shaking: Removes unused imports via ES modules and
-                        "sideEffects": false.
-                      </li>
-                      <li>
-                        Mock the network — mock fetch, axios, or use MSW
-                        (recommended) to return controlled responses.
-                      </li>
-                      <li>
-                        Spy on logger — jest.spyOn(console, 'log') or mock your
-                        telemetry module to assert calls and payloads.
-                      </li>
-                      <li>
-                        Trigger the behavior — call the utility or render the
-                        component that fetches on mount.
-                      </li>
-                      <li>
-                        Await async — use await waitFor(...), findBy..., or
-                        await act(...) to ensure promises resolve before
-                        asserting.
-                      </li>
-                      <li>
-                        Assert — check the logger was called with expected data
-                        and (preferably) verify visible UI/state update.
-                      </li>
-                      <li>
-                        Cleanup — restore mocks with mockRestore() or
-                        jest.restoreAllMocks().
-                      </li>
-                    </ol>
                   </div>
                 </div>
               </div>

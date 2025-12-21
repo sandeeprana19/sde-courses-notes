@@ -1083,12 +1083,12 @@ const React = () => {
                   <div className="flex flex-col gap-y-2">
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
-                      Mock the network and spy on the logger. Trigger the code
-                      (call the function or render the component), wait for
-                      async work to finish, then assert the logger (e.g.,
-                      console.log or your telemetry function) was called with
-                      the expected payload. Prefer asserting UI/state changes
-                      where possible.
+                      Mock the API call using jest, spy on the logger like
+                      console.log or a logging service, trigger the component or
+                      function, wait for the async response, and assert that the
+                      logger was called with the expected data. Wherever
+                      possible, also verify the UI or state update instead of
+                      relying only on logs.
                     </p>
                   </div>
                 </div>

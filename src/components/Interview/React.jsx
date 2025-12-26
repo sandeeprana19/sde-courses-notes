@@ -79,58 +79,22 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (10–15 sec)</p>
                   <p>
-                    A. Let's assume there is a parent class component which is
-                    rendering 2 similar child class components so now let me
-                    tell you how react lifecycle methods work in this scenario.
-                    In react lifecycle methods, there are mainly 3 phases that
-                    are mounting phase, updating phase & unmounting phase. And
-                    all of these phases have render phase & commit phase. So
-                    first of all, react starts with the lifecycle methods of
-                    parent class component so it starts with the render phase
-                    first where parent class component constructor is called &
-                    then parent class component render is called & then when
-                    react finds that parent class component is rendering 2
-                    similar child class components then react batches the render
-                    phase of both child class components. So now react start the
-                    lifecycle methods of 1st & 2nd child class components
-                    respectively where first child class component constructor
-                    will be called & then first child class component render
-                    will be called & then 2nd child class component constructor
-                    will be called & then 2nd child class component render will
-                    be called. So this is how the render phase will be completed
-                    for both parent & child class components.
+                    React class components have three lifecycle phases:
+                    Mounting, Updating, and Unmounting.
                   </p>
                   <p>
-                    And then react starts the commit phase where it batches the
-                    commit phase of both child class components & then react
-                    updates the DOM in a single phase for both child class
-                    components & then 1st child class componentDidMount will be
-                    called & then 2nd child class componentDidMount will be
-                    called & then parent class componentDidMount will be called.
-                    So this is how the mounting phase of the react lifecycle
-                    methods works.
+                    During mounting, React renders the component tree and then
+                    commits changes to the DOM.
                   </p>
                   <p>
-                    And now let's say I've updated the state variable by passing
-                    the fetched api data as an argument to setState method
-                    within componentDidMount function of 1st child class
-                    component then react will start updating phase of 1st child
-                    class component where render will be called within render
-                    phase & then react start the commit phase where it will
-                    update the DOM in a single phase & then componentDidUpdate
-                    will be called. So this is how the updating phase of the
-                    react lifecycle methods works.
+                    During updating, React re-renders when props or state
+                    change.
                   </p>
                   <p>
-                    And now let's say I've left the page and go to another page
-                    then react will start the unmounting lifecycle where
-                    componentWillUnmount will be called before we go to another
-                    page.
-                  </p>
-                  <p>
-                    So this is how the react lifecycle methods of class based
-                    components works.
+                    During unmounting, cleanup happens before the component is
+                    removed from the DOM.
                   </p>
                 </div>
               </div>
@@ -262,35 +226,14 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    A. Reconciliation algorithm is also known as React Fiber
-                    since the release of React 16. So let’s say I’ve a UI of top
-                    rated restaurant button and restaurants container which
-                    contain 10 restaurant cards so whenever react render this UI
-                    it will create the virtual DOM which is actually the
-                    representation of actual dom & then react keep this virtual
-                    DOM with it.
-                  </p>
-                  <p>
-                    And then let’s say on click on that top rated restaurant
-                    button react filter out top rated restaurants based on some
-                    logic & then react will again create the updated virtual DOM
-                    & keep it with it.
-                  </p>
-                  <p>
-                    So at this moment diff algorithm comes into picture to find
-                    out the difference between two virtual DOMs that is the
-                    previous virtual DOM meaning the old virtual DOM before
-                    restaurants filtered & updated virtual DOM meaning the new
-                    virtual DOM after restaurants filtered & it will then
-                    actually update the DOM on every render cycle.
-                  </p>
-                  <p>
-                    So basically, this reconciliation algorithm or react fiber
-                    is the new way to find out the difference between two
-                    virtual DOMs & update or manipulate the DOM efficiently on
-                    every render cycle because this is the core job of react. So
-                    this whole algorithm is known as a reconciliation algorithm.
+                    React’s reconciliation algorithm is the process React uses
+                    to compare the previous UI with the new UI and efficiently
+                    update only the parts of the DOM that changed. Since React
+                    16, this process is implemented using React Fiber, which
+                    improves performance by breaking rendering work into small,
+                    interruptible units.
                   </p>
                 </div>
               </div>
@@ -301,13 +244,12 @@ const React = () => {
                 9. What is dot env file?
               </div>
               <div className="collapse-content overflow-x-auto">
+                <p>A. 💡 Quick Recall (15 sec)</p>
                 <p>
-                  A. A .env file is the short form for "environment file" which
-                  is a simple text file and which is used to store environment
-                  variables for react application. These environment variables
-                  typically contain configuration settings such as API keys,
-                  database connection strings, ports, or other sensitive or
-                  environment-specific data.
+                  A .env file is a configuration file used to store environment
+                  variables like API URLs, keys, and feature flags. These
+                  variables help manage environment-specific settings without
+                  hardcoding them into the codebase.
                 </p>
               </div>
             </div>
@@ -348,56 +290,17 @@ const React = () => {
                 12. Difference between react and react-dom?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <table className="table text-base">
-                  <thead>
-                    <tr>
-                      <th className="align-top"></th>
-                      <th className="align-top">react</th>
-                      <th className="align-top">react-dom</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th className="align-top">1</th>
-                      <td className="align-top">
-                        <div className="flex flex-col gap-y-2">
-                          react is the core library that provides the ability to
-                          create and define React components. So it includes
-                          several things like:
-                          <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                            <li>React.createElement()</li>
-                            <li>
-                              Hooks like useState, useEffect, useContext,
-                              useReducer, useRef, etc.
-                            </li>
-                            <li>JSX transformation logic.</li>
-                            <li>
-                              Both react functional component and react class
-                              based component.
-                            </li>
-                          </ol>
-                          So it is framework-agnostic which doesn't care where
-                          or how components are rendered.
-                        </div>
-                      </td>
-                      <td className="align-top">
-                        <div className="flex flex-col gap-y-2">
-                          react-dom is the library that provides DOM-specific
-                          rendering methods to render React components in the
-                          browser. So it includes several things like:
-                          <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                            <li>ReactDOM.render()</li>
-                            <li>
-                              ReactDOM.createRoot() (from React 18 onwards)
-                            </li>
-                            <li>ReactDOM.hydrate() for SSR.</li>
-                          </ol>
-                          So basically it connects react to the browser’s DOM.
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
+                  <p>
+                    react is the core library that defines how components work
+                    and manages state, hooks, and reconciliation.
+                  </p>
+                  <p>
+                    react-dom is the renderer that connects React to the browser
+                    DOM and handles actual DOM updates.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -438,25 +341,6 @@ const React = () => {
                       </li>
                     </ol>
                   </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>🔍 Expanded Version (if interviewer asks follow-up)</p>
-                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                      <li>
-                        State & Lifecycle hooks are like useState, useEffect &
-                        useLayoutEffect.
-                      </li>
-                      <li>Context hook is like useContext.</li>
-                      <li>Performance hooks are like useMemo & useCallback.</li>
-                      <li>
-                        Ref & DOM hooks are like useRef & useImperativeHandle.
-                      </li>
-                      <li>Reducer hook is like useReducer.</li>
-                      <li>
-                        Custom hooks are like any hook I build starting with use
-                        prefix to reuse logic.
-                      </li>
-                    </ol>
-                  </div>
                 </div>
               </div>
             </div>
@@ -491,13 +375,13 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    A. So we can write async keyword before an arrow function
-                    let say fetchData to make it async & then we'll write await
-                    before fetch() which will await for data to come. And then
-                    we'll call this fetchData arrow function inside the 1st
-                    argument of useEffect hook which is the callback function
-                    because this is best place to make an api call in react.
+                    We use async/await inside functions in React—such as event
+                    handlers, helper functions, and functions called inside
+                    useEffect. We don’t make the useEffect callback async;
+                    instead, we define an async function inside it and call that
+                    function.
                   </p>
                 </div>
               </div>
@@ -550,36 +434,12 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    A. Props drilling is a situation in React where I pass props
-                    from a parent component down to deeply nested child
-                    components even if some intermediate components don’t need
-                    that data themselves so just to get it to the final child.
-                  </p>
-                  <p>For example:</p>
-                  <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                    <code>
-                      {`
-                        <App>
-                          └── <Parent>
-                                └── <Child>
-                                      └── <GrandChild />
-                    `}
-                    </code>
-                  </pre>
-                  <p>
-                    Let say I've define deeply nested component like{" "}
-                    <code>{`<App />`}</code> component and then inside that{" "}
-                    <code>{`<App />`}</code> I've <code>{`<Parent />`}</code>{" "}
-                    component and then inside that <code>{`<Parent />`}</code>{" "}
-                    I've <code>{`<Child />`}</code> component & then inside that{" "}
-                    <code>{`<Child />`}</code> I've{" "}
-                    <code>{`<GrandChild />`}</code> component. So if{" "}
-                    <code>{`<GrandChild />`}</code> needs some data from{" "}
-                    <code>{`<App />`}</code> then I've to pass it through{" "}
-                    <code>{`<Parent />`}</code> and <code>{`<Child />`}</code>{" "}
-                    as props even if those components don’t use that data. So
-                    that’s what I call it as props drilling in react.
+                    Props drilling is a situation in React where data is passed
+                    from a parent component to deeply nested child components
+                    through multiple intermediate components, even though those
+                    intermediate components don’t need the data themselves.
                   </p>
                 </div>
               </div>
@@ -668,12 +528,12 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    A. Without a unique key, react re-render all items even if
-                    most haven't changed. So with a key, react can efficiently
-                    reuse existing elements and only update what's necessary.
-                    Therefore, defining a key prop to the list items is
-                    important in react.
+                    The key prop helps React identify which list items have
+                    changed, been added, or removed. Without unique keys, React
+                    may re-render more items than necessary, leading to
+                    inefficient updates and potential UI bugs.
                   </p>
                 </div>
               </div>
@@ -895,13 +755,12 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    A. Hooks like useState, useEffect, and useRef help by
-                    reducing unnecessary work. For example, useRef stores values
-                    without triggering re-renders, and useEffect ensures
-                    expensive code runs only when dependencies changes. On top
-                    of that, useMemo and useCallback can be used to memoize
-                    values and functions for preventing unnecessary re-renders.
+                    React Hooks improve performance by giving us fine-grained
+                    control over state, effects, and memoization. Hooks like
+                    useRef, useEffect, useMemo, and useCallback help avoid
+                    unnecessary re-renders and expensive recomputations.
                   </p>
                 </div>
               </div>
@@ -1062,7 +921,7 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-4">
                   <div className="flex flex-col gap-y-2">
-                    <p>💡 Quick Recall (15 sec)</p>
+                    <p>A. 💡 Quick Recall (15 sec)</p>
                     <p>
                       There is no function called StateMapToProps in Redux. The
                       correct and official function is mapStateToProps, which

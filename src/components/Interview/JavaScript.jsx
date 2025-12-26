@@ -41,82 +41,15 @@ const JavaScript = () => {
                 (===)?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <p>A.</p>
-                <table className="table text-base">
-                  <thead>
-                    <tr>
-                      <th className="align-top"></th>
-                      <th className="align-top">Double equals (==)</th>
-                      <th className="align-top">Triple equals (===)</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th className="align-top">1</th>
-                      <td className="align-top">
-                        <div className="flex flex-col gap-y-2">
-                          <p>
-                            The double equals (==) is known as loose equality
-                            operator because it performs type coercion before
-                            comparing. This means it tries to convert the
-                            operands to the same data type before making the
-                            comparison.
-                          </p>
-                          <p>
-                            For example: When I try to compare number data type
-                            1 == string data type 1 then javascript will type
-                            coerce this string data type 1 to number data type 1
-                            for it to return true.
-                          </p>
-                        </div>
-                      </td>
-                      <td className="align-top">
-                        <div className="flex flex-col gap-y-2">
-                          <p>
-                            The triple equals (===) is known as strict equality
-                            operator because it does not perform type coercion
-                            before comparing. This means both the data type and
-                            the value must be the same for it to return true.
-                          </p>
-                          <p>
-                            For example: When I try to compare number data type
-                            1 === string data type 1 then javascript will not
-                            type coerce this string data type 1 to number data
-                            type 1 for it to return true. So in this case it
-                            always return false.
-                          </p>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th className="align-top">2</th>
-                      <td className="align-top">
-                        <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                          <code>
-                            {`
-                            1 == "1"     // true → "1" (string) is coerced to 1 (number)
-                            1 == 1       // true → same type and value
-                            0 == false   // true → false is coerced to 0
-                            null == undefined // true → special case
-                          `}
-                          </code>
-                        </pre>
-                      </td>
-                      <td className="align-top">
-                        <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                          <code>
-                            {`
-                            1 === "1"    // false → different types (number vs string)
-                            1 === 1      // true → same type and value
-                            0 === false  // false → number vs boolean
-                            null === undefined // false → different types
-                          `}
-                          </code>
-                        </pre>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+                <p>A. 💡 Quick Recall (15 sec)</p>
+                <p>
+                  == is the loose equality operator that compares values after
+                  type coercion, while === is the strict equality operator that
+                  compares both value and type without type coercion.
+                </p>
+                <p>
+                  In practice, === is preferred to avoid unexpected results.
+                </p>
               </div>
             </div>
             <div className="collapse collapse-plus bg-base-200 overflow-x-auto">
@@ -126,32 +59,12 @@ const JavaScript = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    A. A timer in JavaScript is used to schedule code execution
-                    after a certain amount of time. So there are two main timer
-                    functions like:
+                    A timer in JavaScript is used to schedule code execution
+                    either once after a delay or repeatedly at fixed intervals,
+                    using setTimeout and setInterval.
                   </p>
-                  <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
-                    <li>
-                      setTimeout which takes in two arguments that are callback
-                      function & delay respectively & then it will runs the
-                      callback function once after the delay.
-                    </li>
-                    <li>
-                      setInterval which also takes in two arguments that are
-                      callback function & interval respectively & then it will
-                      runs the callback function repeatedly at each interval.
-                    </li>
-                  </ol>
-                  <p className="pl-4">Example:</p>
-                  <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                    <code>
-                      {`
-                        setTimeout(() => console.log("Runs once after 1 second"), 1000);
-                        setInterval(() => console.log("Repeats every 2 seconds"), 2000);
-                      `}
-                    </code>
-                  </pre>
                 </div>
               </div>
             </div>
@@ -163,32 +76,15 @@ const JavaScript = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="overflow-x-auto">
-                  <p>A.</p>
-                  <table className="table text-base">
-                    <thead>
-                      <tr>
-                        <th className="align-top"></th>
-                        <th className="align-top">window.onload</th>
-                        <th className="align-top">document.ready</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th className="align-top">1</th>
-                        <td className="align-top">
-                          window.onload is a JavaScript event that fires after
-                          the entire page is fully loaded including all
-                          dependent resources like scripts, stylesheets and
-                          images.
-                        </td>
-                        <td className="align-top">
-                          document.ready fires as soon as DOM is fully loaded
-                          and parsed even if images and other resources are
-                          still loading.
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <p>A. 💡 Quick Recall (15 sec)</p>
+                  <p>
+                    window.onload fires after the entire page is fully loaded,
+                    including images and external resources.
+                  </p>
+                  <p>
+                    document.ready fires as soon as the DOM is parsed, without
+                    waiting for images or stylesheets.
+                  </p>
                 </div>
               </div>
             </div>
@@ -199,35 +95,13 @@ const JavaScript = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    A. In JavaScript, prototypal inheritance is a feature where
-                    object can inherit properties and methods from another
-                    object and this object is known as prototype. So every
-                    object in javascript has an internal link to a prototype
-                    object and if a property or method isn't found on the object
-                    itself then javascript will look up in the prototype chain
-                    to find it. So this allows for shared behavior among
-                    objects, making code more efficient and memory-friendly.
+                    Prototypal inheritance in JavaScript is a mechanism where
+                    objects inherit properties and methods from another object
+                    called a prototype. If a property isn’t found on the object
+                    itself, JavaScript looks it up through the prototype chain.
                   </p>
-                  <p>For example:</p>
-                  <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                    <code>
-                      {`
-
-                      function Person(name, birthYear) {
-                        this.name = name;
-                        this.birthYear = birthYear;
-                      }
-
-                      Person.prototype.calcAge = function () {
-                        console.log(2025 - this.birthYear);
-                      };
-
-                      const jonas = new Person('Jonas', 1990);
-                      jonas.calcAge(); // Works due to prototypal inheritance
-                    `}
-                    </code>
-                  </pre>
                 </div>
               </div>
             </div>
@@ -239,32 +113,13 @@ const JavaScript = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    A. They don't directly compete in terms of "priority"
-                    because they serve different purposes, but there can be name
-                    collisions.
-                  </p>
-                  <p>
-                    So window.something accesses global properties attached to
-                    the browser’s global object, whereas
-                    document.getElementById() is specifically used to select a
-                    DOM element by its ID.
-                  </p>
-                  <p>
-                    So in loose mode, if an element has id="myButton" then the
-                    browser exposes it as window.myButton and then let say if a
-                    global variable with the same name also exists then that
-                    global variable overrides the ID-based reference. So
-                    window.myButton refers to the variable not the element.
-                  </p>
-                  <p>
-                    And in strict mode, browsers don't create ID-based global
-                    variables, so window.myButton is undefined unless I
-                    explicitly define it.
-                  </p>
-                  <p>
-                    So to avoid conflicts I always prefer to use
-                    document.getElementById() to select DOM element.
+                    window.something accesses global properties on the browser’s
+                    global object, while document.getElementById() explicitly
+                    retrieves a DOM element by its ID. They don’t have a
+                    priority order, but name collisions can occur, which is why
+                    getElementById() is safer and more reliable.
                   </p>
                 </div>
               </div>
@@ -275,7 +130,9 @@ const JavaScript = () => {
                 7. Difference between undefined and null?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <p>A.</p>
+                <p>
+                  A. Let me tell you 2 difference between undefined and null:
+                </p>
                 <table className="table text-base">
                   <thead>
                     <tr>
@@ -328,41 +185,6 @@ const JavaScript = () => {
                       inside curly braces {}. And it’s called literal because
                       I'm literally defining the object’s content in the code.
                     </p>
-                    <div className="flex flex-col gap-y-1">
-                      <p>For example:</p>
-                      <p>
-                        <code>{`const person = { name: "John", age: 30 };`}</code>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>🔍 Expandable Version (if they ask for details):</p>
-                    <p>
-                      In JavaScript, an object literal is a direct and concise
-                      way to define an object’s structure — all its properties
-                      and values are written inside {} and assigned to a
-                      variable.
-                    </p>
-                    <p>
-                      It’s called object literal syntax because we define the
-                      object “literally” in one place, without using
-                      constructors or classes.
-                    </p>
-                    <div className="flex flex-col gap-y-1">
-                      <p>For example:</p>
-                      <p>
-                        <code>
-                          {`
-                              const car = {
-                                brand: "Toyota",
-                                model: "Corolla",
-                                year: 2024,
-                                start() { console.log("Car started"); }
-                              };
-                            `}
-                        </code>
-                      </p>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -385,49 +207,6 @@ const JavaScript = () => {
                       duplicating them, which saves memory and makes code more
                       efficient.
                     </p>
-                    <div className="flex flex-col gap-y-1">
-                      <p>For example:</p>
-                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                        <code>{`
-                          function Person(name) {
-                            this.name = name;
-                          }
-                          
-                          Person.prototype.greet = function() {
-                            console.log(Hello, ${"this.name"});
-                          }
-                        `}</code>
-                      </pre>
-                    </div>
-                  </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>🔍 Expandable Version (if they ask for details):</p>
-                    <p>
-                      In JavaScript, an object literal is a direct and concise
-                      way to define an object’s structure — all its properties
-                      and values are written inside {} and assigned to a
-                      variable.
-                    </p>
-                    <p>
-                      It’s called object literal syntax because we define the
-                      object “literally” in one place, without using
-                      constructors or classes.
-                    </p>
-                    <div className="flex flex-col gap-y-1">
-                      <p>For example:</p>
-                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                        <code>
-                          {`
-                              const car = {
-                                brand: "Toyota",
-                                model: "Corolla",
-                                year: 2024,
-                                start() { console.log("Car started"); }
-                              };
-                            `}
-                        </code>
-                      </pre>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -443,94 +222,20 @@ const JavaScript = () => {
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
                       call, apply, and bind are javascript function methods used
-                      to explicitly set the value of this for a function. So:
+                      to explicitly set the value of this. So:
                     </p>
                     <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                       <li>
-                        call() calls the function immediately with this set to
+                        call() invoke the function immediately with this set to
                         1st argument & then arguments passed individually.
                       </li>
                       <li>
-                        apply() calls the function immediately with this set to
+                        apply() invoke the function immediately with this set to
                         1st argument & then arguments passed as an array.
                       </li>
                       <li>
-                        bind() doesn't calls the function instead it returns a
+                        bind() doesn't invoke the function instead it returns a
                         new function with this permanently bound.
-                      </li>
-                    </ol>
-                  </div>
-                  <div className="flex flex-col gap-y-2">
-                    <p>🔍 Expandable Version (if they ask for details):</p>
-                    <p>
-                      In JavaScript, an object literal is a direct and concise
-                      way to define an object’s structure — all its properties
-                      and values are written inside {} and assigned to a
-                      variable.
-                    </p>
-                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                      <li>
-                        <div className="flex flex-col gap-y-2">
-                          <p>call()</p>
-                          <p>
-                            Calls a function immediately, letting you set the
-                            this context and pass arguments one by one.
-                          </p>
-                          <div className="flex flex-col gap-y-1">
-                            <p>For example:</p>
-                            <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                              <code>
-                                {`
-                                  function greet(greeting) {
-                                    console.log(${"greeting"}, ${"this.name"});
-                                  }
-
-                                  const user = { name: "Alice" };
-                                  greet.call(user, "Hello"); // Hello, Alice
-                                `}
-                              </code>
-                            </pre>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="flex flex-col gap-y-2">
-                          <p>apply()</p>
-                          <p>
-                            Similar to call(), but arguments are passed as an
-                            array.
-                          </p>
-                          <div className="flex flex-col gap-y-1">
-                            <p>For example:</p>
-                            <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                              <code>
-                                {`
-                                  greet.apply(user, ["Hi"]); // Hi, Alice
-                                `}
-                              </code>
-                            </pre>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="flex flex-col gap-y-2">
-                          <p>bind()</p>
-                          <p>Does not call the function immediately.</p>
-                          <p>
-                            Instead, it returns a new function with this
-                            permanently bound to the given object.
-                          </p>
-                          <div className="flex flex-col gap-y-1">
-                            <p>For example:</p>
-                            <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                              <code>
-                                {`
-                                  Instead, it returns a new function with this permanently bound to the given object.
-                                `}
-                              </code>
-                            </pre>
-                          </div>
-                        </div>
                       </li>
                     </ol>
                   </div>
@@ -548,22 +253,10 @@ const JavaScript = () => {
                     <p>
                       A. A generator function in JavaScript is a special type of
                       function that can pause and resume its execution using the
-                      yield keyword. It’s defined using an asterisk and returns
-                      an iterator object that can produce a sequence of values
-                      over time, instead of returning them all at once.
+                      yield keyword. It’s defined using function* and returns an
+                      iterator object that can produce a sequence of values over
+                      time, instead of returning them all at once.
                     </p>
-                    <div className="flex flex-col gap-y-1">
-                      <p>For example:</p>
-                      <pre className="relative bottom-[1.4375rem] right-[10.625rem]">
-                        <code>{`
-                          function* numbers() {
-                            yield 1;
-                            yield 2;
-                            yield 3;
-                          }
-                        `}</code>
-                      </pre>
-                    </div>
                   </div>
                 </div>
               </div>

@@ -48,7 +48,7 @@ const JavaScript = () => {
                   compares both value and type without type coercion.
                 </p>
                 <p>
-                  In practice, === is preferred to avoid unexpected results.
+                  So in practice, === is preferred to avoid unexpected results.
                 </p>
               </div>
             </div>
@@ -79,9 +79,7 @@ const JavaScript = () => {
                   <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
                     window.onload fires after the entire page is fully loaded,
-                    including images and external resources.
-                  </p>
-                  <p>
+                    including images and external resources. While,
                     document.ready fires as soon as the DOM is parsed, without
                     waiting for images or stylesheets.
                   </p>
@@ -99,8 +97,9 @@ const JavaScript = () => {
                   <p>
                     Prototypal inheritance in JavaScript is a mechanism where
                     objects inherit properties and methods from another object
-                    called a prototype. If a property isn’t found on the object
-                    itself, JavaScript looks it up through the prototype chain.
+                    called a prototype. So if a property or method isn’t found
+                    on the object itself then JavaScript looks up through the
+                    prototype chain.
                   </p>
                 </div>
               </div>
@@ -117,8 +116,8 @@ const JavaScript = () => {
                   <p>
                     window.something accesses global properties on the browser’s
                     global object, while document.getElementById() explicitly
-                    retrieves a DOM element by its ID. They don’t have a
-                    priority order, but name collisions can occur, which is why
+                    retrieves a DOM element by its ID. So they don’t have a
+                    priority order, but name collisions can occur which is why
                     getElementById() is safer and more reliable.
                   </p>
                 </div>
@@ -182,8 +181,8 @@ const JavaScript = () => {
                     <p>
                       An object literal is the simplest way to create an object
                       in JavaScript by defining its keys and values directly
-                      inside curly braces {}. And it’s called literal because
-                      I'm literally defining the object’s content in the code.
+                      inside curly braces. And it’s called literal because I'm
+                      literally defining the object’s content in the code.
                     </p>
                   </div>
                 </div>
@@ -200,13 +199,11 @@ const JavaScript = () => {
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
                       We use prototype in JavaScript to enable inheritance and
-                      code reuse.
+                      code reuse. They allow objects to share properties and
+                      methods without duplicating them, which saves memory and
+                      makes code more efficient.
                     </p>
-                    <p>
-                      They allow objects to share properties and methods without
-                      duplicating them, which saves memory and makes code more
-                      efficient.
-                    </p>
+                    <p>Therefore, we need to use prototype in javascript.</p>
                   </div>
                 </div>
               </div>
@@ -251,7 +248,7 @@ const JavaScript = () => {
                 <div className="flex flex-col gap-y-4">
                   <div className="flex flex-col gap-y-2">
                     <p>
-                      A. A generator function in JavaScript is a special type of
+                      A. Generator function in JavaScript is a special type of
                       function that can pause and resume its execution using the
                       yield keyword. It’s defined using function* and returns an
                       iterator object that can produce a sequence of values over

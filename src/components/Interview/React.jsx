@@ -17,9 +17,9 @@ const React = () => {
                     <p>
                       A. Thank you for this opportunity to introduce myself. I'm
                       currently working as a React Developer at capital numbers
-                      infotech pvt ltd where I have been an integral part of the
-                      React engineering team. I've had the privilege of leading
-                      2 out of 3 major React projects like:
+                      infotech pvt ltd where I have been part of the React
+                      engineering team and have led 2 out of 3 major React
+                      projects like:
                     </p>
                     <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
                       <li>
@@ -36,38 +36,26 @@ const React = () => {
                       </li>
                     </ol>
                     <p>
-                      All these projects were developed using technologies like
-                      React, Redux, JavaScript, TailwindCSS, MaterialUI, and
-                      SCSS, ensuring modern and efficient react applications.
+                      Across these projects, I’ve worked extensively with React,
+                      Redux, JavaScript, Tailwind CSS, Material UI, and SCSS,
+                      focusing on performance, clean architecture, and scalable
+                      UI components.
                     </p>
-                  </div>
-                  <div className="flex flex-col gap-y-2">
                     <p>
-                      On the personal side, I also built Netflix-GPT, a
-                      Netflix-like React app that demonstrates my ability to
-                      innovate and optimize performance. This project includes
-                      several Key features like:
+                      In addition to my professional work, I built a personal
+                      project called Netflix-GPT, a Netflix-like application
+                      featuring GPT-powered movie search, Redux-based data flow
+                      using the TMDB API, and Firebase authentication. This
+                      project reflects my interest in combining modern UI with
+                      performance optimization and emerging technologies.
                     </p>
-                    <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
-                      <li>
-                        A GPT-powered search that delivers five related movies
-                        for any genre query.
-                      </li>
-                      <li>
-                        Efficient data flow using Redux to display categorized
-                        movie lists via the TMDB API.
-                      </li>
-                      <li>
-                        Firebase authentication for secure user management.
-                      </li>
-                    </ol>
+                    <p>
+                      Overall, I enjoy building fast, user-friendly React
+                      applications, and I’m excited about the opportunity to
+                      bring my experience and problem-solving mindset to your
+                      team.
+                    </p>
                   </div>
-                  <p>
-                    These projects reflect my passion for creating fast and
-                    user-friendly applications with cutting-edge technologies.
-                    I'm excited to bring this experience and enthusiasm to your
-                    team. Thank you so much for hearing me out so far.
-                  </p>
                 </div>
               </div>
             </div>

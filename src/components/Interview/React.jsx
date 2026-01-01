@@ -36,21 +36,22 @@ const React = () => {
                       </li>
                     </ol>
                     <p>
-                      Across these projects, I’ve worked extensively with React,
-                      Redux, JavaScript, Tailwind CSS, Material UI, and SCSS,
-                      focusing on performance, clean architecture, and scalable
-                      UI components.
+                      So across these projects, I’ve worked extensively with
+                      React, Redux, JavaScript, Tailwind CSS, Material UI, and
+                      SCSS, focusing on performance, clean architecture, and
+                      scalable UI components.
                     </p>
                     <p>
-                      In addition to my professional work, I built a personal
-                      project called Netflix-GPT, a Netflix-like application
-                      featuring GPT-powered movie search, Redux-based data flow
-                      using the TMDB API, and Firebase authentication. This
-                      project reflects my interest in combining modern UI with
-                      performance optimization and emerging technologies.
+                      So in addition to my professional work, I developed a
+                      personal project called Netflix-GPT, a Netflix-like
+                      application featuring GPT-powered movie search,
+                      Redux-based data flow using the TMDB API, and Firebase
+                      authentication. So this project reflects my interest in
+                      combining modern UI with performance optimization and
+                      emerging technologies.
                     </p>
                     <p>
-                      Overall, I enjoy building fast, user-friendly React
+                      So overall, I enjoy developing fast, user-friendly React
                       applications, and I’m excited about the opportunity to
                       bring my experience and problem-solving mindset to your
                       team.
@@ -69,7 +70,7 @@ const React = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>A. 💡 Quick Recall (10–15 sec)</p>
                   <p>
-                    React class components have three lifecycle phases:
+                    React class components have three lifecycle phases like
                     Mounting, Updating, and Unmounting.
                   </p>
                   <p>
@@ -77,8 +78,8 @@ const React = () => {
                     commits changes to the DOM.
                   </p>
                   <p>
-                    During updating, React re-renders when props or state
-                    change.
+                    During updating, React re-renders the component when props
+                    or state change.
                   </p>
                   <p>
                     During unmounting, cleanup happens before the component is
@@ -113,12 +114,12 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. An useState() hook basically generates super powerful
-                    state variable and state updating function in react. So to
-                    use it first of all, it needed to be named import from
-                    react. And then as useState hook is again a function so I'll
-                    can call it like a function & pass any argument as initial
-                    value of state variable.
+                    A. useState() hook basically generates super powerful state
+                    variable and state updating function in react. So to use it
+                    first of all, it needed to be named import from react. And
+                    then as useState hook is again a function so I'll can call
+                    it like a function & pass any argument as initial value of
+                    state variable.
                   </p>
                   <p>
                     And then this useState hook return an array from which I'll
@@ -142,7 +143,7 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. An useEffect hook has its own specific arrow function and
+                    A. useEffect hook has its own specific arrow function and
                     dependency array. So to use it first of all, it needed to be
                     named import from react. And then as useEffect hook is again
                     a function so I’ll call it like a function which takes two
@@ -234,8 +235,8 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <p>A. 💡 Quick Recall (15 sec)</p>
                 <p>
-                  A .env file is a configuration file used to store environment
-                  variables like API URLs, keys, and feature flags. These
+                  .env file is a configuration file used to store environment
+                  variables like API URLs, keys, and feature flags. So these
                   variables help manage environment-specific settings without
                   hardcoding them into the codebase.
                 </p>
@@ -249,11 +250,10 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. CSS-in-JS allows us to write scoped, dynamic, and
-                    component-based styles directly inside JavaScript for
-                    improving maintainability, avoiding global conflicts, and
-                    enabling conditional styling based on props or state.
-                    Therefore, we need to do css in js.
+                    A. CSS-in-JS lets us write scoped, component-based, and
+                    dynamic styles inside JavaScript. It helps avoid global CSS
+                    conflicts, improves maintainability, and allows styling
+                    based on props or state.
                   </p>
                 </div>
               </div>

@@ -368,8 +368,8 @@ const React = () => {
                     We use async/await inside functions in React—such as event
                     handlers, helper functions, and functions called inside
                     useEffect. We don’t make the useEffect callback async;
-                    instead, we define an async function inside it and call that
-                    function.
+                    instead, we define an async function inside it and then call
+                    that function.
                   </p>
                 </div>
               </div>
@@ -381,21 +381,14 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    A. There're several ways to do code splitting in react like:
+                    Code splitting in React means breaking the app into smaller
+                    bundles that are loaded on demand. This reduces the initial
+                    bundle size and improves page load performance. It’s
+                    commonly done using React.lazy, Suspense, and dynamic
+                    import().
                   </p>
-                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                    <li>Using React.lazy() and Suspense component.</li>
-                    <li>Using bundlers like Vite or Webpack.</li>
-                    <li>
-                      Using React Router with React.lazy() and Suspense
-                      component.
-                    </li>
-                    <li>Using dynamic import() statements.</li>
-                    <li>
-                      Using third-party libraries like @loadable/component, etc.
-                    </li>
-                  </ol>
                 </div>
               </div>
             </div>
@@ -407,9 +400,9 @@ const React = () => {
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>
-                    A. Error Boundary is the special components that catches
-                    JavaScript errors anywhere in their child component tree,
-                    log those errors and display a fallback UI instead of
+                    A. Error Boundary is the special react component that
+                    catches JavaScript errors anywhere in their child component
+                    tree, log those errors and display a fallback UI instead of
                     crashing the entire app.
                   </p>
                 </div>
@@ -457,9 +450,12 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>💡 Quick Recall (15 sec)</p>
                   <p>
-                    A. Redux is a predictable state container for js app like
-                    React.
+                    A. Redux is a predictable state container for JavaScript
+                    applications, commonly used with React, that helps manage
+                    and centralize application state in a consistent and
+                    predictable way.
                   </p>
                 </div>
               </div>
@@ -602,18 +598,15 @@ const React = () => {
                 testing strategy?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-4">
-                  <div className="flex flex-col gap-y-2">
-                    <p>A. 💡 Quick Recall (15 sec):</p>
-                    <p>
-                      For React unit testing, I usually use
-                      @testing-library/react. And then let say I render the
-                      contact component in a test DOM and then query element
-                      like heading, and then assert it's presence with expect
-                      function for checking if the contact page heading render
-                      or not.
-                    </p>
-                  </div>
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec):</p>
+                  <p>
+                    For React unit testing, I usually use
+                    @testing-library/react. And then let say I render the
+                    contact component in a test DOM and then query element like
+                    heading, and then assert it's presence with expect function
+                    for checking if the contact page heading render or not.
+                  </p>
                 </div>
               </div>
             </div>
@@ -625,20 +618,15 @@ const React = () => {
                 UI library?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-4">
-                  <div className="flex flex-col gap-y-2">
-                    <p>A. 💡 Quick Recall (15 sec):</p>
-                    <p>
-                      I usually install MUI via npm install @mui/material
-                      @emotion/react @emotion/styled & then import components
-                      like Button or Card and then use them directly. For
-                      branding, I wrap my app in ThemeProvider to customize
-                      colors, typography, etc. It’s great for fast and
-                      professional-looking UIs. But sometimes style overrides
-                      can be tricky and the bundle size can grow if not
-                      optimized.
-                    </p>
-                  </div>
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec):</p>
+                  <p>
+                    I use Material UI by installing it via npm, importing
+                    ready-made components like Button and Card, and customizing
+                    the design using ThemeProvider. It helps to build
+                    professional UIs quickly, but styling overrides and bundle
+                    size can be challenges if not managed properly.
+                  </p>
                 </div>
               </div>
             </div>
@@ -651,14 +639,13 @@ const React = () => {
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    A. Yeah, I used Copilot for writing unit tests in a form
-                    validation component. Initially, I wrote one test manually,
-                    and then Copilot started suggesting similar test cases which
-                    really saved my time on boilerplate. Of course, I had to
-                    review and tweak them for accuracy, but overall it speed up
-                    my work and let me focus more on edge cases rather than
-                    repetitive typing.
+                    Yeah! I’ve used GitHub Copilot to speed up writing unit
+                    tests by generating repetitive test cases. After writing the
+                    first test manually, Copilot suggested similar tests, which
+                    reduced boilerplate work and helped me focus more on edge
+                    cases and logic validation.
                   </p>
                 </div>
               </div>
@@ -692,16 +679,14 @@ const React = () => {
                 data for a mapping service?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-4">
-                  <div className="flex flex-col gap-y-2">
-                    <p>A. 💡 Quick Recall (15 sec):</p>
-                    <p>
-                      I prefer rendering the UI first, then making an API call
-                      in useEffect hook and then updating the state with the
-                      fetched data. This way, users see the layout instantly and
-                      I avoid blocking the initial render.
-                    </p>
-                  </div>
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec):</p>
+                  <p>
+                    I prefer rendering the UI first, then making an API call in
+                    useEffect hook and then updating the state with the fetched
+                    data. This way, users see the layout instantly and I avoid
+                    blocking the initial render.
+                  </p>
                 </div>
               </div>
             </div>
@@ -725,12 +710,11 @@ const React = () => {
                     etc.
                   </p>
                   <p>
-                    Now, let give you an example of this react hooks concept
-                    which help me to solve specific problem in a project. So,
-                    let say in one project I had to fetch API data when the
-                    component mounted. So, I'll used useState hook to store the
-                    fetched data and then useEffect hook to handled the side
-                    effect of fetching it on mount.
+                    So, I use React Hooks to solve specific problems by
+                    separating state and side effects. For example, I use
+                    useState to store API data and useEffect to fetch that data
+                    when a component mounts so keeping the logic clean and
+                    predictable.
                   </p>
                 </div>
               </div>
@@ -760,17 +744,14 @@ const React = () => {
                 performance?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-4">
-                  <div className="flex flex-col gap-y-2">
-                    <p>A. 💡 Quick Recall (15 sec):</p>
-                    <p>
-                      State management helps to ensure that it only re-render
-                      the parts of the UI that actually need to change. By
-                      structuring state properly and keeping it as local as
-                      possible, it reduce unnecessary renders and improve app
-                      performance.
-                    </p>
-                  </div>
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec):</p>
+                  <p>
+                    State management helps to ensure that it only re-render the
+                    parts of the UI that actually need to change. By structuring
+                    state properly and keeping it as local as possible, it
+                    reduce unnecessary renders and improve app performance.
+                  </p>
                 </div>
               </div>
             </div>
@@ -788,17 +769,14 @@ const React = () => {
                 do you do it?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-4">
-                  <div className="flex flex-col gap-y-2">
-                    <p>A. 💡 Quick Recall (15 sec):</p>
-                    <p>
-                      So in such case, I think I can use a technique like
-                      debouncing with useEffect and setTimeout. So debouncing
-                      delays an API call until the user stops typing for a set
-                      time, so that I avoid sending a request for every
-                      keystroke.
-                    </p>
-                  </div>
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec):</p>
+                  <p>
+                    So in such case, I think I can use a technique like
+                    debouncing with useEffect and setTimeout. So debouncing
+                    delays an API call until the user stops typing for a set
+                    time, so that I avoid sending a request for every keystroke.
+                  </p>
                 </div>
               </div>
             </div>
@@ -808,27 +786,24 @@ const React = () => {
                 12. Define debounce and throttling?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-4">
-                  <div className="flex flex-col gap-y-2">
-                    <p>A. 💡 Quick Recall (15 sec):</p>
-                    <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-                      <li>
-                        <p>
-                          Debounce delays execution until there’s a pause in
-                          events. For example, let say wait 500ms after the last
-                          keystroke before firing an API call.
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          Throttle ensures execution happens at most once in a
-                          set interval. For example, let say only call a
-                          function every 1s, even if the event fires
-                          continuously.
-                        </p>
-                      </li>
-                    </ol>
-                  </div>
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec):</p>
+                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                    <li>
+                      <p>
+                        Debounce delays execution until there’s a pause in
+                        events. For example, let say wait 500ms after the last
+                        keystroke before firing an API call.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Throttle ensures execution happens at most once in a set
+                        interval. For example, let say only call a function
+                        every 1s, even if the event fires continuously.
+                      </p>
+                    </li>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -887,35 +862,31 @@ const React = () => {
                 1. How do you optimize files using webpack?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-4">
-                  <div className="flex flex-col gap-y-2">
-                    <p>A. 💡 Quick Recall (15 sec):</p>
-                    <p>
-                      I optimize files in Webpack by building in production
-                      mode, enabling minification and tree-shaking, splitting
-                      code into smaller chunks, using content-hashing for
-                      caching, optimizing assets like images and CSS, and
-                      analyzing bundles to remove unused code.
-                    </p>
-                  </div>
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec):</p>
+                  <p>
+                    I optimize files in Webpack by building in production mode,
+                    enabling minification and tree-shaking, splitting code into
+                    smaller chunks, using content-hashing for caching,
+                    optimizing assets like images and CSS, and analyzing bundles
+                    to remove unused code.
+                  </p>
                 </div>
               </div>
             </div>
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                2. Difference between mapStatesToProps and StateMapToProps?
+                2. Difference between mapStateToProps and StateMapToProps?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-4">
-                  <div className="flex flex-col gap-y-2">
-                    <p>A. 💡 Quick Recall (15 sec)</p>
-                    <p>
-                      There is no function called StateMapToProps in Redux. The
-                      correct and official function is mapStateToProps, which
-                      maps Redux store state to a React component’s props.
-                    </p>
-                  </div>
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
+                  <p>
+                    There is no function called StateMapToProps in Redux. The
+                    correct and official function is mapStateToProps, which maps
+                    Redux store state to a React component’s props.
+                  </p>
                 </div>
               </div>
             </div>
@@ -926,18 +897,15 @@ const React = () => {
                 for it?
               </div>
               <div className="collapse-content overflow-x-auto">
-                <div className="flex flex-col gap-y-4">
-                  <div className="flex flex-col gap-y-2">
-                    <p>A. 💡 Quick Recall (15 sec):</p>
-                    <p>
-                      Mock the API call using jest, spy on the logger like
-                      console.log or a logging service, trigger the component or
-                      function, wait for the async response, and assert that the
-                      logger was called with the expected data. Wherever
-                      possible, also verify the UI or state update instead of
-                      relying only on logs.
-                    </p>
-                  </div>
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec):</p>
+                  <p>
+                    Mock the API call using jest, spy on the logger like
+                    console.log, trigger the component, wait for the async
+                    response, and assert that the logger was called with the
+                    expected data. Wherever possible, also verify the UI or
+                    state update instead of relying only on logs.
+                  </p>
                 </div>
               </div>
             </div>

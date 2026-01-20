@@ -117,8 +117,8 @@ const React = () => {
                     A. useState() hook basically generates super powerful state
                     variable and state updating function in react. So to use it
                     first of all, it needed to be named import from react. And
-                    then as useState hook is again a function so I'll can call
-                    it like a function & pass any argument as initial value of
+                    then as useState hook is again a function so I'll call it
+                    like a function & pass any argument as initial value of
                     state variable.
                   </p>
                   <p>

@@ -910,6 +910,59 @@ const React = () => {
               </div>
             </div>
           </div>
+          <h2 className="text-xl font-bold text-white">Asked in Accenture</h2>
+          <div className="flex flex-col gap-y-4">
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                1. Define higher order component?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec):</p>
+                  <p>
+                    A Higher Order Component (HOC) is a function that takes a
+                    component as input and returns a new enhanced component.
+                    It’s used to reuse component logic like authentication,
+                    logging, or data fetching across multiple components.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                2. Define fragment?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
+                  <p>
+                    A Fragment in React lets us group multiple elements without
+                    adding an extra DOM node. It helps keep the DOM clean while
+                    returning multiple elements from a component.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                2. When you'll use react context and redux?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec)</p>
+                  <p>
+                    I use React Context for small to medium shared state like
+                    themes or user info, and Redux for large, complex, or
+                    frequently updated global state where predictability,
+                    debugging, and scalability matter.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

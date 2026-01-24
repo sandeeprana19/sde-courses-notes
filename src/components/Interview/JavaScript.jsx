@@ -259,6 +259,29 @@ const JavaScript = () => {
               </div>
             </div>
           </div>
+          <h2 className="text-xl font-bold text-white">Asked in Accenture</h2>
+          <div className="flex flex-col gap-y-4">
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                1. What are ES6 features?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-4">
+                  <div className="flex flex-col gap-y-2">
+                    <p>A. 💡 Quick Recall (15 sec):</p>
+                    <p>
+                      ES6 introduced modern JavaScript features like let/const,
+                      arrow functions, template literals, destructuring,
+                      spread/rest operators, modules, classes, promises, and
+                      default parameters for making code cleaner, more readable,
+                      and easier to maintain.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

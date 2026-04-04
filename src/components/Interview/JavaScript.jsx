@@ -272,8 +272,8 @@ const JavaScript = () => {
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
                       ES6 introduced modern JavaScript features like let, const,
-                      arrow functions, template literals, destructuring,
-                      spread/rest operators, modules, classes, promises, and
+                      arrow functions, template literals, destructuring, spread
+                      operator, rest operator, modules, classes, promises, and
                       default parameters for making code cleaner, more readable,
                       and easier to maintain.
                     </p>

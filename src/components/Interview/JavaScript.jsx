@@ -271,7 +271,7 @@ const JavaScript = () => {
                   <div className="flex flex-col gap-y-2">
                     <p>A. 💡 Quick Recall (15 sec):</p>
                     <p>
-                      ES6 introduced modern JavaScript features like let/const,
+                      ES6 introduced modern JavaScript features like let, const,
                       arrow functions, template literals, destructuring,
                       spread/rest operators, modules, classes, promises, and
                       default parameters for making code cleaner, more readable,

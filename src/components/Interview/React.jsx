@@ -3,7 +3,7 @@ const React = () => {
     <div className="lg:w-7/12 w-full mx-auto px-5 lg:px-0">
       <div className="flex flex-col gap-y-5">
         <div className="flex flex-col gap-y-4">
-          <h1 className="text-2xl font-bold text-white">React Q&A</h1>
+          <h1 className="text-2xl font-bold text-white">React Q&A [45]</h1>
           <h2 className="text-xl font-bold text-white">Asked in Others</h2>
           <div className="flex flex-col gap-y-4">
             <div className="collapse collapse-plus bg-base-200">
@@ -949,7 +949,7 @@ const React = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                2. When you'll use react context and redux?
+                3. When you'll use react context and redux?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">

@@ -514,10 +514,11 @@ const React = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    The key prop helps React identify which list items have
-                    changed, been added, or removed. Without unique keys, React
+                    The key prop helps react identify which list items have
+                    changed, been added, or removed. Without unique keys, react
                     may re-render more items than necessary, leading to
-                    inefficient updates and potential UI bugs.
+                    inefficient updates and potential UI bugs. Therefore,
+                    defining a key prop to the list items is important in react.
                   </p>
                 </div>
               </div>

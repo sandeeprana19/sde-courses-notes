@@ -3,7 +3,7 @@ const JavaScript = () => {
     <div className="lg:w-7/12 w-full mx-auto px-5 lg:px-0">
       <div className="flex flex-col gap-y-5">
         <div className="flex flex-col gap-y-4">
-          <h1 className="text-2xl font-bold text-white">JavaScript Q&A</h1>
+          <h1 className="text-2xl font-bold text-white">JavaScript Q&A [12]</h1>
           <h2 className="text-xl font-bold text-white">Asked in Others</h2>
           <div className="flex flex-col gap-y-4">
             <div className="collapse collapse-plus bg-base-200">

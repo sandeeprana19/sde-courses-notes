@@ -54,7 +54,7 @@ const React = () => {
                       So overall, I enjoy developing fast, user-friendly React
                       applications, and I’m excited about the opportunity to
                       bring my experience and problem-solving mindset to your
-                      team. Thanks for hearing me out so far.
+                      team. Thankyou so much for hearing me out so far.
                     </p>
                   </div>
                 </div>

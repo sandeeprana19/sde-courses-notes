@@ -54,7 +54,7 @@ const React = () => {
                       So overall, I enjoy developing fast, user-friendly React
                       applications, and I’m excited about the opportunity to
                       bring my experience and problem-solving mindset to your
-                      team.
+                      team. Thanks for hearing me out so far.
                     </p>
                   </div>
                 </div>
@@ -251,9 +251,9 @@ const React = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. CSS-in-JS lets us write scoped, component-based, and
-                    dynamic styles inside JavaScript. It helps avoid global CSS
-                    conflicts, improves maintainability, and allows styling
-                    based on props or state.
+                    dynamic styles inside JavaScript. It helps to avoid global
+                    CSS conflicts, improves maintainability, and allows styling
+                    based on props or state. Therefore, we need to do CSS-in-JS.
                   </p>
                 </div>
               </div>

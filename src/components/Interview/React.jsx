@@ -471,7 +471,7 @@ const React = () => {
                   <p>
                     A. Let's assume there is food ordering app where there is a
                     cart on header & there is food card on which it have add
-                    button so now let me tell how the whole flow of redux
+                    button so now let me tell you how the whole flow of redux
                     architecture works behind the scene.
                   </p>
                   <p>

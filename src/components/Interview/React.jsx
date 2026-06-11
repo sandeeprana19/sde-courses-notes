@@ -940,8 +940,8 @@ const React = () => {
                   <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
                     A Fragment in React lets us group multiple elements without
-                    adding an extra DOM node. It helps keep the DOM clean while
-                    returning multiple elements from a component.
+                    adding an extra DOM node. It helps to keep the DOM clean
+                    while returning multiple elements from a component.
                   </p>
                 </div>
               </div>

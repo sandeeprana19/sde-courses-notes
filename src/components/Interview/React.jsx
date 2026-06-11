@@ -453,7 +453,7 @@ const React = () => {
                   <p>💡 Quick Recall (15 sec)</p>
                   <p>
                     A. Redux is a predictable state container for JavaScript
-                    applications, commonly used with React, that helps manage
+                    applications, commonly used with React, that helps to manage
                     and centralize application state in a consistent and
                     predictable way.
                   </p>
@@ -732,7 +732,7 @@ const React = () => {
                   <p>
                     React Hooks improve performance by giving us fine-grained
                     control over state, effects, and memoization. Hooks like
-                    useRef, useEffect, useMemo, and useCallback help avoid
+                    useRef, useEffect, useMemo, and useCallback help to avoid
                     unnecessary re-renders and expensive recomputations.
                   </p>
                 </div>

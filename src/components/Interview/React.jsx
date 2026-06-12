@@ -237,7 +237,7 @@ const React = () => {
                 <p>
                   .env file is a configuration file used to store environment
                   variables like API URLs, keys, and feature flags. So these
-                  variables help manage environment-specific settings without
+                  variables help to manage environment-specific settings without
                   hardcoding them into the codebase.
                 </p>
               </div>

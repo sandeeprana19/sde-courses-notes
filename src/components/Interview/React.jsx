@@ -131,7 +131,9 @@ const React = () => {
                     update state variable then I just need to call state
                     updating function & then pass the update value as an
                     argument to it. And whenever the state variable change react
-                    will rerender the component.
+                    will rerender the component & during this phase react will
+                    quickly remove the component & update it properly with the
+                    updated value of state variable.
                   </p>
                 </div>
               </div>

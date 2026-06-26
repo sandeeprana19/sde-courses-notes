@@ -130,7 +130,8 @@ const React = () => {
                     And then there is some use case of it like if I want to
                     update state variable then I just need to call state
                     updating function & then pass the update value as an
-                    argument to it.
+                    argument to it. And whenever the state variable change react
+                    will rerender the component.
                   </p>
                 </div>
               </div>

@@ -126,15 +126,42 @@ const React = () => {
                     destructure two elements like state variable and state
                     updating function.
                   </p>
-                  <p>
-                    And then there is some use case of it like if I want to
-                    update state variable then I just need to call state
-                    updating function & then pass the update value as an
-                    argument to it. And whenever the state variable change react
-                    will rerender the component & during this phase react will
-                    quickly remove the component & update it properly with the
-                    updated value of state variable.
-                  </p>
+                  <p>And then there is some use case of it like:</p>
+                  <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+                    <li>
+                      if I want to update state variable then I just need to
+                      call state updating function & then pass the update value
+                      as an argument to it. And whenever the state variable
+                      change react will rerender the component & during this
+                      phase react will quickly remove the component & update it
+                      properly with the updated value of state variable.
+                    </li>
+                    <li>
+                      I can't call useState hook outside of react functional
+                      component because react expect it to be call inside react
+                      functional component instead of outside. But if I do so
+                      then react will throw an error like "Invalid hook call".
+                    </li>
+                    <li>
+                      And I always use useState hook on the top level of react
+                      functional component body so that I don't have lots of
+                      inconsistency in the code because javascript is
+                      synchronous single-threaded language so it will run the
+                      code line by line & also react understand it properly & it
+                      doesn't create inconsistency when it run the code.
+                    </li>
+                    <li>
+                      Never ever use useState hook inside if/else block or for
+                      loop block or nested function block inside react
+                      functional component as they're perfectly valid code
+                      because javascript allows us to do it but I don't have to
+                      do it because this can create inconsistency in the
+                      program. So it's like if I mesh up with react then react
+                      will mesh up my codebase. So I always have to use react
+                      like how react tell us to use like as per it's
+                      documentation.
+                    </li>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -177,6 +204,25 @@ const React = () => {
                       component render & not after on every component render
                       cycle but it will only be call whenever the state variable
                       is updated.
+                    </li>
+                    <li>
+                      And I always use useEffect hook on the top level of react
+                      functional component body so that I don't have lots of
+                      inconsistency in the code because javascript is
+                      synchronous single-threaded language so it will run the
+                      code line by line & also react understand it properly & it
+                      doesn't create inconsistency when it run the code.
+                    </li>
+                    <li>
+                      Never ever use useEffect hook inside if/else block or for
+                      loop block or nested function block inside react
+                      functional component as they're perfectly valid code
+                      because javascript allows us to do it but I don't have to
+                      do it because this can create inconsistency in the
+                      program. So it's like if I mesh up with react then react
+                      will mesh up my codebase. So I always have to use react
+                      like how react tell us to use like as per it's
+                      documentation.
                     </li>
                   </ol>
                 </div>

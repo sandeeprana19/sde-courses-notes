@@ -86,6 +86,59 @@ const React = () => {
                     removed from the DOM.
                   </p>
                 </div>
+                <div className="my-5 text-center">OR</div>
+                <div className="flex flex-col gap-y-2">
+                  <p>
+                    Let's assume there is a parent class component which is
+                    rendering 2 similar child class components so now let me
+                    tell you how react lifecycle methods work in this scenario.
+                    In react lifecycle methods, there are mainly 3 phases that
+                    are mounting phase, updating phase & unmounting phase. And
+                    all of these phases have render phase & commit phase. So
+                    first of all, react starts with the lifecycle methods of
+                    parent class component so it starts with the render phase
+                    where react batches the render phase of both parent & child
+                    class components. And then parent class component
+                    constructor is called & then parent class component render
+                    is called & then when react finds that parent class
+                    component is rendering 2 similar child class components then
+                    first child class component constructor is called & then
+                    first child class component render is called & then 2nd
+                    child class component constructor is called & then 2nd child
+                    class component render is called. So this is how the render
+                    phase is completed for both parent & child class components.
+                  </p>
+                  <p>
+                    And then react starts the commit phase where it batches the
+                    commit phase of both child class components & parent class
+                    component & then react updates the DOM in a single phase for
+                    both child class components & parent class component & then
+                    1st child class componentDidMount is called & then 2nd child
+                    class componentDidMount is called & then parent class
+                    componentDidMount is called. So this is how the mounting
+                    phase of the react lifecycle methods works.
+                  </p>
+                  <p>
+                    And now let's say I've updated the state variable by passing
+                    the fetched api data as an argument to setState method
+                    within componentDidMount function of 1st child class
+                    component then react will start updating phase of 1st child
+                    class component where render is called within render phase &
+                    then react start the commit phase where it update the DOM in
+                    a single phase & then componentDidUpdate is called. So this
+                    is how the updating phase of the react lifecycle methods
+                    works.
+                  </p>
+                  <p>
+                    And now let's say I've left the page and go to another page
+                    then react start the unmounting lifecycle where
+                    componentWillUnmount is called before we go to another page.
+                  </p>
+                  <p>
+                    So this is how the react lifecycle methods of class based
+                    components works.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="collapse collapse-plus bg-base-200">

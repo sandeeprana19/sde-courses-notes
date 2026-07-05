@@ -559,9 +559,8 @@ const React = () => {
                   <p>💡 Quick Recall (15 sec)</p>
                   <p>
                     A. Redux is a predictable state container for JavaScript
-                    applications, commonly used with React, that helps to manage
-                    and centralize application state in a consistent and
-                    predictable way.
+                    applications like React that helps to manage and centralize
+                    application state in a consistent and predictable way.
                   </p>
                 </div>
               </div>

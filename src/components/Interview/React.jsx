@@ -324,7 +324,7 @@ const React = () => {
                     parts of the real DOM that changed. Since React 16, this
                     process is implemented using React Fiber which is a new
                     internal architecture that breaks rendering work into small
-                    units so it doesn't block the main thread while rendering.
+                    units and it doesn't block the main thread while rendering.
                     So diffing figures out what changed and React Fiber controls
                     how and when that work gets executed.
                   </p>

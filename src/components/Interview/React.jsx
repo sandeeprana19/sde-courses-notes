@@ -492,8 +492,8 @@ const React = () => {
                     Code splitting in React means breaking the app into smaller
                     bundles that are loaded on demand. This reduces the initial
                     bundle size and improves page load performance. It’s
-                    commonly done using React.lazy function, Suspense component,
-                    and dynamic import() function.
+                    commonly done using React.lazy function, dynamic import()
+                    function & Suspense component.
                   </p>
                 </div>
               </div>

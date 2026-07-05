@@ -320,7 +320,7 @@ const React = () => {
                   <p>
                     React’s reconciliation algorithm is the process where react
                     uses diff algorithm to find out the difference between two
-                    virtual DOms that are the previous virtual DOM and the
+                    virtual DOMs that are the previous virtual DOM and the
                     updated virtual DOm and efficiently update only the parts of
                     the DOM that changed. Since React 16, this process is
                     implemented using React Fiber which improves performance by

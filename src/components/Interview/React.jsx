@@ -325,8 +325,6 @@ const React = () => {
                     process is implemented using React Fiber which is a new
                     internal architecture that breaks rendering work into small
                     units and it doesn't block the main thread while rendering.
-                    So diffing figures out what changed and React Fiber controls
-                    how and when that work gets executed.
                   </p>
                   <p>
                     So together, this whole process is called the Reconciliation

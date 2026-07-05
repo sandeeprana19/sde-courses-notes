@@ -188,7 +188,7 @@ const React = () => {
                       as an argument to it. And whenever the state variable
                       changed react will rerender the component & then react
                       will quickly remove the component & update it properly
-                      with the updated value of state variable.
+                      with the updated value.
                     </li>
                     <li>
                       I can't call useState hook outside of react functional

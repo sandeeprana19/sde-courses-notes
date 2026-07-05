@@ -94,30 +94,30 @@ const React = () => {
                     tell you how react lifecycle methods work in this scenario.
                     And as I already told early that in react lifecycle methods,
                     there are mainly 3 phases that are mounting phase, updating
-                    phase & unmounting phase. And all of these phases have
-                    render phase & commit phase. So first of all, react starts
+                    phase and unmounting phase. And all of these phases have
+                    render phase and commit phase. So first of all, react starts
                     with the lifecycle methods of parent class component where
-                    it starts with the render phase & then react batches the
-                    render phase of both parent & child class components. And
-                    then parent class component constructor is called & then
-                    parent class component render is called & then when react
+                    it starts with the render phase and then react batches the
+                    render phase of both parent and child class components. And
+                    then parent class component constructor is called and then
+                    parent class component render is called and then when react
                     finds that parent class component is rendering 2 similar
                     child class components then first child class component
-                    constructor is called & then first child class component
-                    render is called & then 2nd child class component
-                    constructor is called & then 2nd child class component
+                    constructor is called and then first child class component
+                    render is called and then 2nd child class component
+                    constructor is called and then 2nd child class component
                     render is called. So this is how the render phase is
-                    completed for both parent & child class components.
+                    completed for both parent and child class components.
                   </p>
                   <p>
                     And then react starts the commit phase where it batches the
-                    commit phase of both child class components & parent class
-                    component & then react updates the DOM in a single phase for
-                    both child class components & parent class component & then
-                    1st child class componentDidMount is called & then 2nd child
-                    class componentDidMount is called & then parent class
-                    componentDidMount is called. So this is how the mounting
-                    phase of the react lifecycle methods works.
+                    commit phase of both child class components and parent class
+                    component and then react updates the DOM in a single phase
+                    for both child class components and parent class component
+                    and then 1st child class componentDidMount is called and
+                    then 2nd child class componentDidMount is called and then
+                    parent class componentDidMount is called. So this is how the
+                    mounting phase of the react lifecycle methods works.
                   </p>
                   <p>
                     And now let's say I've updated the state variable by passing
@@ -126,9 +126,9 @@ const React = () => {
                     component then react will start updating phase of 1st child
                     class component where render is called within render phase &
                     then react start the commit phase where it update the DOM in
-                    a single phase & then componentDidUpdate is called. So this
-                    is how the updating phase of the react lifecycle methods
-                    works.
+                    a single phase and then componentDidUpdate is called. So
+                    this is how the updating phase of the react lifecycle
+                    methods works.
                   </p>
                   <p>
                     And now let's say I've left the page and go to another page
@@ -172,7 +172,7 @@ const React = () => {
                     variable and state updating function in react. So to use it
                     first of all, it needed to be named import from react. And
                     then as useState hook is again a function so I'll call it
-                    like a function & pass any argument as initial value of
+                    like a function and pass any argument as initial value of
                     state variable.
                   </p>
                   <p>
@@ -184,11 +184,11 @@ const React = () => {
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                     <li>
                       if I want to update state variable then I just need to
-                      call state updating function & then pass the update value
-                      as an argument to it. And whenever the state variable
-                      changed react will rerender the component & then react
-                      will quickly remove the component & update it properly
-                      with the updated value.
+                      call state updating function and then pass the update
+                      value as an argument to it. And whenever the state
+                      variable changed react will rerender the component and
+                      then react will quickly remove the component and update it
+                      properly with the updated value.
                     </li>
                     <li>
                       I can't call useState hook outside of react functional
@@ -201,8 +201,8 @@ const React = () => {
                       functional component body so that I don't have lots of
                       inconsistency in the code because javascript is
                       synchronous single-threaded language so it will run the
-                      code line by line & also react understand it properly & it
-                      doesn't create inconsistency when it run the code.
+                      code line by line and also react understand it properly
+                      and it doesn't create inconsistency when it run the code.
                     </li>
                     <li>
                       I never use useState hook inside if/else block or for loop
@@ -249,12 +249,12 @@ const React = () => {
                     <li>
                       If I pass empty dependency array then the callback
                       function will be call once only after initial component
-                      render & not after on every component render cycle.
+                      render and not after on every component render cycle.
                     </li>
                     <li>
                       If I pass any state variable inside dependency array then
                       the callback function will be call once only after initial
-                      component render & not after on every component render
+                      component render and not after on every component render
                       cycle but it will only be call whenever the state variable
                       is updated.
                     </li>
@@ -263,7 +263,7 @@ const React = () => {
                       functional component body so that I don't have lots of
                       inconsistency in the code because javascript is
                       synchronous single-threaded language so it will run the
-                      code line by line & also react understand it properly so
+                      code line by line and also react understand it properly so
                       it doesn't create inconsistency when it run the code.
                     </li>
                     <li>
@@ -441,7 +441,7 @@ const React = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                3. What is react class based component & react functional
+                3. What is react class based component and react functional
                 component?
               </div>
               <div className="collapse-content overflow-x-auto">
@@ -493,7 +493,7 @@ const React = () => {
                     bundle into smaller bundles that are loaded on demand. This
                     reduces the initial bundle size and improves page load
                     performance. And it’s commonly done using React.lazy
-                    function, dynamic import() function & Suspense component.
+                    function, dynamic import() function and Suspense component.
                   </p>
                 </div>
               </div>
@@ -575,7 +575,7 @@ const React = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. Let's assume there is food ordering app where there is a
-                    cart on header & there is food card on which it have add
+                    cart on header and there is food card on which it have add
                     button so now let me tell you how the whole flow of redux
                     architecture works behind the scene.
                   </p>
@@ -673,10 +673,9 @@ const React = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>
                     A. Let's assume there is food ordering app where there is a
-                    cart on header & there is food card on which it have add
+                    cart on header and there is food card on which it have add
                     button so now let me walk you through the process of
-                    implementing redux toolkit into react application and that
-                    are like:
+                    implementing redux into react application and that are like:
                   </p>
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                     <li>

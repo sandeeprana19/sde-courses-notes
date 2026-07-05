@@ -59,7 +59,7 @@ const Html = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                4. Difference between div & span?
+                4. Difference between div and span?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <p>
@@ -99,7 +99,7 @@ const Html = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                7. Difference between rem & px?
+                7. Difference between rem and px?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <p>
@@ -126,7 +126,7 @@ const Html = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                9. Difference between opacity & alpha?
+                9. Difference between opacity and alpha?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <p>

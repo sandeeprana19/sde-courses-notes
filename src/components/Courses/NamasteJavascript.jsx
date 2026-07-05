@@ -26,7 +26,7 @@ const NamasteJavascript = () => {
           <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
             <li>
               The first component of execution context is known as memory
-              component so this is a place where all the variables & functions
+              component so this is a place where all the variables and functions
               are stored as a key value pair and this memory component is also
               known as variable environment.
             </li>
@@ -92,15 +92,15 @@ const NamasteJavascript = () => {
           <p>
             So if we have the above given javascript code in the first phase of
             memory creation javascript skims through the whole program line by
-            line and it will allocate memory to all the variables & functions.
+            line and it will allocate memory to all the variables and functions.
             So as soon as javascript encounter line one that is var n = 2 then
             it allocate memory to n by reserving a memory space to n into memory
-            component. So similarly, javascript goes to the line 2 & it sees
+            component. So similarly, javascript goes to the line 2 and it sees
             that there is also a function which is named as square so it will
             also allocate a memory to square. So when it allocate memory to n it
             stores a special value which is known as undefined and in case of
             function it literally stores the whole function code inside the
-            memory space. And now it also allocate memory to square2 & square4
+            memory space. And now it also allocate memory to square2 and square4
             and as these are another variables so it store undefined for them.
           </p>
         </div>

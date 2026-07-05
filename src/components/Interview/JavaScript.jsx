@@ -211,7 +211,7 @@ const JavaScript = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                3. Define call, apply & bind?
+                3. Define call, apply and bind?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-4">
@@ -224,11 +224,11 @@ const JavaScript = () => {
                     <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                       <li>
                         call() invoke the function immediately with this set to
-                        1st argument & then arguments passed individually.
+                        1st argument and then arguments passed individually.
                       </li>
                       <li>
                         apply() invoke the function immediately with this set to
-                        1st argument & then arguments passed as an array.
+                        1st argument and then arguments passed as an array.
                       </li>
                       <li>
                         bind() doesn't invoke the function instead it returns a

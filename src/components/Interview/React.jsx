@@ -205,15 +205,14 @@ const React = () => {
                       doesn't create inconsistency when it run the code.
                     </li>
                     <li>
-                      Never ever use useState hook inside if/else block or for
-                      loop block or nested function block inside react
-                      functional component as they're perfectly valid code
-                      because javascript allows us to do it but I don't have to
-                      do it because this can create inconsistency in the
-                      program. So it's like if I mesh up with react then react
-                      will mesh up my codebase. So I always have to use react
-                      like how react tell us to use like as per it's
-                      documentation.
+                      I never use useState hook inside if/else block or for loop
+                      block or nested function block inside react functional
+                      component as they're perfectly valid code because
+                      javascript allows us to do it but I don't have to do it
+                      because this can create inconsistency in the program. So
+                      it's like if I mesh up with react then react will mesh up
+                      my codebase. So I always have to use react like how react
+                      tell us to use it as per it's documentation.
                     </li>
                   </ol>
                 </div>
@@ -260,7 +259,7 @@ const React = () => {
                       is updated.
                     </li>
                     <li>
-                      And I always use useEffect hook on the top level of react
+                      And I always use useState hook on the top level of react
                       functional component body so that I don't have lots of
                       inconsistency in the code because javascript is
                       synchronous single-threaded language so it will run the
@@ -268,15 +267,14 @@ const React = () => {
                       doesn't create inconsistency when it run the code.
                     </li>
                     <li>
-                      Never ever use useEffect hook inside if/else block or for
-                      loop block or nested function block inside react
-                      functional component as they're perfectly valid code
-                      because javascript allows us to do it but I don't have to
-                      do it because this can create inconsistency in the
-                      program. So it's like if I mesh up with react then react
-                      will mesh up my codebase. So I always have to use react
-                      like how react tell us to use like as per it's
-                      documentation.
+                      I never use useState hook inside if/else block or for loop
+                      block or nested function block inside react functional
+                      component as they're perfectly valid code because
+                      javascript allows us to do it but I don't have to do it
+                      because this can create inconsistency in the program. So
+                      it's like if I mesh up with react then react will mesh up
+                      my codebase. So I always have to use react like how react
+                      tell us to use it as per it's documentation.
                     </li>
                   </ol>
                 </div>

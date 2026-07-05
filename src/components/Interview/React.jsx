@@ -263,8 +263,8 @@ const React = () => {
                       functional component body so that I don't have lots of
                       inconsistency in the code because javascript is
                       synchronous single-threaded language so it will run the
-                      code line by line & also react understand it properly & it
-                      doesn't create inconsistency when it run the code.
+                      code line by line & also react understand it properly so
+                      it doesn't create inconsistency when it run the code.
                     </li>
                     <li>
                       I never use useState hook inside if/else block or for loop

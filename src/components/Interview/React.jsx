@@ -92,21 +92,22 @@ const React = () => {
                     Let's assume there is a parent class component which is
                     rendering 2 similar child class components so now let me
                     tell you how react lifecycle methods work in this scenario.
-                    In react lifecycle methods, there are mainly 3 phases that
-                    are mounting phase, updating phase & unmounting phase. And
-                    all of these phases have render phase & commit phase. So
-                    first of all, react starts with the lifecycle methods of
-                    parent class component so it starts with the render phase
-                    where react batches the render phase of both parent & child
-                    class components. And then parent class component
-                    constructor is called & then parent class component render
-                    is called & then when react finds that parent class
-                    component is rendering 2 similar child class components then
-                    first child class component constructor is called & then
-                    first child class component render is called & then 2nd
-                    child class component constructor is called & then 2nd child
-                    class component render is called. So this is how the render
-                    phase is completed for both parent & child class components.
+                    And as I already told early that in react lifecycle methods,
+                    there are mainly 3 phases that are mounting phase, updating
+                    phase & unmounting phase. And all of these phases have
+                    render phase & commit phase. So first of all, react starts
+                    with the lifecycle methods of parent class component where
+                    it starts with the render phase & then react batches the
+                    render phase of both parent & child class components. And
+                    then parent class component constructor is called & then
+                    parent class component render is called & then when react
+                    finds that parent class component is rendering 2 similar
+                    child class components then first child class component
+                    constructor is called & then first child class component
+                    render is called & then 2nd child class component
+                    constructor is called & then 2nd child class component
+                    render is called. So this is how the render phase is
+                    completed for both parent & child class components.
                   </p>
                   <p>
                     And then react starts the commit phase where it batches the
@@ -179,7 +180,7 @@ const React = () => {
                     destructure two elements like state variable and state
                     updating function.
                   </p>
-                  <p>And then there is some use case of it like:</p>
+                  <p>And there are some use case of it like:</p>
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                     <li>
                       if I want to update state variable then I just need to

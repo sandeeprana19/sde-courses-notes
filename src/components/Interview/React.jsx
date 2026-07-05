@@ -612,7 +612,7 @@ const React = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                13. Why defining a key prop to the list items is important in
+                13. Why defining a key prop to a list items is important in
                 React?
               </div>
               <div className="collapse-content overflow-x-auto">

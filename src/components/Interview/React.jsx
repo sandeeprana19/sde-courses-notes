@@ -327,6 +327,11 @@ const React = () => {
                     breaking rendering work into small units. And this react
                     fiber is the new way to find out the diff & updated the DOM.
                   </p>
+                  <p>
+                    So this whole process is known Reconciliation Algorithm or
+                    this is how react reconciliation algorithm works behind the
+                    scene.
+                  </p>
                 </div>
               </div>
             </div>

@@ -311,8 +311,8 @@ const React = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                8. What is a Reconciliation Algorithm? or Can you tell me how
-                does React's reconciliation algorithm work?
+                8. What is a React Reconciliation Algorithm? or Can you tell me
+                how does React's reconciliation algorithm work?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
@@ -327,8 +327,8 @@ const React = () => {
                     units and it doesn't block the main thread while rendering.
                   </p>
                   <p>
-                    So together, this whole process is called the Reconciliation
-                    Algorithm.
+                    So together, this whole process is called the React
+                    Reconciliation Algorithm.
                   </p>
                 </div>
               </div>
@@ -465,17 +465,17 @@ const React = () => {
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="interview" />
               <div className="collapse-title text-xl font-medium">
-                4. Where can we use async await in react?
+                4. Where can you use async/await in react?
               </div>
               <div className="collapse-content overflow-x-auto">
                 <div className="flex flex-col gap-y-2">
                   <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    We use async/await inside functions in React—such as event
-                    handlers, helper functions, and functions called inside
-                    useEffect. We don’t make the useEffect callback async;
-                    instead, we define an async function inside it and then call
-                    that function.
+                    I use async/await inside functions in React like event
+                    handlers, helper functions and functions called inside
+                    callback function of useEffect hook. I don’t make the
+                    useEffect hook callback function async instead I define an
+                    async function inside it and then I call that function.
                   </p>
                 </div>
               </div>

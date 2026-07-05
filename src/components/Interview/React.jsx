@@ -318,12 +318,14 @@ const React = () => {
                 <div className="flex flex-col gap-y-2">
                   <p>A. 💡 Quick Recall (15 sec)</p>
                   <p>
-                    React’s reconciliation algorithm is the process React uses
-                    to compare the previous UI with the new UI and efficiently
-                    update only the parts of the DOM that changed. Since React
-                    16, this process is implemented using React Fiber, which
-                    improves performance by breaking rendering work into small,
-                    interruptible units.
+                    React’s reconciliation algorithm is the process where react
+                    uses diff algorithm to find out the difference between two
+                    virtual DOms that are the previous virtual DOM and the
+                    updated virtual DOm and efficiently update only the parts of
+                    the DOM that changed. Since React 16, this process is
+                    implemented using React Fiber which improves performance by
+                    breaking rendering work into small units. And this react
+                    fiber is the new way to find out the diff & updated the DOM.
                   </p>
                 </div>
               </div>

@@ -896,9 +896,21 @@ const React = () => {
                   <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                     <li>
                       <p>
-                        Debounce delays execution until there’s a pause in
-                        events. For example, let say wait 500ms after the last
-                        keystroke before firing an API call.
+                        Debouncing delays a function's execution until a pause
+                        occurs since the last event for example, let's say
+                        waiting 200ms after the last keystroke before firing an
+                        API call. In React, I implement this by binding the
+                        search input's value to a state variable and calling the
+                        API inside a useEffect hook with that state variable in
+                        the dependency array. After each keystroke, the state
+                        updates and triggers React's reconciliation process
+                        where it re-renders the component. Since the dependency
+                        changed, React first runs the previous useEffect's
+                        cleanup function where I call clearTimeout to clear the
+                        old timer then runs the useEffect callback function
+                        again which starts a fresh setTimeout. And then let's
+                        say if there are no keystroke happens from user's end
+                        before 200ms pass then it actually fires the API call.
                       </p>
                     </li>
                     <li>

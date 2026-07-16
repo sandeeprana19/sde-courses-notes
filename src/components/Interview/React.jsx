@@ -903,14 +903,15 @@ const React = () => {
                         search input's value to a state variable and calling the
                         API inside a useEffect hook with that state variable in
                         the dependency array. After each keystroke, the state
-                        updates and triggers React's reconciliation process
-                        where it re-renders the component. Since the dependency
-                        changed, React first runs the previous useEffect's
-                        cleanup function where I call clearTimeout to clear the
-                        old timer then runs the useEffect callback function
-                        again which starts a fresh setTimeout. And then let's
-                        say if there are no keystroke happens from user's end
-                        before 200ms pass then it actually fires the API call.
+                        updates and triggers React's reconciliation algorithm
+                        process where it re-renders the component and then since
+                        the dependency changed, React first runs the previous
+                        useEffect's cleanup function where I call clearTimeout
+                        to clear the old timer & then runs the useEffect
+                        callback function again which starts a fresh setTimeout.
+                        And then let's say if there are no keystroke happens
+                        from user's end before 200ms pass then it actually fires
+                        the API call.
                       </p>
                     </li>
                     <li>

@@ -905,17 +905,16 @@ const React = () => {
                         In React, I usually implement this using useState and
                         useEffect. I bound the search input to a state variable
                         and then I include that in the useEffect dependency
-                        array. And then every time the user types, the state
-                        updates, React re-renders the component and because the
-                        dependency changed React first executes the previous
-                        useEffect cleanup function where I call clearTimeout()
-                        function to cancel the previous timer. And then it runs
-                        the useEffect callback again, which starts a new
-                        setTimeout() function.
-                      </p>
-                      <p>
-                        And then if the user doesn't type any key strokes before
-                        200ms then the timer completes and the API call is made.
+                        array. So, every time the user types then the state
+                        updates and then react quickly trigger it’s conciliation
+                        algorithm process and then React re-renders the
+                        component and then because the dependency changed React
+                        first executes the previous useEffect cleanup function
+                        where I call clearTimeout() function to cancel the
+                        previous timer and then it runs the useEffect callback
+                        again which starts a new setTimeout() function and then
+                        if the user doesn't type any key strokes until 200ms
+                        then I actually make a search API call.
                       </p>
                       <p>
                         So this whole concept is knowns as Debouncing in react.

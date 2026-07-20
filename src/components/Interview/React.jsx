@@ -837,7 +837,7 @@ const React = () => {
                     React Hooks improve performance by giving us fine-grained
                     control over state, effects, and memoization. Hooks like
                     useRef, useEffect, useMemo, and useCallback help to avoid
-                    unnecessary re-renders and expensive recomputations.
+                    unnecessary re-renders and expensive recomputation.
                   </p>
                 </div>
               </div>
@@ -1030,6 +1030,29 @@ const React = () => {
                     response, and assert that the logger was called with the
                     expected data. Wherever possible, also verify the UI or
                     state update instead of relying only on logs.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="collapse collapse-plus bg-base-200">
+              <input type="radio" name="interview" />
+              <div className="collapse-title text-xl font-medium">
+                4. Define useMemo, useCallback & useRef?
+              </div>
+              <div className="collapse-content overflow-x-auto">
+                <div className="flex flex-col gap-y-2">
+                  <p>A. 💡 Quick Recall (15 sec):</p>
+                  <p>
+                    useMemo is a React Hook that lets you cache the result of a
+                    calculation between re-renders.
+                  </p>
+                  <p>
+                    useCallback is a React Hook that lets you cache a function
+                    definition between re-renders.
+                  </p>
+                  <p>
+                    useRef is a React Hook that lets you reference a value
+                    that’s not needed for rendering.
                   </p>
                 </div>
               </div>

@@ -203,16 +203,17 @@ export const javascriptInterviewQnAs = [
               <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                 <li>
                   call() invoke the function immediately with this set to 1st
-                  argument and then arguments passed individually.
+                  argument and then arguments are passed individually.
                 </li>
                 <li>
                   apply() invoke the function immediately with this set to 1st
-                  argument and then arguments passed as an array.
+                  argument and then arguments are passed as an array.
                 </li>
                 <li>
                   bind() doesn't invoke the function instead it returns a new
-                  function with this permanently bound. And then I can invoke
-                  the new function whenever required.
+                  function with this permanently bound and then arguments are
+                  passed individually. And then I can invoke the new function
+                  whenever required.
                 </li>
               </ol>
             </div>

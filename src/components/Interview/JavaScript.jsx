@@ -6,7 +6,14 @@ const JavaScript = () => {
       <div className="flex flex-col gap-y-5">
         <div className="flex flex-col gap-y-4">
           <h1 className="text-2xl font-bold text-white">
-            JavaScript Q&As [12]
+            JavaScript Q&As [
+            {javascriptInterviewQnAs
+              ?.map(
+                (javascriptInterviewQnA) =>
+                  javascriptInterviewQnA.questions.length,
+              )
+              .reduce((acc, curr) => (acc += curr), 0)}
+            ]
           </h1>
           {javascriptInterviewQnAs?.map((javascriptInterviewQnA) => (
             <div

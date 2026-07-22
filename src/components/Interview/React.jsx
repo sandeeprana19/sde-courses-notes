@@ -5,7 +5,13 @@ const React = () => {
     <div className="lg:w-7/12 w-full mx-auto px-5 lg:px-0">
       <div className="flex flex-col gap-y-5">
         <div className="flex flex-col gap-y-4">
-          <h1 className="text-2xl font-bold text-white">React Q&As [45]</h1>
+          <h1 className="text-2xl font-bold text-white">
+            React Q&As [
+            {reactInterviewQnAs
+              ?.map((reactInterviewQnA) => reactInterviewQnA.questions.length)
+              .reduce((acc, curr) => (acc += curr), 0)}
+            ]
+          </h1>
           {reactInterviewQnAs?.map((reactInterviewQnA) => (
             <div key={reactInterviewQnA?.id} className="flex flex-col gap-y-4">
               <h2 className="text-xl font-bold text-white">

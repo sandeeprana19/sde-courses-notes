@@ -212,8 +212,8 @@ export const javascriptInterviewQnAs = [
                 <li>
                   bind() doesn't invoke the function instead it returns a new
                   function with this permanently bound and then arguments are
-                  passed individually. And then I can invoke the new function
-                  whenever required.
+                  passed individually. And then I can invoke this newly return
+                  function whenever I required.
                 </li>
               </ol>
             </div>

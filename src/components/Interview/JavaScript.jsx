@@ -1,6 +1,19 @@
 import { javascriptInterviewQnAs } from "../../mockData/javascriptInterviewQAndA";
 
 const JavaScript = () => {
+  function* numberGenerator() {
+    console.log("start");
+    yield 1;
+    console.log("after first yield");
+    yield 2;
+    console.log("after second yield");
+    yield 3;
+    console.log("end");
+  }
+
+  const gen = numberGenerator(); // nothing runs yet — just creates the iterator
+  console.log(gen);
+
   return (
     <div className="lg:w-7/12 w-full mx-auto px-5 lg:px-0">
       <div className="flex flex-col gap-y-5">

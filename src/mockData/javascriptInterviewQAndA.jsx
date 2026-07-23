@@ -231,7 +231,7 @@ export const javascriptInterviewQnAs = [
                 function that can pause and resume its execution using the yield
                 keyword. It’s defined using function* and returns an iterator
                 object that can produce a sequence of values over time by
-                attaching next() to iterator object instead of returning them
+                calling next() onto iterator object instead of returning them
                 all at once.
               </p>
             </div>

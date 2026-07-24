@@ -10,10 +10,10 @@ export const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-4">
             <div className="flex flex-col gap-y-2">
               <p>
-                A. Thank you for this opportunity to introduce myself. I'm
-                currently working as a React Developer at capital numbers
-                infotech pvt ltd where I have been part of the React engineering
-                team and have led 2 out of 3 major React projects like:
+                A. Thank you for this opportunity to introduce myself. I worked
+                as a React Developer at capital numbers infotech pvt ltd where I
+                have been part of the React engineering team and have led 2 out
+                of 3 major React projects like:
               </p>
               <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
                 <li>

@@ -143,7 +143,8 @@ export const reactInterviewQnAs = [
             return logic written behind the scenes inside react. Those functions
             are the utility functions given to us by react. So there are
             multiple utility functions that are known as react hooks. For
-            example: useState, useEffect, useContext, useReducer, useRef etc.
+            example: useState, useEffect, useContext, useReducer, useMemo,
+            useCallback, useRef etc.
           </p>
         ),
       },
@@ -390,7 +391,7 @@ export const reactInterviewQnAs = [
               <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                 <li>
                   Built-in hooks are like useState, useEffect, useContext,
-                  useReducer, useRef, etc.
+                  useReducer, useMemo, useCallback, useRef, etc.
                 </li>
                 <li>
                   Custom hooks are like any hook I build starting with use
@@ -730,7 +731,8 @@ export const reactInterviewQnAs = [
               return logic written behind the scenes inside react. Those
               functions are the utility functions given to us by react. So there
               are multiple utility functions that are known as react hooks. For
-              example: useState, useEffect, useContext, useReducer, useRef etc.
+              example: useState, useEffect, useContext, useMemo, useCallback,
+              useReducer, useRef etc.
             </p>
             <p>
               So, I use React Hooks to solve specific problems by separating

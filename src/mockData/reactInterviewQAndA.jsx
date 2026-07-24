@@ -196,8 +196,8 @@ export const reactInterviewQnAs = [
                 it but I don't have to do it because this can create
                 inconsistency in the program. So it's like if I mesh up with
                 react then react will mesh up my codebase. So that's why I
-                always have to use react like how react tell us to use it as per
-                it's documentation.
+                always have to use react like how react tell us to use it like
+                as per it's documentation.
               </li>
             </ol>
           </div>

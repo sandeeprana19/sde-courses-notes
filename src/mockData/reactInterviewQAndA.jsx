@@ -84,7 +84,7 @@ export const reactInterviewQnAs = [
                 rendering 2 similar child class components so now let me tell
                 you how react lifecycle methods work in this scenario. As I
                 already said early that in react lifecycle methods, there are
-                mainly 3 phases that are mounting phase, updating phase and
+                mainly 3 phases like mounting phase, updating phase and
                 unmounting phase. And all of these phases have render phase and
                 commit phase. So first of all, react starts with the lifecycle
                 methods of parent class component where it starts with the

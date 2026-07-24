@@ -62,7 +62,7 @@ export const reactInterviewQnAs = [
               <p>A. 💡 Quick Recall (10–15 sec)</p>
               <p>
                 React class components have three lifecycle phases like
-                Mounting, Updating, and Unmounting.
+                Mounting, Updating, and Unmounting. So:
               </p>
               <p>
                 During mounting, React renders the component tree and then

@@ -46,7 +46,7 @@ export const reactInterviewQnAs = [
                 So overall, I enjoy developing fast, user-friendly React
                 applications, and I’m excited about the opportunity to bring my
                 experience and problem-solving mindset to your team as well. So,
-                thanks so much for hearing me out so far.
+                thank you so much for hearing me out so far.
               </p>
             </div>
           </div>

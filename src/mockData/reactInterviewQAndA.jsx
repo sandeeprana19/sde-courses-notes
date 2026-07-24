@@ -157,14 +157,14 @@ export const reactInterviewQnAs = [
             <p>
               A. useState() hook basically generates super powerful state
               variable and state updating function in react. So to use it first
-              of all, it needed to be named import from react. And then as
-              useState hook is again a function so I'll call it like a function
-              and pass any argument as initial value of state variable.
+              of all, it needed to be named import from react.
             </p>
             <p>
-              And then this useState hook return an array from which I'll
-              destructure two elements like state variable and state updating
-              function.
+              And then this useState hook is again a function so I'll call it
+              like a function and pass any argument as initial value of state
+              variable. And then this useState hook return an array from which
+              I'll destructure two elements like state variable and state
+              updating function.
             </p>
             <p>And there are some use case of it like:</p>
             <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
@@ -211,12 +211,12 @@ export const reactInterviewQnAs = [
             <p>
               A. useEffect hook has its own specific arrow function and
               dependency array. So to use it first of all, it needed to be named
-              import from react. And then as useEffect hook is again a function
-              so I’ll call it like a function which takes two arguments so the
-              first argument is an arrow function which is a callback function
-              and the second argument is a dependency array.
+              import from react. And then this useEffect hook is again a
+              function so I’ll call it like a function which takes two arguments
+              so the first argument is an arrow function which is a callback
+              function and the second argument is a dependency array.
             </p>
-            <p>There're some use cases of useEffect hook like:</p>
+            <p>So, there are some use cases of useEffect hook like:</p>
             <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
               <li>
                 I can't call useEffect hook outside of react functional

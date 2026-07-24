@@ -97,7 +97,8 @@ export const reactInterviewQnAs = [
                 child class component render is called and then 2nd child class
                 component constructor is called and then 2nd child class
                 component render is called. So this is how the render phase is
-                completed for both parent and child class components.
+                completed for both parent and child class components behind the
+                scene.
               </p>
               <p>
                 And then react starts the commit phase where it batches the
@@ -107,7 +108,7 @@ export const reactInterviewQnAs = [
                 1st child class componentDidMount is called and then 2nd child
                 class componentDidMount is called and then parent class
                 componentDidMount is called. So this is how the mounting phase
-                of the react lifecycle methods works.
+                of the react lifecycle methods works behind the scene.
               </p>
               <p>
                 And now let's say I've updated the state variable by passing the
@@ -117,7 +118,7 @@ export const reactInterviewQnAs = [
                 where render is called within render phase & then react start
                 the commit phase where it update the DOM in a single phase and
                 then componentDidUpdate is called. So this is how the updating
-                phase of the react lifecycle methods works.
+                phase of the react lifecycle methods works behind the scene.
               </p>
               <p>
                 And now let's say I've left the page and go to another page then
@@ -125,8 +126,8 @@ export const reactInterviewQnAs = [
                 is called before we go to another page.
               </p>
               <p>
-                So this is how the react lifecycle methods of class based
-                components works.
+                So this is how the whole react lifecycle methods of class based
+                components works behind the scene.
               </p>
             </div>
           </div>

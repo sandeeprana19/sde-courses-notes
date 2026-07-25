@@ -292,7 +292,7 @@ export const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
-              React's reconciliation is the process where React uses a diffing
+              React's reconciliation algorithm is the process where React uses a diffing
               algorithm to compare the previous Virtual DOM with the updated
               Virtual DOM and efficiently updates only the parts of the real DOM
               that changed. Since React 16, this process is implemented using

@@ -819,7 +819,7 @@ const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
             <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-              <li>
+              <li className="flex flex-col gap-y-2">
                 <p>
                   Debouncing delays a function's execution until there's a pause
                   after the last event. For example, instead of calling a API on

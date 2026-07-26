@@ -435,11 +435,10 @@ export const reactInterviewQnAs = [
               I use async/await function inside useEffect hook callback function
               in React like event handler, helper function and function called
               inside useEffect hook callback function. And I don’t make
-              useEffect hook callback function async/await instead I define
-              async/await function inside it and then I call that function. Or,
-              I can also define async/await function outside of useEffect hook
-              callback function & then call it inside useEffect callback
-              function.
+              useEffect hook callback function async instead I define an async
+              function inside it and then I call that function. Or, I can also
+              define async function outside of useEffect hook callback function
+              & then call it inside useEffect callback function.
             </p>
           </div>
         ),

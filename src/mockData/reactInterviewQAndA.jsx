@@ -731,7 +731,7 @@ const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
             <p>
-              I prefer rendering the UI first, then making an API call in
+              I prefer rendering the UI first and then making an API call in
               useEffect hook and then updating the state with the fetched data.
               This way, users see the layout instantly and I avoid blocking the
               initial render.

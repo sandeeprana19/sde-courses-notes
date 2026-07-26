@@ -395,8 +395,8 @@ export const reactInterviewQnAs = [
                   useReducer, useMemo, useCallback, useRef, etc.
                 </li>
                 <li>
-                  Custom hooks are like any hook I build prepending with use to
-                  reuse logic.
+                  Custom hooks are like any hook I build by prepending with use
+                  to reuse logic.
                 </li>
               </ol>
             </div>

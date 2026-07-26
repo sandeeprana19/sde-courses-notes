@@ -452,12 +452,10 @@ export const reactInterviewQnAs = [
             <p>
               Code splitting in React means breaking the large scale app bundle
               into smaller bundles that are loaded on demand and this is process
-              is known as chunking or code splitting or dynamic bundling or lazy
-              loading or on demand loading or dynamic import so it's like so
-              many names for doing the same things. And this reduces the initial
-              bundle size and improves page load performance. And it’s commonly
-              done using React.lazy function, dynamic import() function and
-              Suspense component.
+              is known as chunking or code splitting. And this reduces the
+              initial bundle size and improves page load performance. And it’s
+              commonly done using React.lazy function, dynamic import() function
+              and Suspense component.
             </p>
           </div>
         ),

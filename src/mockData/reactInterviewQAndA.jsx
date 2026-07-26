@@ -627,8 +627,8 @@ const reactInterviewQnAs = [
                 @reduxjs/toolkit and react-redux so that I can work with redux.
               </li>
               <li>Then I'll an build app store.</li>
-              <li>Then I'll provide an app store to the react app.</li>
               <li>Then I'll create a slice to add item to the cart.</li>
+              <li>Then I'll provide an app store to the react app.</li>
               <li>
                 Then I'll basically dispatch an action when I click on add
                 button.

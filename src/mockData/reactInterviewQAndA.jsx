@@ -690,7 +690,7 @@ const reactInterviewQnAs = [
             <p>
               Yeah! I’ve used GitHub Copilot to speed up writing unit tests by
               generating repetitive test cases. After writing the first test
-              manually, Copilot suggested similar tests, which reduced
+              manually, Copilot suggested similar tests which reduced
               boilerplate work and helped me focus more on edge cases and logic
               validation.
             </p>

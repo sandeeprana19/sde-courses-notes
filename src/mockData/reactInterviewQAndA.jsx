@@ -848,7 +848,7 @@ const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-13",
         question:
-          "13. Describe your experience with typescript in react project? How do you typically setup typescript with react? [IGNORE THIS FOR NOW]",
+          "Describe your experience with typescript in react project? How do you typically setup typescript with react? [IGNORE THIS FOR NOW]",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>

@@ -633,7 +633,10 @@ const reactInterviewQnAs = [
                 Then I'll basically dispatch an action when I click on add
                 button.
               </li>
-              <li>Then I'll read the data using selector.</li>
+              <li>
+                Then I'll read the data using selector after subscribing to the
+                app store.
+              </li>
             </ol>
           </div>
         ),

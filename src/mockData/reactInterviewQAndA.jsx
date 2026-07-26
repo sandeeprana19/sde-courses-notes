@@ -1,11 +1,11 @@
-export const reactInterviewQnAs = [
+const reactInterviewQnAs = [
   {
     id: "asked-in-others",
     category: "Asked in Others",
     questions: [
       {
         id: "asked-in-others-1",
-        question: "1. Introduce yourself?",
+        question: "Introduce yourself?",
         answer: (
           <div className="flex flex-col gap-y-4">
             <div className="flex flex-col gap-y-2">
@@ -55,7 +55,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-others-2",
         question:
-          "2. How do react lifecycle methods of class based components work?",
+          "How do react lifecycle methods of class based components work?",
         answer: (
           <div className="flex flex-col">
             <div className="flex flex-col gap-y-2">
@@ -135,7 +135,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-others-3",
-        question: "3. What are react hooks?",
+        question: "What are react hooks?",
         answer: (
           <p>
             A. React hooks are normal javascript functions which are given to us
@@ -151,7 +151,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-others-4",
-        question: "4. Define useState() hook? Describe it?",
+        question: "Define useState() hook? Describe it?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
@@ -205,7 +205,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-others-5",
-        question: "5. What is an useEffect hook? Describe it?",
+        question: "What is an useEffect hook? Describe it?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
@@ -263,7 +263,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-others-6",
-        question: "6. Define virtual DOM?",
+        question: "Define virtual DOM?",
         answer: (
           <p>
             A. Virtual DOM isn't an actual DOM as it is the representation of
@@ -276,7 +276,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-others-7",
-        question: "7. What is the diff algorithm?",
+        question: "What is the diff algorithm?",
         answer: (
           <p>
             A. Diff algorithm basically finds out the difference between two
@@ -287,7 +287,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-others-8",
         question:
-          "8. What is a React Reconciliation Algorithm? or Can you tell me how does React's reconciliation algorithm work?",
+          "What is a React Reconciliation Algorithm? or Can you tell me how does React's reconciliation algorithm work?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -309,7 +309,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-others-9",
-        question: "9. What is dot env file?",
+        question: "What is dot env file?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -324,7 +324,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-others-10",
-        question: "10. Why we need to do css in js?",
+        question: "Why we need to do css in js?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
@@ -338,7 +338,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-others-11",
-        question: "11. Define mockData api?",
+        question: "Define mockData api?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
@@ -350,7 +350,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-others-12",
-        question: "12. Difference between react and react-dom?",
+        question: "Difference between react and react-dom?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -374,7 +374,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-tcs-1",
         question:
-          "1. In case of complex data management what shall we use useContext or Redux?",
+          "In case of complex data management what shall we use useContext or Redux?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. So we shall use Redux in case of complex data management.</p>
@@ -383,7 +383,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-tcs-2",
-        question: "2. Name the different types of react hooks?",
+        question: "Name the different types of react hooks?",
         answer: (
           <div className="flex flex-col gap-y-4">
             <div className="flex flex-col gap-y-2">
@@ -406,7 +406,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-tcs-3",
         question:
-          "3. What is react class based component and react functional component?",
+          "What is react class based component and react functional component?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
@@ -427,7 +427,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-tcs-4",
-        question: "4. Where can you use async/await in react?",
+        question: "Where can you use async/await in react?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -445,7 +445,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-tcs-5",
-        question: "5. How can we do code splitting in react?",
+        question: "How can we do code splitting in react?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -462,7 +462,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-tcs-6",
-        question: "6. Define Error Boundary?",
+        question: "Define Error Boundary?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
@@ -476,7 +476,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-tcs-7",
-        question: "7. Define props drilling?",
+        question: "Define props drilling?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -492,7 +492,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-tcs-8",
         question:
-          " 8. Let say we've component a, component b and component c then if we want to pass props from component a to component c so can we do it instead of using props drilling?",
+          "Let say we've component a, component b and component c then if we want to pass props from component a to component c so can we do it instead of using props drilling?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
@@ -506,7 +506,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-tcs-9",
-        question: "9. Define Redux?",
+        question: "Define Redux?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>💡 Quick Recall (15 sec)</p>
@@ -521,7 +521,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-tcs-10",
         question:
-          "10. Describe briefly how the whole flow of redux architecture works?",
+          "Describe briefly how the whole flow of redux architecture works?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
@@ -546,7 +546,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-tcs-11",
-        question: "11. Define key prop in React?",
+        question: "Define key prop in React?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
@@ -561,7 +561,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-tcs-12",
         question:
-          "12. Why defining a key prop to a list items is important in React?",
+          "Why defining a key prop to a list items is important in React?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -584,7 +584,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-1",
         question:
-          "1. Can you explain the key differences between react class component and react functional component with hook? When would you choose one over the other?",
+          "Can you explain the key differences between react class component and react functional component with hook? When would you choose one over the other?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
@@ -612,7 +612,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-2",
         question:
-          "2. Walk me through the process of implementing state management using redux into react application? What are some best practice you follow?",
+          "Walk me through the process of implementing state management using redux into react application? What are some best practice you follow?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
@@ -641,7 +641,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-3",
         question:
-          "3. How do you approach unit testing into react component? Can you give an example of test you've written and explain your testing strategy?",
+          "How do you approach unit testing into react component? Can you give an example of test you've written and explain your testing strategy?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
@@ -658,7 +658,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-4",
         question:
-          "4. Explain how you could use material UI in a react project? What are some advantages and potential challenges of using this UI library?",
+          "Explain how you could use material UI in a react project? What are some advantages and potential challenges of using this UI library?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
@@ -675,7 +675,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-5",
         question:
-          "5. Can you describe a situation where you've used github copilot to assist in writing unit tests? What was your experience, and how did it impact your workload?",
+          "Can you describe a situation where you've used github copilot to assist in writing unit tests? What was your experience, and how did it impact your workload?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -692,7 +692,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-6",
         question:
-          "6. Describe your experience with performance optimization in react? What techniques have you used to improve the performance of a react application? or How do you optimize the performance of a React application?",
+          "Describe your experience with performance optimization in react? What techniques have you used to improve the performance of a react application? or How do you optimize the performance of a React application?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
@@ -709,7 +709,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-7",
         question:
-          "7. How do you handle API integration in the react application? Can you walk me through your approach to fetching and managing data for a mapping service?",
+          "How do you handle API integration in the react application? Can you walk me through your approach to fetching and managing data for a mapping service?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
@@ -725,7 +725,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-8",
         question:
-          "8. Can you explain the concept of React hooks, an example of how we use this concept to solve specific problem in a project?",
+          "Can you explain the concept of React hooks, an example of how we use this concept to solve specific problem in a project?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
@@ -750,7 +750,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-9",
         question:
-          "9. How does React Hook help in improving the performance of functional components?",
+          "How does React Hook help in improving the performance of functional components?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -766,7 +766,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-10",
         question:
-          "10. What is the role of state management in optimizing performance?",
+          "What is the role of state management in optimizing performance?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
@@ -782,7 +782,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-11",
         question:
-          "11. Describe a useCases so let say I have an input text box. Now, you know, anything related to calling an API is an expensive operation, right? And I want to minimize it as much as possible. So you are putting in your input in text box and after you have completed putting the input in text box, then I want to call the API, right? So I want there to be some delay after you complete, you know completing your input text in the search text box. What is the technique of implementing that in React and how do you do it?",
+          "Describe a useCases so let say I have an input text box. Now, you know, anything related to calling an API is an expensive operation, right? And I want to minimize it as much as possible. So you are putting in your input in text box and after you have completed putting the input in text box, then I want to call the API, right? So I want there to be some delay after you complete, you know completing your input text in the search text box. What is the technique of implementing that in React and how do you do it?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
@@ -797,7 +797,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-lti-mind-tree-12",
-        question: "12. Define debounce and throttling?",
+        question: "Define debounce and throttling?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
@@ -885,7 +885,7 @@ export const reactInterviewQnAs = [
     questions: [
       {
         id: "asked-in-cognizant-1",
-        question: "1. How do you optimize files using webpack?",
+        question: "How do you optimize files using webpack?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
@@ -901,7 +901,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-cognizant-2",
-        question: "2. Difference between mapStateToProps and StateMapToProps?",
+        question: "Difference between mapStateToProps and StateMapToProps?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -916,7 +916,7 @@ export const reactInterviewQnAs = [
       {
         id: "asked-in-cognizant-3",
         question:
-          "3. Suppose I want to log api responses how to write test cases for it?",
+          "Suppose I want to log api responses how to write test cases for it?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
@@ -932,7 +932,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-cognizant-4",
-        question: "4. Define useMemo, useCallback & useRef?",
+        question: "Define useMemo, useCallback & useRef?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
@@ -959,7 +959,7 @@ export const reactInterviewQnAs = [
     questions: [
       {
         id: "asked-in-accenture-1",
-        question: "1. Define higher order component?",
+        question: "Define higher order component?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
@@ -974,7 +974,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-accenture-2",
-        question: "2. Define fragment?",
+        question: "Define fragment?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -988,7 +988,7 @@ export const reactInterviewQnAs = [
       },
       {
         id: "asked-in-accenture-3",
-        question: "3. When you'll use react context and redux?",
+        question: "When you'll use react context and redux?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -1004,3 +1004,5 @@ export const reactInterviewQnAs = [
     ],
   },
 ];
+
+export default reactInterviewQnAs;

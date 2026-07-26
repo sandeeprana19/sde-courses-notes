@@ -1,4 +1,4 @@
-export const javascriptInterviewQnAs = [
+const javascriptInterviewQnAs = [
   {
     id: "asked-in-others",
     category: "Asked in Others",
@@ -6,7 +6,7 @@ export const javascriptInterviewQnAs = [
       {
         id: "asked-in-others-1",
         question:
-          "1. Find missing elements like 3 and 9 into this array: let arr = [1,2,4,5,6,7,8,10]?",
+          "Find missing elements like 3 and 9 into this array: let arr = [1,2,4,5,6,7,8,10]?",
         answer: (
           <div className="flex items-start">
             <p>A.</p>
@@ -32,7 +32,7 @@ export const javascriptInterviewQnAs = [
       {
         id: "asked-in-others-2",
         question:
-          "2. Difference between double equals (==) and triple equals (===)?",
+          "Difference between double equals (==) and triple equals (===)?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -47,7 +47,7 @@ export const javascriptInterviewQnAs = [
       },
       {
         id: "asked-in-others-3",
-        question: "3. What is a timer in JavaScript?",
+        question: "What is a timer in JavaScript?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -62,7 +62,7 @@ export const javascriptInterviewQnAs = [
       {
         id: "asked-in-others-4",
         question:
-          "4. Difference between window.onload and document.ready in JavaScript?",
+          "Difference between window.onload and document.ready in JavaScript?",
         answer: (
           <div className="overflow-x-auto">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -77,7 +77,7 @@ export const javascriptInterviewQnAs = [
       },
       {
         id: "asked-in-others-5",
-        question: "5. Define Prototypal Inheritance?",
+        question: "Define Prototypal Inheritance?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -93,7 +93,7 @@ export const javascriptInterviewQnAs = [
       {
         id: "asked-in-others-6",
         question:
-          "6. Whats the priority between window.something and document.getElementById?",
+          "Whats the priority between window.something and document.getElementById?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
@@ -109,7 +109,7 @@ export const javascriptInterviewQnAs = [
       },
       {
         id: "asked-in-others-7",
-        question: "7. Difference between undefined and null?",
+        question: "Difference between undefined and null?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. Let me tell you 2 difference between undefined and null:</p>
@@ -156,7 +156,7 @@ export const javascriptInterviewQnAs = [
     questions: [
       {
         id: "asked-in-cognizant-1",
-        question: "1. Define an object literal?",
+        question: "Define an object literal?",
         answer: (
           <div className="flex flex-col gap-y-4">
             <div className="flex flex-col gap-y-2">
@@ -173,7 +173,7 @@ export const javascriptInterviewQnAs = [
       },
       {
         id: "asked-in-cognizant-2",
-        question: "2. Why we need to use prototype?",
+        question: "Why we need to use prototype?",
         answer: (
           <div className="flex flex-col gap-y-4">
             <div className="flex flex-col gap-y-2">
@@ -191,7 +191,7 @@ export const javascriptInterviewQnAs = [
       },
       {
         id: "asked-in-cognizant-3",
-        question: "3. Define call, apply and bind?",
+        question: "Define call, apply and bind?",
         answer: (
           <div className="flex flex-col gap-y-4">
             <div className="flex flex-col gap-y-2">
@@ -222,7 +222,7 @@ export const javascriptInterviewQnAs = [
       },
       {
         id: "asked-in-cognizant-4",
-        question: "4. Define generator function?",
+        question: "Define generator function?",
         answer: (
           <div className="flex flex-col gap-y-4">
             <div className="flex flex-col gap-y-2">
@@ -246,7 +246,7 @@ export const javascriptInterviewQnAs = [
     questions: [
       {
         id: "asked-in-accenture-3",
-        question: "1. What are ES6 features?",
+        question: "What are ES6 features?",
         answer: (
           <div className="flex flex-col gap-y-4">
             <div className="flex flex-col gap-y-2">
@@ -265,3 +265,5 @@ export const javascriptInterviewQnAs = [
     ],
   },
 ];
+
+export default javascriptInterviewQnAs;

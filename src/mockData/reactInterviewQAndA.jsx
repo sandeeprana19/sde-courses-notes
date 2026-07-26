@@ -716,7 +716,7 @@ const reactInterviewQnAs = [
               <li>Memoization with React.memo() function.</li>
               <li>useMemo() hook.</li>
               <li>useCallback hook.</li>
-              <li>Proper key prop usage in lists.</li>
+              <li>Proper key prop usage in list items.</li>
               <li>Debouncing API calls.</li>
               <li>Bundler optimizations with Vite or Webpack.</li>
             </ol>

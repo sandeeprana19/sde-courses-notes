@@ -292,11 +292,11 @@ export const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
-              React's reconciliation algorithm is the process where React uses a diffing
-              algorithm to compare the previous Virtual DOM with the updated
-              Virtual DOM and efficiently updates only the parts of the real DOM
-              that changed. Since React 16, this process is implemented using
-              React Fiber which is a new internal architecture that breaks
+              React's reconciliation algorithm is the process where React uses a
+              diffing algorithm to compare the previous Virtual DOM with the
+              updated Virtual DOM and efficiently updates only the parts of the
+              real DOM that changed. Since React 16, this process is implemented
+              using React Fiber which is a new internal architecture that breaks
               rendering work into small units and it doesn't block the main
               thread while rendering.
             </p>
@@ -395,8 +395,8 @@ export const reactInterviewQnAs = [
                   useReducer, useMemo, useCallback, useRef, etc.
                 </li>
                 <li>
-                  Custom hooks are like any hook I build starting with use
-                  prefix to reuse logic.
+                  Custom hooks are like any hook I build prepending with use to
+                  reuse logic.
                 </li>
               </ol>
             </div>

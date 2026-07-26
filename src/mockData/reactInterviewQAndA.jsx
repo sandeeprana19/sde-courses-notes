@@ -356,7 +356,7 @@ export const reactInterviewQnAs = [
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
               react is the core library that defines how components work and
-              manages state, hooks, and reconciliation.
+              manages state, hooks, and it's reconciliation algorithm.
             </p>
             <p>
               react-dom is the renderer that connects React to the browser DOM

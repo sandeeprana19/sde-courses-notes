@@ -672,8 +672,8 @@ const reactInterviewQnAs = [
             <p>A. 💡 Quick Recall (15 sec):</p>
             <p>
               I use Material UI by installing it via npm, importing ready-made
-              components like Button and Card, and customizing the design using
-              ThemeProvider. It helps to build professional UIs quickly, but
+              components like Button and Card and customizing the design using
+              ThemeProvider. It helps to build professional UIs quickly but
               styling overrides and bundle size can be challenges if not managed
               properly.
             </p>

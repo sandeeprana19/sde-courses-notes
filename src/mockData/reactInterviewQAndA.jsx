@@ -649,8 +649,13 @@ const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
             <p>
-              For React unit testing, I usually use @testing-library/react. And
-              then let's assume I render the contact component in a test DOM and
+              Let's assume I am developing any react application which have
+              contact component so now let me tell my approach of doing unit
+              testing of this contact component explicitly.
+            </p>
+            <p>
+              So for React unit testing, I usually use @testing-library/react.
+              And then let say I render the contact component in a test DOM and
               then query element like heading, and then assert it's presence
               with expect function for checking if the contact page heading
               render or not.

@@ -807,9 +807,9 @@ const reactInterviewQnAs = [
             <p>A. 💡 Quick Recall (15 sec):</p>
             <p>
               So in such case, I think I can use a technique like debouncing
-              with useEffect and setTimeout. So debouncing delays an API call
-              until the user stops typing for a set time, so that I avoid
-              sending a request for every keystroke.
+              with useEffect, setTimeout & clearTimeout. So, debouncing delays
+              an API call until the user stop typing for a set time so that I
+              avoid sending a request for every keystroke.
             </p>
           </div>
         ),
@@ -824,9 +824,9 @@ const reactInterviewQnAs = [
               <li className="flex flex-col gap-y-2">
                 <p>
                   Debouncing delays a function's execution until there's a pause
-                  after the last event. For example, instead of calling a API on
-                  every keystroke, I wait 200ms after the user stops typing
-                  before making the API call.
+                  after the last event. For example, instead of calling the API
+                  on every keystroke I wait 200ms after user stop typing before
+                  making the API call.
                 </p>
                 <p>
                   In React, I usually implement this using useState and

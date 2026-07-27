@@ -823,10 +823,10 @@ const reactInterviewQnAs = [
             <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
               <li className="flex flex-col gap-y-2">
                 <p>
-                  Debouncing delays a function's execution until there's a pause
-                  after the last event. For example, instead of calling the API
-                  on every keystroke I wait 200ms after user stop typing before
-                  making the API call.
+                  Debouncing delays a function's execution until there is a
+                  pause after the last event. For example, instead of calling
+                  the API on every keystroke I wait 200ms after user stop typing
+                  before making the API call.
                 </p>
                 <p>
                   In React, I usually implement this using useState and

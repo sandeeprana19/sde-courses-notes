@@ -151,13 +151,13 @@ const reactInterviewQnAs = [
       },
       {
         id: "asked-in-others-4",
-        question: "Define useState() hook? Describe it?",
+        question: "Define useState hook? Describe it?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
-              A. useState() hook basically generates super powerful state
-              variable and state updating function in react. So to use it first
-              of all, it needed to be named import from react.
+              A. useState hook basically generates super powerful state variable
+              and state updating function in react. So to use it first of all,
+              it needed to be named import from react.
             </p>
             <p>
               And then this useState hook is again a function so I'll call it
@@ -714,8 +714,8 @@ const reactInterviewQnAs = [
                 function and Suspense component.
               </li>
               <li>Memoization with React.memo() higher order function.</li>
-              <li>useMemo() hook.</li>
-              <li>useCallback() hook.</li>
+              <li>useMemo hook.</li>
+              <li>useCallback hook.</li>
               <li>Proper key prop usage in list items.</li>
               <li>Debouncing API calls.</li>
               <li>Bundler optimizations with Vite or Webpack.</li>
@@ -757,9 +757,9 @@ const reactInterviewQnAs = [
             </p>
             <p>
               So, I use react hooks to solve specific problems by separating
-              state and side effects. For example, I use useState() hook to
-              store API data and useEffect() hook to fetch that data when a
-              component mounts so keeping the logic clean and predictable.
+              state and side effects. For example, I use useState hook to store
+              API data and useEffect hook to fetch that data when a component
+              mounts so keeping the logic clean and predictable.
             </p>
           </div>
         ),

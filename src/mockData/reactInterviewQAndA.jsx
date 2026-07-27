@@ -715,7 +715,7 @@ const reactInterviewQnAs = [
               </li>
               <li>Memoization with React.memo() function.</li>
               <li>useMemo() hook.</li>
-              <li>useCallback hook.</li>
+              <li>useCallback() hook.</li>
               <li>Proper key prop usage in list items.</li>
               <li>Debouncing API calls.</li>
               <li>Bundler optimizations with Vite or Webpack.</li>
@@ -731,10 +731,10 @@ const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
             <p>
-              I prefer rendering the UI first and then making an API call in
-              useEffect hook and then updating the state with the fetched data.
-              This way, users see the layout instantly and I avoid blocking the
-              initial render.
+              I prefer rendering the UI first and then making an API call inside
+              useEffect hook callback function and then updating the state with
+              the fetched data. This way, users see the layout instantly and I
+              avoid blocking the initial render.
             </p>
           </div>
         ),
@@ -756,10 +756,10 @@ const reactInterviewQnAs = [
               useReducer, useRef etc.
             </p>
             <p>
-              So, I use React Hooks to solve specific problems by separating
-              state and side effects. For example, I use useState to store API
-              data and useEffect to fetch that data when a component mounts so
-              keeping the logic clean and predictable.
+              So, I use react hooks to solve specific problems by separating
+              state and side effects. For example, I use useState() hook to
+              store API data and useEffect() hook to fetch that data when a
+              component mounts so keeping the logic clean and predictable.
             </p>
           </div>
         ),

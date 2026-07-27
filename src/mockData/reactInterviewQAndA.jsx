@@ -713,7 +713,7 @@ const reactInterviewQnAs = [
                 Code splitting with React.lazy() function, dynamic import()
                 function and Suspense component.
               </li>
-              <li>Memoization with React.memo() function.</li>
+              <li>Memoization with React.memo() higher order function.</li>
               <li>useMemo() hook.</li>
               <li>useCallback() hook.</li>
               <li>Proper key prop usage in list items.</li>

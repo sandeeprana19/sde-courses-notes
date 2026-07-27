@@ -772,10 +772,11 @@ const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
-              React Hooks improve performance by giving us fine-grained control
-              over state, effects, and memoization. Hooks like useRef,
-              useEffect, useMemo, and useCallback help to avoid unnecessary
-              re-renders and expensive recomputation.
+              React Hooks give functional components fine-grained control over
+              state and side effects. Hooks like useMemo and useCallback avoid
+              unnecessary re-renders and expensive recomputation, while
+              useEffect lets us control when side effects run and useRef helps
+              access values without triggering re-renders.
             </p>
           </div>
         ),

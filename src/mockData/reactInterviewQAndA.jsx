@@ -932,7 +932,7 @@ const reactInterviewQnAs = [
             <p>
               There is no function called StateMapToProps in Redux. The correct
               and official function is mapStateToProps which maps Redux store
-              state to a React component’s props.
+              state to a React component’s prop.
             </p>
             <p>
               However, mapStateToProps is the older way to subscribe to the

@@ -1023,8 +1023,11 @@ const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
-              I use React Context for small to medium shared state like themes
-              or user info, and Redux for large, complex, or frequently updated
+              I'll use React Context for small to medium shared state like
+              themes or user info.
+            </p>
+            <p>
+              And I'll use Redux for large, complex, or frequently updated
               global state where predictability, debugging, and scalability
               matter.
             </p>

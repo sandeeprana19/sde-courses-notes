@@ -824,9 +824,9 @@ const reactInterviewQnAs = [
               <li className="flex flex-col gap-y-2">
                 <p>
                   Debouncing delay a function's execution until there is a pause
-                  after the last key stroke. For example, instead of calling the
-                  API on every keystroke I wait 200ms after user stop typing
-                  before making the API call.
+                  after the last key stroke. For example, let say instead of
+                  calling the API on every keystroke I wait for let say 200ms
+                  after user stop typing before making the API call.
                 </p>
                 <p>
                   So in React, I usually implement this using useState and

@@ -950,11 +950,11 @@ const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
             <p>
-              Mock the API call using jest, spy on the logger like console.log,
-              trigger the component, wait for the async response, and assert
-              that the logger was called with the expected data. Wherever
-              possible, also verify the UI or state update instead of relying
-              only on logs.
+              So I have to mock the API call using jest, spy on the logger using
+              console.log method, render the component, wait for the async
+              response, and assert that the logger was called with the expected
+              data. So, wherever possible I also verify the UI or state update
+              instead of relying only on logs.
             </p>
           </div>
         ),

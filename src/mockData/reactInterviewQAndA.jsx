@@ -823,25 +823,25 @@ const reactInterviewQnAs = [
             <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
               <li className="flex flex-col gap-y-2">
                 <p>
-                  Debouncing delays a function's execution until there is a
-                  pause after the last event. For example, instead of calling
-                  the API on every keystroke I wait 200ms after user stop typing
-                  before making the API call.
+                  Debouncing delay a function's execution until there is a pause
+                  after the last event. For example, instead of calling the API
+                  on every keystroke I wait 200ms after user stop typing before
+                  making the API call.
                 </p>
                 <p>
-                  In React, I usually implement this using useState and
-                  useEffect. I bound the search input to a state variable and
-                  then I include that state variable in the useEffect hook
-                  dependency array. So, every time the user type then the state
-                  update and then react quickly trigger it reconciliation
-                  algorithm process and then it re-render the component and then
-                  because the dependency changed React first execute the
-                  previous useEffect cleanup function where I call clearTimeout
-                  function to cancel the previous timer and then it run the
-                  useEffect callback again which start a new setTimeout function
-                  and then if the user doesn't type any key stroke until 200ms
-                  then I actually make an API call and all the other API calls
-                  before 200ms are just got decline.
+                  So in React, I usually implement this using useState and
+                  useEffect. And then I bound the search input field to a state
+                  variable and then I include that state variable in the
+                  useEffect hook dependency array. So, every time the user type
+                  then the state update and then react quickly trigger it
+                  reconciliation algorithm process and then it rerender the
+                  component and then because the dependency changed React first
+                  execute the previous useEffect cleanup function where I call
+                  clearTimeout function to cancel the previous timer and then it
+                  run the useEffect callback again which start a new setTimeout
+                  function and then if the user doesn't type any key stroke
+                  until 200ms then I actually make an API call and all the other
+                  API calls before 200ms are just got decline.
                 </p>
                 <p>So this whole concept is knowns as Debouncing in react.</p>
               </li>

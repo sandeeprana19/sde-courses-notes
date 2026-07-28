@@ -832,15 +832,15 @@ const reactInterviewQnAs = [
                   In React, I usually implement this using useState and
                   useEffect. I bound the search input to a state variable and
                   then I include that state variable in the useEffect hook
-                  dependency array. So, every time the user types then the state
-                  updates and then react quickly trigger it reconciliation
-                  algorithm process and then it re-renders the component and
-                  then because the dependency changed React first executes the
+                  dependency array. So, every time the user type then the state
+                  update and then react quickly trigger it reconciliation
+                  algorithm process and then it re-render the component and then
+                  because the dependency changed React first execute the
                   previous useEffect cleanup function where I call
                   clearTimeout() function to cancel the previous timer and then
-                  it runs the useEffect callback again which starts a new
+                  it runs the useEffect callback again which start a new
                   setTimeout() function and then if the user doesn't type any
-                  key strokes until 200ms then I actually make a API call and
+                  key stroke until 200ms then I actually make an API call and
                   all the other API calls before 200ms are just got decline.
                 </p>
                 <p>So this whole concept is knowns as Debouncing in react.</p>

@@ -955,7 +955,7 @@ const reactInterviewQnAs = [
               component & then I have to wait for the async response & then I
               have to assert that the logger was called with the expected data.
               So, wherever possible I also have to verify that the UI or the
-              state update instead of relying only on logs.
+              state also update instead of relying only on logs.
             </p>
           </div>
         ),

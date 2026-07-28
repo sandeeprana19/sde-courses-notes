@@ -995,9 +995,9 @@ const reactInterviewQnAs = [
             <p>A. 💡 Quick Recall (15 sec):</p>
             <p>
               A Higher Order Component (HOC) is a function that takes a
-              component as input and returns a new enhanced component. It’s used
-              to reuse component logic like authentication, logging, or data
-              fetching across multiple components.
+              component as input and returns a new enhanced component. So, it’s
+              used to reuse component logic like authentication, logging, or
+              data fetching across multiple components.
             </p>
           </div>
         ),
@@ -1010,8 +1010,8 @@ const reactInterviewQnAs = [
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
               A Fragment in React lets us group multiple elements without adding
-              an extra DOM node. It helps to keep the DOM clean while returning
-              multiple elements from a component.
+              an extra DOM node. So, it helps to keep the DOM clean while
+              returning multiple elements from a component.
             </p>
           </div>
         ),

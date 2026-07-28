@@ -838,7 +838,7 @@ const reactInterviewQnAs = [
                   because the dependency changed React first execute the
                   previous useEffect cleanup function where I call
                   clearTimeout() function to cancel the previous timer and then
-                  it runs the useEffect callback again which start a new
+                  it run the useEffect callback again which start a new
                   setTimeout() function and then if the user doesn't type any
                   key stroke until 200ms then I actually make an API call and
                   all the other API calls before 200ms are just got decline.

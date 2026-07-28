@@ -816,7 +816,7 @@ const reactInterviewQnAs = [
       },
       {
         id: "asked-in-lti-mind-tree-12",
-        question: "Define debounce and throttling?",
+        question: "Define debouncing and throttling?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>

@@ -830,9 +830,9 @@ const reactInterviewQnAs = [
                 </p>
                 <p>
                   So let's assume there is a search input field & I want to make
-                  an API call after some delay of let say 200 ms expire after
-                  the last key stroke typed on search input field from user end
-                  so let me tell you how I'll implement this feature using
+                  an API call after some delay of let say 200 ms expire and the
+                  delay timer will start after user stop typing on search input
+                  field so let me tell you how I'll implement this feature using
                   debouncing concept in react. So in React, I usually implement
                   this debouncing using useState and useEffect. And then I bound
                   the search input field to a state variable and then I include

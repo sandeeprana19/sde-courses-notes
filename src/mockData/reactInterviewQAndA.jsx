@@ -834,11 +834,11 @@ const reactInterviewQnAs = [
                   delay timer will start after user stop typing on search input
                   field so let me tell you how I'll implement this feature using
                   debouncing concept in react. So in React, I usually implement
-                  this debouncing using useState and useEffect and then I bound
-                  the search input field to a state variable and then I include
-                  that state variable into useEffect hook dependency array and
-                  then every time the user type something on search input field
-                  then the state update and then react quickly trigger it
+                  this using useState and useEffect hooks and then I bound the
+                  search input field to a state variable and then I include that
+                  state variable into useEffect hook dependency array and then
+                  every time the user type something on search input field then
+                  the state update and then react quickly trigger it
                   reconciliation algorithm process and then react rerender the
                   component and then because the dependency changed React first
                   execute the previous useEffect cleanup function where I call
@@ -854,7 +854,7 @@ const reactInterviewQnAs = [
                 <p>
                   Throttle ensures function execution happens at most once in a
                   set interval. For example, let say only call a function every
-                  1s, even if the event fires continuously.
+                  1s even if the event fires continuously.
                 </p>
               </li>
             </ol>
@@ -931,8 +931,13 @@ const reactInterviewQnAs = [
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
               There is no function called StateMapToProps in Redux. The correct
-              and official function is mapStateToProps, which maps Redux store
+              and official function is mapStateToProps which maps Redux store
               state to a React component’s props.
+            </p>
+            <p>
+              However, mapStateToProps is the older way to subscribe to the
+              redux store & it is now been replaced by useSelector hook which is
+              the newer way to subscribe to the redux store.
             </p>
           </div>
         ),

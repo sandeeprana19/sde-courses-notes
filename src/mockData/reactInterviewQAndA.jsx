@@ -930,9 +930,9 @@ const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
-              There is no function called StateMapToProps in Redux. The correct
-              and official function is mapStateToProps which maps Redux store
-              state to a React component’s prop.
+              There is no such function called StateMapToProps in Redux. So, the
+              correct and official function is mapStateToProps which maps Redux
+              store state to a React component’s prop.
             </p>
             <p>
               However, mapStateToProps is the older way to subscribe to the

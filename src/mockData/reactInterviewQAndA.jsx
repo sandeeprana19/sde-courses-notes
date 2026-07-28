@@ -823,9 +823,9 @@ const reactInterviewQnAs = [
             <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
               <li className="flex flex-col gap-y-2">
                 <p>
-                  Debouncing delay a function's execution until there is a pause
-                  after the last key stroke.For example, let say instead of
-                  calling the API on every keystroke I wait for let say 200ms
+                  Debouncing delay a function's execution until the delay timer
+                  expire after the last key stroke.For example, let say instead
+                  of calling the API on every keystroke I wait for let say 200ms
                   after user stop typing before making the API call.
                 </p>
                 <p>

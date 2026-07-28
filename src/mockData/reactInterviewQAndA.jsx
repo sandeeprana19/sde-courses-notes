@@ -839,7 +839,7 @@ const reactInterviewQnAs = [
                   that state variable into useEffect hook dependency array and
                   then every time the user type something on search input field
                   then the state update and then react quickly trigger it
-                  reconciliation algorithm process and then it rerender the
+                  reconciliation algorithm process and then react rerender the
                   component and then because the dependency changed React first
                   execute the previous useEffect cleanup function where I call
                   clearTimeout function to cancel the previous timer and then
@@ -852,9 +852,9 @@ const reactInterviewQnAs = [
               </li>
               <li>
                 <p>
-                  Throttle ensures execution happens at most once in a set
-                  interval. For example, let say only call a function every 1s,
-                  even if the event fires continuously.
+                  Throttle ensures function execution happens at most once in a
+                  set interval. For example, let say only call a function every
+                  1s, even if the event fires continuously.
                 </p>
               </li>
             </ol>

@@ -764,8 +764,8 @@ const reactInterviewQnAs = [
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
               React hooks improve performance of functional components by giving
-              fine-grained control over state, effects, memoization like useMemo
-              which avoids expensive recomputation, useCallback prevents
+              fine-grained control over state, effects and memoization like
+              useMemo avoids expensive recomputation, useCallback prevents
               unnecessary function recreation, useEffect control when side
               effect run, useRef accesses values without triggering re-renders,
               etc.
@@ -816,14 +816,14 @@ const reactInterviewQnAs = [
                 <p>
                   Debouncing delay a function's execution until the delay timer
                   expire after the last key stroke.For example, let say instead
-                  of calling the API on every keystroke I wait for let say 200ms
-                  after user stop typing before making the API call.
+                  of calling the API on every keystroke I wait for 200ms after
+                  user stop typing before making the API call.
                 </p>
                 <p>
                   So let's assume there is a search input field & I want to make
-                  an API call after some delay of let say 200 ms expire and the
-                  delay timer will start after user stop typing on search input
-                  field so let me tell you how I'll implement this feature using
+                  an API call after some delay of 200 ms expire and the delay
+                  timer will start after user stop typing on search input field
+                  so let me tell you how I'll implement this feature using
                   debouncing concept in react. So in React, I usually implement
                   this using useState and useEffect hooks and then I bound the
                   search input field to a state variable and then I include that

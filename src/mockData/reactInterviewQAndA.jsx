@@ -697,8 +697,8 @@ const reactInterviewQnAs = [
             <p>A. 💡 Quick Recall (15 sec):</p>
             <p>
               I optimize React performance by reducing unnecessary re-renders
-              and minimizing bundle size. So, I to optimize react perform there
-              are severals like:
+              and minimizing bundle size. So, to optimize react performance I
+              can use several ways like:
             </p>
             <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
               <li>

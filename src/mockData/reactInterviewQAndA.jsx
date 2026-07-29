@@ -478,9 +478,9 @@ const reactInterviewQnAs = [
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
               Props drilling is a situation in React where data is passed from a
-              parent component to deeply nested child components through
-              multiple intermediate components, even though those intermediate
-              components don’t need the data themselves.
+              parent component down to the deeply nested child components
+              through multiple intermediate components, even though those
+              intermediate components don’t need that data themselves.
             </p>
           </div>
         ),

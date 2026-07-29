@@ -450,12 +450,8 @@ const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
-              Code splitting in React means breaking the large scale app bundle
-              into smaller bundles that are loaded on demand and this is process
-              is known as chunking or code splitting. And this reduces the
-              initial bundle size and improves page load performance. And it’s
-              commonly done using React.lazy function, dynamic import() function
-              and Suspense component.
+              Code splitting in React is commonly done by using React.lazy
+              function, dynamic import function and Suspense component.
             </p>
           </div>
         ),
@@ -710,7 +706,7 @@ const reactInterviewQnAs = [
             </p>
             <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
               <li>
-                Code splitting with React.lazy() function, dynamic import()
+                Code splitting with React.lazy() function, dynamic import
                 function and Suspense component.
               </li>
               <li>Memoization with React.memo() higher order function.</li>

@@ -758,17 +758,17 @@ const reactInterviewQnAs = [
       {
         id: "asked-in-lti-mind-tree-9",
         question:
-          "How does React Hook help in improving the performance of functional components?",
+          "How does React hooks help in improving the performance of functional components?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
-              React Hooks improve performance of functional components by giving
-              fine-grained control over state, effects, and memoization like
-              useMemo avoids expensive recomputation, useCallback prevents
-              unnecessary function recreation, useEffect controls when side
-              effects run, and useRef accesses values without triggering
-              re-renders.
+              React hooks improve performance of functional components by giving
+              fine-grained control over state, effects, memoization like useMemo
+              which avoids expensive recomputation, useCallback prevents
+              unnecessary function recreation, useEffect control when side
+              effect run, useRef accesses values without triggering re-renders,
+              etc.
             </p>
           </div>
         ),

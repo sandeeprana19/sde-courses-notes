@@ -479,7 +479,7 @@ const reactInterviewQnAs = [
             <p>
               Props drilling is a situation in React where data is passed from a
               parent component down to the deeply nested child components
-              through multiple intermediate components, even though those
+              through multiple intermediate components even though those
               intermediate components don’t need that data themselves.
             </p>
           </div>
@@ -597,10 +597,10 @@ const reactInterviewQnAs = [
               component.
             </p>
             <p>
-              For new development, I prefer react functional components because
-              they are cleaner, easier to maintain, and allow logic reuse
-              through custom hooks. However, react class components are still
-              used in legacy codebases.
+              So for new development, I prefer react functional components
+              because they are cleaner, easier to maintain, and allow logic
+              reuse through custom hooks. However, react class components are
+              still used in legacy codebases.
             </p>
           </div>
         ),

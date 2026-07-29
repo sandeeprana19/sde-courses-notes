@@ -697,22 +697,19 @@ const reactInterviewQnAs = [
             <p>A. 💡 Quick Recall (15 sec):</p>
             <p>
               I optimize React performance by reducing unnecessary re-renders
-              and minimizing bundle size. So, to optimize react performance
-              there are several ways like:
+              and minimizing bundle size. So, I use like:
             </p>
             <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
               <li>
-                By using code splitting with React.lazy function, dynamic import
-                function and Suspense component.
+                Code splitting with React.lazy function, dynamic import function
+                and Suspense component.
               </li>
-              <li>
-                By using memoization with React.memo higher order function.
-              </li>
-              <li>By using useMemo hook.</li>
-              <li>By using useCallback hook.</li>
-              <li>By using proper key prop in list items.</li>
-              <li>By using debouncing API calls.</li>
-              <li>By using bundler optimizations with Vite or Webpack.</li>
+              <li>Memoization with React.memo higher order function.</li>
+              <li>useMemo hook.</li>
+              <li>useCallback hook.</li>
+              <li>Proper key prop usage in list items.</li>
+              <li>Debouncing API calls.</li>
+              <li>Bundler optimizations with Vite or Webpack.</li>
             </ol>
           </div>
         ),

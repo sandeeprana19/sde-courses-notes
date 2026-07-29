@@ -57,7 +57,7 @@ const reactInterviewQnAs = [
         question:
           "How do react lifecycle methods of class based components work?",
         answer: (
-          <div className="flex flex-col">
+          <div className="flex flex-col gap-y-5">
             <div className="flex flex-col gap-y-2">
               <p>A. 💡 Quick Recall (10–15 sec)</p>
               <p>
@@ -77,7 +77,10 @@ const reactInterviewQnAs = [
                 removed from the DOM.
               </p>
             </div>
-            <div className="my-5 text-center">OR</div>
+            <div className="text-center">OR</div>
+            <h2 className="text-lg font-bold text-white">
+              Follow-up question: Can you elaborate a bit more?
+            </h2>
             <div className="flex flex-col gap-y-2">
               <p>
                 Let's assume there is a parent class component which is

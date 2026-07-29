@@ -160,14 +160,11 @@ const reactInterviewQnAs = [
             <p>
               A. useState hook basically generates super powerful state variable
               and state updating function in react. So to use it first of all,
-              it needed to be named import from react.
-            </p>
-            <p>
-              And then this useState hook is again a function so I'll call it
-              like a function and pass any argument as initial value of state
-              variable. And then this useState hook return an array from which
-              I'll destructure two elements like state variable and state
-              updating function.
+              it needed to be named import from react. And then this useState
+              hook is again a function so I'll call it like a function and pass
+              any argument as initial value of state variable. And then this
+              useState hook return an array from which I'll destructure two
+              elements like state variable and state updating function.
             </p>
             <p>And there are some use case of it like:</p>
             <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
@@ -359,7 +356,7 @@ const reactInterviewQnAs = [
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
               react is the core library that defines how components work and
-              manages state, hooks, and it's reconciliation algorithm.
+              manages state, hooks, and it's reconciliation algorithm process.
             </p>
             <p>
               react-dom is the renderer that connects React to the browser DOM

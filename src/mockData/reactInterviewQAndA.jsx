@@ -814,30 +814,31 @@ const reactInterviewQnAs = [
             <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
               <li className="flex flex-col gap-y-2">
                 <p>
-                  Debouncing delay a function's execution until the delay timer
+                  Debouncing delay function's execution until the delay timer
                   expire after the last key stroke.For example, let say instead
-                  of calling the API on every keystroke I wait for 200ms after
-                  user stop typing before making the API call.
+                  of calling the API on every keystroke I wait for let's say
+                  200ms after user stop typing before making the API call.
                 </p>
                 <p>
                   So let's assume there is a search input field & I want to make
-                  an API call after some delay of 200 ms expire and the delay
-                  timer will start after user stop typing on search input field
-                  so let me tell you how I'll implement this feature using
-                  debouncing concept in react. So in React, I usually implement
-                  this using useState and useEffect hooks and then I bound the
-                  search input field to a state variable and then I include that
-                  state variable into useEffect hook dependency array and then
-                  every time the user type something on search input field then
-                  the state update and then react quickly trigger it
-                  reconciliation algorithm process and then react rerender the
-                  component and then because the dependency changed React first
-                  execute the previous useEffect cleanup function where I call
-                  clearTimeout function to cancel the previous timer and then
-                  react run the useEffect callback again which start a new
-                  setTimeout function and then if the user doesn't type any key
-                  stroke until 200ms then I actually make an API call and all
-                  the other API calls before 200ms are just got decline.
+                  an API call after some delay of let's say 200 ms expire and
+                  the delay timer will start after user stop typing on search
+                  input field so let me tell you how I'll implement this feature
+                  using debouncing concept in react. So in React, I usually
+                  implement this using useState and useEffect hooks and then I
+                  bound the search input field to a state variable and then I
+                  include that state variable into useEffect hook dependency
+                  array and then every time the user type something on search
+                  input field then the state update and then react quickly
+                  trigger it reconciliation algorithm process and then react
+                  rerender the component and then because the dependency changed
+                  React first execute the previous useEffect cleanup function
+                  where I call clearTimeout function to cancel the previous
+                  timer and then react run the useEffect callback again which
+                  start a new setTimeout function and then if the user doesn't
+                  type any key stroke until 200ms then I actually make an API
+                  call and all the other API calls before 200ms are just got
+                  decline.
                 </p>
                 <p>So this whole concept is knowns as Debouncing in react.</p>
               </li>

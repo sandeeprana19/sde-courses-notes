@@ -819,6 +819,10 @@ const reactInterviewQnAs = [
                   of calling the API on every keystroke I wait for let's say
                   200ms after user stop typing before making the API call.
                 </p>
+                <div className="text-center">OR</div>
+                <h2 className="text-lg font-bold text-white">
+                  Follow-up question: How debouncing work behind the scene?
+                </h2>
                 <p>
                   So let's assume there is a search input field & I want to make
                   an API call after some delay of let's say 200 ms expire and

@@ -126,7 +126,7 @@ const reactInterviewQnAs = [
               <p>
                 And now let's say I've left the page and go to another page then
                 react start the unmounting lifecycle where componentWillUnmount
-                is called before we go to another page.
+                is called before I go to another page.
               </p>
               <p>
                 So this is how the whole react lifecycle methods of class based

@@ -182,12 +182,12 @@ const reactInterviewQnAs = [
                 throw an error like "Invalid hook call".
               </li>
               <li>
-                And I always use useState hook on the top level of react
-                functional component body so that I don't have lots of
-                inconsistency in the code because javascript is synchronous
-                single-threaded language so it will run the code line by line
-                and also react understand it properly and it doesn't create
-                inconsistency when it run the code.
+                I always use useState hook on the top level of react functional
+                component body so that I don't have lots of inconsistency in the
+                code because javascript is synchronous single-threaded language
+                so it will run the code line by line and also react understand
+                it properly and it doesn't create inconsistency when it run the
+                code.
               </li>
               <li>
                 I never use useState hook inside if/else block or for loop block

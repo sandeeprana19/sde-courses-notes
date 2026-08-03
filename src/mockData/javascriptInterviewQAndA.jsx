@@ -231,8 +231,8 @@ const javascriptInterviewQnAs = [
                 function that can pause and resume its execution using the yield
                 keyword. It’s defined using function* and returns an iterator
                 object that can produce a sequence of values over time by
-                calling next() onto iterator object instead of returning them
-                all at once.
+                calling next method onto iterator object instead of returning
+                them all at once.
               </p>
             </div>
           </div>
@@ -253,10 +253,9 @@ const javascriptInterviewQnAs = [
               <p>A. 💡 Quick Recall (15 sec):</p>
               <p>
                 ES6 introduced modern JavaScript features like let, const, arrow
-                functions, template literals, destructuring, spread operator,
-                rest operator, modules, classes, promises, and default
-                parameters for making code cleaner, more readable, and easier to
-                maintain.
+                function, template literal, destructuring, spread operator, rest
+                operator, module, class, promise, and default parameter for
+                making code cleaner, more readable, and easier to maintain.
               </p>
             </div>
           </div>

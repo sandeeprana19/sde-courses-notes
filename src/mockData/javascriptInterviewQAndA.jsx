@@ -69,8 +69,8 @@ const javascriptInterviewQnAs = [
             <p>
               window.onload fires after the entire page is fully loaded,
               including images and external resources. While, document.ready
-              fires as soon as the DOM is parsed, without waiting for images or
-              stylesheets.
+              fires as soon as the DOM is parsed, without waiting for images and
+              external resources.
             </p>
           </div>
         ),
@@ -232,7 +232,7 @@ const javascriptInterviewQnAs = [
                 keyword. It’s defined using function* and returns an iterator
                 object that can produce a sequence of values over time by
                 calling next method onto iterator object instead of returning
-                them all at once.
+                all of them at once.
               </p>
             </div>
           </div>

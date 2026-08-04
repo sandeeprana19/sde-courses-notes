@@ -232,7 +232,7 @@ const javascriptInterviewQnAs = [
                 keyword. It’s defined using function* and returns an iterator
                 object that can produce a sequence of values over time by
                 calling next method onto iterator object instead of returning
-                all of them at once.
+                them all at once.
               </p>
             </div>
           </div>

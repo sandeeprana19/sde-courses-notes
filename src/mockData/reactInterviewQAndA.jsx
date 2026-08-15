@@ -11,9 +11,9 @@ const reactInterviewQnAs = [
             <div className="flex flex-col gap-y-2">
               <p>
                 A. Thank you for this opportunity to introduce myself. I worked
-                as a React Developer at capital numbers infotech pvt ltd where I
-                have been part of the React engineering team and have led 2 out
-                of 3 major React projects like:
+                as a React Developer at Capital Numbers Infotech Pvt. Ltd. where
+                I have been part of the React engineering team and have led 2
+                out of 3 major React projects like:
               </p>
               <ol className="list-[lower-roman] pl-8 flex flex-col gap-y-2">
                 <li>
@@ -47,6 +47,24 @@ const reactInterviewQnAs = [
                 applications, and I’m excited about the opportunity to bring my
                 experience and problem-solving mindset to your team as well. So,
                 thank you so much for hearing me out so far.
+              </p>
+            </div>
+          </div>
+        ),
+      },
+      {
+        id: "asked-in-others-1",
+        question: "What the reason for leaving current organization?",
+        answer: (
+          <div className="flex flex-col gap-y-4">
+            <div className="flex flex-col gap-y-2">
+              <p>
+                A. My React Developer role at Capital Numbers was impacted by a
+                company-wide restructuring and it wasn't performance-related and
+                it affected multiple people on the team across the company. So,
+                it's given me the opportunity to look for a role where I can
+                grow further as a React developer, which is why I'm excited
+                about this React Developer opportunity.
               </p>
             </div>
           </div>

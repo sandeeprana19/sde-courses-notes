@@ -148,6 +148,63 @@ const javascriptInterviewQnAs = [
           </div>
         ),
       },
+      {
+        id: "asked-in-others-7",
+        question: "Define this keyword?",
+        answer: (
+          <div className="flex flex-col gap-y-2">
+            <p>
+              A. Let me tell about this keyword through it's present scenario
+              ways like:
+            </p>
+            <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+              <li>
+                this keyword in global space always have the value of
+                globalObject and the globalObject is window in case of browser.
+                So, globalObject can be different as it depends on where I'm
+                running this keyword piece of javascript code.
+              </li>
+              <li>
+                In non-strict mode, the value of this keyword inside a function
+                is undefined and because javascript has something known as this
+                substitution so the value of this keyword become equal to
+                globalObject which is window in case of browser. While in strict
+                mode, the value of this keyword inside a function is always
+                undefined so if the function is called without any reference
+                then the value is undefined but if I call it like window.x()
+                function then the value of this keyword inside a x function will
+                be globalObject which is window in case of browser.
+              </li>
+              <li>
+                Whenever this keyword is inside an object method then the value
+                of this keyword is object itself where this method is present.
+              </li>
+              <li>
+                Lets say there ia an obj object which contain a property and x
+                method within which I'm console logging this keyword. So, the
+                value of this keyword inside arrow function will not be obj
+                object but it will be its enclosing lexical context meaning
+                where the obj object is present so the lexical environment of
+                obj object is globalObject so thats why the value of this
+                keyword will take the value of globalObject which is window in
+                case of browser.
+              </li>
+              <li>
+                call, apply and bind methods lets explicitly set this keyword
+                value.
+              </li>
+              <li>
+                Lets say there is an obj object which contain a property and x
+                method where y arrow function is enclosed inside it and where
+                I'm console logging this keyword so the value of this keyword
+                will be obj object itself because y arrow function enclosing
+                lexical context is x method so thats why it will behave exactly
+                similar like how it suppose to behave inside x method.
+              </li>
+            </ol>
+          </div>
+        ),
+      },
     ],
   },
   {

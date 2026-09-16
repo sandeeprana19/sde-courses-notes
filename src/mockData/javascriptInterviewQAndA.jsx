@@ -255,22 +255,22 @@ const javascriptInterviewQnAs = [
               <p>A. 💡 Quick Recall (15 sec):</p>
               <p>
                 call, apply, and bind are javascript function methods used to
-                explicitly set the value of this. So:
+                explicitly set the value of this keyword. So:
               </p>
               <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
                 <li>
-                  call() invoke the function immediately with this set to 1st
-                  argument and then arguments are passed individually.
+                  call() invoke the function immediately with this keyword set
+                  to 1st argument and then arguments are passed individually.
                 </li>
                 <li>
-                  apply() invoke the function immediately with this set to 1st
-                  argument and then arguments are passed as an array.
+                  apply() invoke the function immediately with this keyword set
+                  to 1st argument and then arguments are passed as an array.
                 </li>
                 <li>
                   bind() doesn't invoke the function instead it returns a new
-                  function with this permanently bound and then arguments are
-                  passed individually. And then I can invoke this newly return
-                  function whenever I required.
+                  function with this keyword permanently bound and then
+                  arguments are passed individually. And then I can invoke this
+                  newly return function whenever I required.
                 </li>
               </ol>
             </div>

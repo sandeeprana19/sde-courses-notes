@@ -154,8 +154,8 @@ const javascriptInterviewQnAs = [
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
-              A. Let me tell about this keyword through it's present scenario
-              ways like:
+              A. Let me tell you about this keyword through it's present
+              scenario ways like:
             </p>
             <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
               <li>

@@ -341,20 +341,6 @@ const reactInterviewQnAs = [
         ),
       },
       {
-        id: "asked-in-others-10",
-        question: "Why we need to do css in js?",
-        answer: (
-          <div className="flex flex-col gap-y-2">
-            <p>
-              A. CSS-in-JS lets us write scoped, component-based, and dynamic
-              styles inside JavaScript. It helps to avoid global CSS conflicts,
-              improves maintainability, and allows styling based on props or
-              state. Therefore, we need to do CSS-in-JS.
-            </p>
-          </div>
-        ),
-      },
-      {
         id: "asked-in-others-11",
         question: "Define mockData api?",
         answer: (

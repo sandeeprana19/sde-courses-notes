@@ -399,8 +399,8 @@ const reactInterviewQnAs = [
                   useReducer, useMemo, useCallback, useRef, etc.
                 </li>
                 <li>
-                  Custom hooks are like any hook I build by use prefix to reuse
-                  logic.
+                  Custom hooks are like any hook I build with use prefix to
+                  reuse logic.
                 </li>
               </ol>
             </div>
@@ -486,6 +486,7 @@ const reactInterviewQnAs = [
               through multiple intermediate components even though those
               intermediate components don’t need that data themselves.
             </p>
+            <p>So this whole process is known as props drilling in React.</p>
           </div>
         ),
       },

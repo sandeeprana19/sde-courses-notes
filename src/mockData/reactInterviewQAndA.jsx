@@ -750,9 +750,9 @@ const reactInterviewQnAs = [
             <p>A. 💡 Quick Recall (15 sec):</p>
             <p>
               So in such case, I think I can use a technique like debouncing
-              with useEffect, setTimeout & clearTimeout. So, debouncing delays
-              an API call until the user stop typing for a set time so that I
-              avoid sending a request for every keystroke.
+              with the help of useState, useEffect, setTimeout & clearTimeout.
+              So, debouncing delays an API call until the user stop typing for a
+              set time so that I avoid sending a request for every keystroke.
             </p>
           </div>
         ),

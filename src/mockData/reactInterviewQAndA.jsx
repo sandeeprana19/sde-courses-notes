@@ -579,6 +579,276 @@ const reactInterviewQnAs = [
     ],
   },
   {
+    id: "asked-in-lti-mind-tree",
+    category: "Asked in LTIMindTree",
+    questions: [
+      {
+        id: "asked-in-lti-mind-tree-2",
+        question:
+          "Walk me through the process of implementing state management using redux into react application? What are some best practice you follow?",
+        answer: (
+          <div className="flex flex-col gap-y-2">
+            <p>
+              A. Let's assume there is food ordering app where there is a cart
+              on header and there is food card on which it have add button so
+              now let me walk you through the process of implementing redux into
+              react application and that are like:
+            </p>
+            <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+              <li>
+                First of all, I've to install two libraries like
+                @reduxjs/toolkit and react-redux so that I can work with redux.
+              </li>
+              <li>Then I'll an build app store.</li>
+              <li>Then I'll create a slice to add item to the cart.</li>
+              <li>Then I'll provide an app store to the react app.</li>
+              <li>
+                Then I'll basically dispatch an action when I click on add
+                button.
+              </li>
+              <li>
+                Then I'll read the data using selector after subscribing to the
+                app store.
+              </li>
+            </ol>
+          </div>
+        ),
+      },
+      {
+        id: "asked-in-lti-mind-tree-3",
+        question:
+          "How do you approach unit testing into react component? Can you give an example of test you've written and explain your testing strategy?",
+        answer: (
+          <div className="flex flex-col gap-y-2">
+            <p>A. 💡 Quick Recall (15 sec):</p>
+            <p>
+              So for React unit testing, I usually use @testing-library/react.
+              And then let say I render the contact component in a test DOM and
+              then query element like heading, and then assert it's presence
+              with expect function for checking if the contact page heading
+              render or not.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: "asked-in-lti-mind-tree-4",
+        question:
+          "Explain how you could use material UI in a react project? What are some advantages and potential challenges of using this UI library?",
+        answer: (
+          <div className="flex flex-col gap-y-2">
+            <p>A. 💡 Quick Recall (15 sec):</p>
+            <p>
+              I use Material UI by installing it via npm, importing ready-made
+              components like Button and Card and customizing the design using
+              ThemeProvider. It helps to build professional UIs quickly but
+              styling overrides and bundle size can be challenges if not managed
+              properly.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: "asked-in-lti-mind-tree-5",
+        question:
+          "Can you describe a situation where you've used github copilot to assist in writing unit tests? What was your experience, and how did it impact your workload?",
+        answer: (
+          <div className="flex flex-col gap-y-2">
+            <p>A. 💡 Quick Recall (15 sec)</p>
+            <p>
+              Yeah! I’ve used GitHub Copilot to speed up writing unit tests by
+              generating repetitive test cases. After writing the first test
+              manually, Copilot suggested similar tests which reduced
+              boilerplate work and helped me focus more on edge cases and logic
+              validation.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: "asked-in-lti-mind-tree-6",
+        question:
+          "Describe your experience with performance optimization in react? What techniques have you used to improve the performance of a react application? or How do you optimize the performance of a React application?",
+        answer: (
+          <div className="flex flex-col gap-y-2">
+            <p>A. 💡 Quick Recall (15 sec):</p>
+            <p>
+              I optimize React performance by reducing unnecessary re-renders
+              and minimizing bundle size. So, I use like:
+            </p>
+            <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+              <li>
+                Code splitting with React.lazy function, dynamic import function
+                and Suspense component.
+              </li>
+              <li>Memoization with React.memo higher order function.</li>
+              <li>useMemo hook.</li>
+              <li>useCallback hook.</li>
+              <li>Proper key prop usage in list items.</li>
+              <li>Debouncing API calls.</li>
+              <li>Bundler optimizations with Vite or Webpack.</li>
+            </ol>
+          </div>
+        ),
+      },
+      {
+        id: "asked-in-lti-mind-tree-7",
+        question:
+          "How do you handle API integration in the react application? Can you walk me through your approach to fetching and managing data for a mapping service?",
+        answer: (
+          <div className="flex flex-col gap-y-2">
+            <p>A. 💡 Quick Recall (15 sec):</p>
+            <p>
+              I prefer rendering the UI first and then making an API call inside
+              useEffect hook callback function and then updating the state with
+              the fetched data. This way, users see the layout instantly and I
+              avoid blocking the initial render.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: "asked-in-lti-mind-tree-9",
+        question:
+          "How does React hooks help in improving the performance of functional components?",
+        answer: (
+          <div className="flex flex-col gap-y-2">
+            <p>A. 💡 Quick Recall (15 sec)</p>
+            <p>
+              React hooks improve performance of functional components by giving
+              fine-grained control over state, effects and memoization like
+              useMemo avoids expensive recomputation, useCallback prevents
+              unnecessary function recreation, useEffect control when side
+              effect run, useRef accesses values without triggering re-renders,
+              etc.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: "asked-in-lti-mind-tree-10",
+        question:
+          "What is the role of state management in optimizing performance?",
+        answer: (
+          <div className="flex flex-col gap-y-2">
+            <p>A. 💡 Quick Recall (15 sec):</p>
+            <p>
+              State management helps to ensure that it only re-render the parts
+              of the UI that actually need to change. By structuring state
+              properly and keeping it as local as possible, it reduce
+              unnecessary renders and improve app performance.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: "asked-in-lti-mind-tree-11",
+        question:
+          "Describe a useCases so let say I have an input text box. Now, you know, anything related to calling an API is an expensive operation, right? And I want to minimize it as much as possible. So you are putting in your input in text box and after you have completed putting the input in text box, then I want to call the API, right? So I want there to be some delay after you complete, you know completing your input text in the search text box. What is the technique of implementing that in React and how do you do it?",
+        answer: (
+          <div className="flex flex-col gap-y-2">
+            <p>A. 💡 Quick Recall (15 sec):</p>
+            <p>
+              So in such case, I think I can use a technique like debouncing
+              with useEffect, setTimeout & clearTimeout. So, debouncing delays
+              an API call until the user stop typing for a set time so that I
+              avoid sending a request for every keystroke.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: "asked-in-lti-mind-tree-12",
+        question: "Define debouncing and throttling?",
+        answer: (
+          <div className="flex flex-col gap-y-2">
+            <p>A. 💡 Quick Recall (15 sec):</p>
+            <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+              <li className="flex flex-col gap-y-2">
+                <p>
+                  Debouncing delay function's execution until the delay timer
+                  expire after the last key stroke.For example, let say instead
+                  of calling the API on every keystroke I wait for let's say
+                  200ms after user stop typing before making the API call.
+                </p>
+                <p>or</p>
+                <p>
+                  So let's assume there is a search input field & I want to make
+                  an API call after some delay of let's say 200 ms expire and
+                  the delay timer will start after user stop typing on search
+                  input field so let me tell you how I'll implement this feature
+                  using debouncing concept in react. So in React, I usually
+                  implement this debouncing using useState and useEffect hooks
+                  and then I bound the search input field to a state variable
+                  and then I include that state variable into useEffect hook
+                  dependency array and then every time the user type something
+                  on search input field then the state update and then react
+                  quickly trigger it reconciliation algorithm process and then
+                  react rerender the component and then because the dependency
+                  changed React first execute the previous useEffect cleanup
+                  function where I call clearTimeout function to cancel the
+                  previous timer and then react run the useEffect callback
+                  function again which start a new setTimeout function and then
+                  if the user doesn't type any key stroke until 200ms then I
+                  actually make an API call and all the other API calls before
+                  200ms are just got decline.
+                </p>
+                <p>So this whole concept is knowns as Debouncing in react.</p>
+              </li>
+              <li>
+                <p>
+                  Throttle ensures function execution happens at most once in a
+                  set interval. For example, let say only call a function every
+                  1s even if the event fires continuously.
+                </p>
+              </li>
+            </ol>
+          </div>
+        ),
+      },
+      {
+        id: "asked-in-lti-mind-tree-13",
+        question:
+          "Describe your experience with typescript in react project? How do you typically setup typescript with react? [IGNORE THIS FOR NOW]",
+        answer: (
+          <div className="flex flex-col gap-y-2">
+            <p>
+              A. I have worked with TypeScript in React projects to add strong
+              typing, which helps in catching errors early and makes the
+              codebase easier to maintain and collaborate on.
+            </p>
+            <p>
+              For setting up TypeScript in a React project, nowadays I prefer
+              using Vite or Next.js, as Create React App is deprecated.
+            </p>
+            <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
+              <li>
+                With Vite, I can create a TypeScript React project using: npm
+                create vite@latest and select React + TypeScript template.
+              </li>
+              <li>
+                For Next.js, I initialize the project with npx
+                create-next-app@latest, and if I select TypeScript, Next.js
+                automatically sets up the tsconfig.json and type dependencies.
+              </li>
+            </ol>
+            <p>
+              After setup, I rename .js files to .tsx for components and .ts for
+              utility files. Then, I define interfaces or types for component
+              props, API responses, and application state.
+            </p>
+            <p>
+              I also configure strict TypeScript rules in tsconfig.json to
+              enforce better type safety. Throughout the project, I make use of
+              TypeScript features like optional types, generics, and union types
+              for better code predictability.
+            </p>
+          </div>
+        ),
+      },
+    ],
+  },
+  {
     id: "asked-in-cognizant",
     category: "Asked in Cognizant",
     questions: [

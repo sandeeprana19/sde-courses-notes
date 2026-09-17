@@ -848,24 +848,6 @@ const reactInterviewQnAs = [
         ),
       },
       {
-        id: "asked-in-cognizant-3",
-        question:
-          "Suppose I want to log api responses how to write test cases for it?",
-        answer: (
-          <div className="flex flex-col gap-y-2">
-            <p>A. 💡 Quick Recall (15 sec):</p>
-            <p>
-              So I have to mock the API call using jest & then I have to spy on
-              the logger using console.log method & then I have to render the
-              component & then I have to wait for the async response & then I
-              have to assert that the logger was called with the expected data.
-              So, wherever possible I also have to verify that the UI or the
-              state also update instead of relying only on logs.
-            </p>
-          </div>
-        ),
-      },
-      {
         id: "asked-in-cognizant-4",
         question: "Define useMemo, useCallback & useRef?",
         answer: (

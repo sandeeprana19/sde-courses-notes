@@ -814,32 +814,17 @@ const reactInterviewQnAs = [
     questions: [
       {
         id: "asked-in-cognizant-1",
-        question: "How do you optimize files using bundler?",
+        question: "How do you optimize files using webpack?",
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec):</p>
-            <p>Webpack optimize files by doing following things for us:</p>
-            <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-              <li className="flex flex-col gap-y-2">Dev build</li>
-              <li className="flex flex-col gap-y-2">Local Server</li>
-              <li className="flex flex-col gap-y-2">HMR</li>
-              <li className="flex flex-col gap-y-2">File Watching</li>
-              <li className="flex flex-col gap-y-2">Caching</li>
-              <li className="flex flex-col gap-y-2">Image Optimization</li>
-              <li className="flex flex-col gap-y-2">Minification</li>
-              <li className="flex flex-col gap-y-2">Bundling</li>
-              <li className="flex flex-col gap-y-2">Compress</li>
-              <li className="flex flex-col gap-y-2">Consistent Hashing</li>
-              <li className="flex flex-col gap-y-2">Code Splitting</li>
-              <li className="flex flex-col gap-y-2">Differential Bundling</li>
-              <li className="flex flex-col gap-y-2">Diagnostic</li>
-              <li className="flex flex-col gap-y-2">Error Handling</li>
-              <li className="flex flex-col gap-y-2">HTTPs</li>
-              <li className="flex flex-col gap-y-2">Tree Shaking</li>
-              <li className="flex flex-col gap-y-2">
-                Different dev and production bundles
-              </li>
-            </ol>
+            <p>
+              I optimize files in Webpack by building in production mode,
+              enabling minification and tree-shaking, splitting code into
+              smaller chunks, using content-hashing for caching, optimizing
+              assets like images and CSS, and analyzing bundles to remove unused
+              code.
+            </p>
           </div>
         ),
       },

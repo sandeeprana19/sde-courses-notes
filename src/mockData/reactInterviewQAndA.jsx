@@ -550,10 +550,10 @@ const reactInterviewQnAs = [
         answer: (
           <div className="flex flex-col gap-y-2">
             <p>
-              A. In React, the key prop is a special reserved prop which is used
-              to help React to identify which items in a list have changed,
-              added and removed. It helps in optimizing rendering performance
-              when working with dynamic lists.
+              A. In React, the key prop is a special prop that helps React to
+              identify which items in a list have changed, added and removed. It
+              helps in optimizing rendering performance when working with
+              dynamic lists.
             </p>
           </div>
         ),
@@ -566,7 +566,7 @@ const reactInterviewQnAs = [
           <div className="flex flex-col gap-y-2">
             <p>A. 💡 Quick Recall (15 sec)</p>
             <p>
-              The key prop helps react to identify which items in a list have
+              The key prop helps React to identify which items in a list have
               changed, added and removed. Without unique keys, react may
               re-render more items than necessary which leads to inefficient
               updates and potential UI bugs. Therefore, defining a key prop to a

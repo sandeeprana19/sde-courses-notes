@@ -806,46 +806,6 @@ const reactInterviewQnAs = [
           </div>
         ),
       },
-      {
-        id: "asked-in-lti-mind-tree-13",
-        question:
-          "Describe your experience with typescript in react project? How do you typically setup typescript with react? [IGNORE THIS FOR NOW]",
-        answer: (
-          <div className="flex flex-col gap-y-2">
-            <p>
-              A. I have worked with TypeScript in React projects to add strong
-              typing, which helps in catching errors early and makes the
-              codebase easier to maintain and collaborate on.
-            </p>
-            <p>
-              For setting up TypeScript in a React project, nowadays I prefer
-              using Vite or Next.js, as Create React App is deprecated.
-            </p>
-            <ol className="list-[lower-roman] pl-5 flex flex-col gap-y-2">
-              <li>
-                With Vite, I can create a TypeScript React project using: npm
-                create vite@latest and select React + TypeScript template.
-              </li>
-              <li>
-                For Next.js, I initialize the project with npx
-                create-next-app@latest, and if I select TypeScript, Next.js
-                automatically sets up the tsconfig.json and type dependencies.
-              </li>
-            </ol>
-            <p>
-              After setup, I rename .js files to .tsx for components and .ts for
-              utility files. Then, I define interfaces or types for component
-              props, API responses, and application state.
-            </p>
-            <p>
-              I also configure strict TypeScript rules in tsconfig.json to
-              enforce better type safety. Throughout the project, I make use of
-              TypeScript features like optional types, generics, and union types
-              for better code predictability.
-            </p>
-          </div>
-        ),
-      },
     ],
   },
   {

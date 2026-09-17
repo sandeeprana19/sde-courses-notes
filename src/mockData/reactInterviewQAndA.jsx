@@ -399,8 +399,8 @@ const reactInterviewQnAs = [
                   useReducer, useMemo, useCallback, useRef, etc.
                 </li>
                 <li>
-                  Custom hooks are like any hook I build by prepending use to
-                  reuse logic.
+                  Custom hooks are like any hook I build by use prefix to reuse
+                  logic.
                 </li>
               </ol>
             </div>
@@ -422,8 +422,8 @@ const reactInterviewQnAs = [
               in react. So it's just a normal javascript function which return
               some piece of jsx code so that's all is known as react functional
               component. So whenever I create any react functional component I
-              create with a capital letter otherwise I'll get an error because
-              it's a react way to understand that this is a react functional
+              create with a PascalCase otherwise I'll get an error because it's
+              a react way to understand that this is a react functional
               component.
             </p>
           </div>

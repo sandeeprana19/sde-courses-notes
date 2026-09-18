@@ -822,8 +822,8 @@ const reactInterviewQnAs = [
               I optimize files in Webpack by building in production mode,
               enabling minification and tree-shaking, splitting code into
               smaller chunks, using content-hashing for caching, optimizing
-              assets like images and CSS, and analyzing bundles to remove unused
-              code.
+              assets like JavaScript, css, images, and other static assets, and
+              analyzing bundles to remove unused code.
             </p>
           </div>
         ),
